@@ -1,0 +1,927 @@
+{
+  "scenario_id": "Scenario_4_Corporate",
+  "tasks": {
+    "q010": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t011",
+            "quote": "I found my archived FY2018 Balchem forecast. The model has core sales of 600,000 and incremental sales of 40,000, plus core net earnings of 60,000 and incremental net earnings of 20,000, all in USD thousands. The core and incremental components are additive and together cover the same Balchem consolidated US-GAAP perimeter for FY2018; these are my expected results, not reported actuals."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d003",
+            "passage_id": "c038",
+            "quote": "We have audited the accompanying consolidated balance sheets of Balchem Corporation and subsidiaries (the Company) as of December 31, 2019 and 2018, and the related consolidated statements of earnings, comprehensive income, stockholders' equity and cash flows for each of the three years in the period ended December 31, 2019, and the related notes and schedule listed at Item 8 (collectively, the financial statements). We also have audited the Company's internal control over financial reporting as of December 31, 2019, based on criteria established in Internal Control — Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\nIn our opinion, the financial statements referred to above present fairly, in all material respects, the financial position of the Company as of December 31, 2019 and 2018, and the results of their operations and their cash flows for each of the years in the three-year period ended December 31, 2019, in conformity with accounting principles generally accepted in the United States of America. Also in our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2019, based on criteria established in Internal Control — Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\nAs described in Management’s Report on Internal Control Over Financial Reporting, management has excluded Chemogas Holding NV and its subsidiaries (“Chemogas”) and Zumbro River Brand, Inc. (“Zumbro”) from its assessment of internal control over financial reporting as of December 31, 2019, because they were acquired by the Company in purchase business combinations in the second and fourth quarters, respectively, of 2019. We have also excluded Chemogas and Zumbro from our audit of internal control over financial reporting. Chemogas and Zumbro are wholly owned subsidiaries whose total assets and net sales represent approximately 15 percent and 3 percent, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2019.\n\n## Basis for Opinions\n\nThe Company's management is responsible for these financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Report on Internal Control Over Financial Reporting. Our responsibility is to express an opinion on the Company's financial statements and an opinion on the Company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are required to be independent with respect to the Company in accordance with U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB."
+          },
+          {
+            "document_id": "d003",
+            "passage_id": "c042",
+            "quote": "See accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Earnings\nYears Ended December 31, 2019, 2018 and 2017\n(In thousands, except per share data)\n\n2019\t2018\t2017\t\nNet sales\t$ 643,705\t$ 643,679\t$ 594,790\t\nCost of sales\t432,338\t439,427\t405,781\t\nGross margin\t211,367\t204,252\t189,009\t\nOperating expenses:\t\t\t\t\nSelling expenses\t60,932\t57,219\t54,720\t\nResearch and development expenses\t11,377\t11,592\t9,305\t\nGeneral and administrative expenses\t36,505\t28,341\t28,081\t\n\t108,814\t97,152\t92,106\t\nEarnings from operations\t102,553\t107,100\t96,903\t\nOther expenses:\t\t\t\t\nInterest expense, net\t5,959\t7,611\t7,532\t\nOther, net\t116\t459\t883\t\n\t6,075\t8,070\t8,415\t\nEarnings before income tax expense\t96,478\t99,030\t88,488\t\nIncome tax expense/(benefit)\t16,807\t20,457\t(1,583)\t\nNet earnings\t$ 79,671\t$ 78,573\t$ 90,071\t\nBasic net earnings per common share\t$ 2.48\t$ 2.45\t$ 2.83\t\nDiluted net earnings per common share\t$ 2.45\t$ 2.42\t$ 2.79\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Comprehensive Income\nYears Ended December 31, 2019, 2018 and 2017\n(In thousands)\n\n2019\t2018\t2017\t\nNet earnings\t$ 79,671\t$ 78,573\t$ 90,071\t\nOther comprehensive (loss)/income, net of tax:\t\t\t\t\nNet foreign currency translation adjustment\t(891)\t(2,982)\t5,404\t\nUnrealized loss on cash flow hedge, net of taxes of $372 at December 31, 2019\t(1,399)\t—\t—\t\nNet change in postretirement benefit plan, net of taxes of $101, $434, and $207 at December 31, 2019, 2018 and 2017, respectively\t328\t1,022\t(197)\t\nOther comprehensive (loss)/income\t(1,962)\t(1,960)\t5,207\t\nComprehensive income\t$ 77,709\t$ 76,613\t$ 95,278"
+          }
+        ]
+      }
+    ],
+    "q011": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t011",
+            "quote": "I found my archived FY2018 Balchem forecast. The model has core sales of 600,000 and incremental sales of 40,000, plus core net earnings of 60,000 and incremental net earnings of 20,000, all in USD thousands. The core and incremental components are additive and together cover the same Balchem consolidated US-GAAP perimeter for FY2018; these are my expected results, not reported actuals."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t011",
+            "quote": "For the FY2018 forecast-error workbook, East and West are my mutually exclusive, exhaustive profit cohorts within Balchem's consolidated US-GAAP perimeter, in USD thousands. Assign the archived core forecast component to East and the incremental component to West. I need each cohort's actual-minus-forecast contribution to the aggregate error; I don't have their actual earnings allocations."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d003",
+            "passage_id": "c038",
+            "quote": "We have audited the accompanying consolidated balance sheets of Balchem Corporation and subsidiaries (the Company) as of December 31, 2019 and 2018, and the related consolidated statements of earnings, comprehensive income, stockholders' equity and cash flows for each of the three years in the period ended December 31, 2019, and the related notes and schedule listed at Item 8 (collectively, the financial statements). We also have audited the Company's internal control over financial reporting as of December 31, 2019, based on criteria established in Internal Control — Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\nIn our opinion, the financial statements referred to above present fairly, in all material respects, the financial position of the Company as of December 31, 2019 and 2018, and the results of their operations and their cash flows for each of the years in the three-year period ended December 31, 2019, in conformity with accounting principles generally accepted in the United States of America. Also in our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2019, based on criteria established in Internal Control — Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\nAs described in Management’s Report on Internal Control Over Financial Reporting, management has excluded Chemogas Holding NV and its subsidiaries (“Chemogas”) and Zumbro River Brand, Inc. (“Zumbro”) from its assessment of internal control over financial reporting as of December 31, 2019, because they were acquired by the Company in purchase business combinations in the second and fourth quarters, respectively, of 2019. We have also excluded Chemogas and Zumbro from our audit of internal control over financial reporting. Chemogas and Zumbro are wholly owned subsidiaries whose total assets and net sales represent approximately 15 percent and 3 percent, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2019.\n\n## Basis for Opinions\n\nThe Company's management is responsible for these financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Report on Internal Control Over Financial Reporting. Our responsibility is to express an opinion on the Company's financial statements and an opinion on the Company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are required to be independent with respect to the Company in accordance with U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB."
+          },
+          {
+            "document_id": "d003",
+            "passage_id": "c042",
+            "quote": "See accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Earnings\nYears Ended December 31, 2019, 2018 and 2017\n(In thousands, except per share data)\n\n2019\t2018\t2017\t\nNet sales\t$ 643,705\t$ 643,679\t$ 594,790\t\nCost of sales\t432,338\t439,427\t405,781\t\nGross margin\t211,367\t204,252\t189,009\t\nOperating expenses:\t\t\t\t\nSelling expenses\t60,932\t57,219\t54,720\t\nResearch and development expenses\t11,377\t11,592\t9,305\t\nGeneral and administrative expenses\t36,505\t28,341\t28,081\t\n\t108,814\t97,152\t92,106\t\nEarnings from operations\t102,553\t107,100\t96,903\t\nOther expenses:\t\t\t\t\nInterest expense, net\t5,959\t7,611\t7,532\t\nOther, net\t116\t459\t883\t\n\t6,075\t8,070\t8,415\t\nEarnings before income tax expense\t96,478\t99,030\t88,488\t\nIncome tax expense/(benefit)\t16,807\t20,457\t(1,583)\t\nNet earnings\t$ 79,671\t$ 78,573\t$ 90,071\t\nBasic net earnings per common share\t$ 2.48\t$ 2.45\t$ 2.83\t\nDiluted net earnings per common share\t$ 2.45\t$ 2.42\t$ 2.79\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Comprehensive Income\nYears Ended December 31, 2019, 2018 and 2017\n(In thousands)\n\n2019\t2018\t2017\t\nNet earnings\t$ 79,671\t$ 78,573\t$ 90,071\t\nOther comprehensive (loss)/income, net of tax:\t\t\t\t\nNet foreign currency translation adjustment\t(891)\t(2,982)\t5,404\t\nUnrealized loss on cash flow hedge, net of taxes of $372 at December 31, 2019\t(1,399)\t—\t—\t\nNet change in postretirement benefit plan, net of taxes of $101, $434, and $207 at December 31, 2019, 2018 and 2017, respectively\t328\t1,022\t(197)\t\nOther comprehensive (loss)/income\t(1,962)\t(1,960)\t5,207\t\nComprehensive income\t$ 77,709\t$ 76,613\t$ 95,278"
+          }
+        ]
+      }
+    ],
+    "q014": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t017",
+            "quote": "The specialist review has been rescheduled, freeing four more interview-hours. My authorised Balchem interview allowance is now 16 hours instead of 12; the 4 booked hours are unchanged. Use this revised roster in place of the earlier allowance."
+          },
+          {
+            "session_id": "s001",
+            "turn_id": "t020",
+            "quote": "You can now offer 12 interview-hours for booking."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t027",
+            "quote": "For the FY2017 finance study, allow one two-hour interview for each started 30,000 USD thousands of consolidated GAAP net earnings. For the separate treasury study, allow one interview-hour per USD 100 million of committed revolving capacity. Compare each option with the revised interview-roster snapshot without booking hours. Use the revolving commitment in the 2018 report for treasury, keeping total commitment distinct from available liquidity."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c045",
+            "quote": "Total liabilities and stockholders' equity\t$ 981,355\t$ 963,636\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Earnings\nYears Ended December 31, 2018, 2017 and 2016\n(In thousands, except per share data)\n\n2018\t2017\t2016\t\nNet sales\t$ 643,679\t$ 594,790\t$ 553,204\t\nCost of sales\t439,427\t405,781\t372,343\t\nGross margin\t204,252\t189,009\t180,861\t\nOperating expenses:\t\t\t\t\nSelling expenses\t57,219\t54,720\t55,172\t\nResearch and development expenses\t11,592\t9,305\t7,325\t\nGeneral and administrative expenses\t27,690\t27,729\t27,526\t\n\t96,501\t91,754\t90,023\t\nEarnings from operations\t107,751\t97,255\t90,838\t\nOther expenses:\t\t\t\t\nInterest expense, net\t7,611\t7,532\t7,256\t\nOther, net\t1,110\t1,235\t648\t\nEarnings before income tax expense\t99,030\t88,488\t82,934\t\nIncome tax expense/(benefit)\t20,457\t(1,583)\t26,962\t\nNet earnings\t$ 78,573\t$ 90,071\t$ 55,972\t\nBasic net earnings per common share\t$ 2.45\t$ 2.83\t$ 1.78\t\nDiluted net earnings per common share\t$ 2.42\t$ 2.79\t$ 1.75\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Comprehensive Income\nYears Ended December 31, 2018, 2017 and 2016\n(In thousands)\n\n2018\t2017\t2016\t\nNet earnings\t$ 78,573\t$ 90,071\t$ 55,972\t\nOther comprehensive (loss)/income, net of tax:\t\t\t\t\nNet foreign currency translation adjustment\t(2,982)\t5,404\t(1,390)\t\nNet change in postretirement benefit plan, net of taxes of $434, $207, and $49 at December 31, 2018, 2017 and 2016, respectively\t1,022\t(197)\t(345)\t\nOther comprehensive (loss)/income\t(1,960)\t5,207\t(1,735)\t\nComprehensive income\t$ 76,613\t$ 95,278\t$ 54,237\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Stockholders' Equity\nYears Ended December 31, 2018, 2017 and 2016\n(Dollars in thousands, except share and per share data)"
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t017",
+            "quote": "The specialist review has been rescheduled, freeing four more interview-hours. My authorised Balchem interview allowance is now 16 hours instead of 12; the 4 booked hours are unchanged. Use this revised roster in place of the earlier allowance."
+          },
+          {
+            "session_id": "s001",
+            "turn_id": "t020",
+            "quote": "You can now offer 12 interview-hours for booking."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t027",
+            "quote": "For the FY2017 finance study, allow one two-hour interview for each started 30,000 USD thousands of consolidated GAAP net earnings. For the separate treasury study, allow one interview-hour per USD 100 million of committed revolving capacity. Compare each option with the revised interview-roster snapshot without booking hours. Use the revolving commitment in the 2018 report for treasury, keeping total commitment distinct from available liquidity."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d003",
+            "passage_id": "c042",
+            "quote": "See accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Earnings\nYears Ended December 31, 2019, 2018 and 2017\n(In thousands, except per share data)\n\n2019\t2018\t2017\t\nNet sales\t$ 643,705\t$ 643,679\t$ 594,790\t\nCost of sales\t432,338\t439,427\t405,781\t\nGross margin\t211,367\t204,252\t189,009\t\nOperating expenses:\t\t\t\t\nSelling expenses\t60,932\t57,219\t54,720\t\nResearch and development expenses\t11,377\t11,592\t9,305\t\nGeneral and administrative expenses\t36,505\t28,341\t28,081\t\n\t108,814\t97,152\t92,106\t\nEarnings from operations\t102,553\t107,100\t96,903\t\nOther expenses:\t\t\t\t\nInterest expense, net\t5,959\t7,611\t7,532\t\nOther, net\t116\t459\t883\t\n\t6,075\t8,070\t8,415\t\nEarnings before income tax expense\t96,478\t99,030\t88,488\t\nIncome tax expense/(benefit)\t16,807\t20,457\t(1,583)\t\nNet earnings\t$ 79,671\t$ 78,573\t$ 90,071\t\nBasic net earnings per common share\t$ 2.48\t$ 2.45\t$ 2.83\t\nDiluted net earnings per common share\t$ 2.45\t$ 2.42\t$ 2.79\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Comprehensive Income\nYears Ended December 31, 2019, 2018 and 2017\n(In thousands)\n\n2019\t2018\t2017\t\nNet earnings\t$ 79,671\t$ 78,573\t$ 90,071\t\nOther comprehensive (loss)/income, net of tax:\t\t\t\t\nNet foreign currency translation adjustment\t(891)\t(2,982)\t5,404\t\nUnrealized loss on cash flow hedge, net of taxes of $372 at December 31, 2019\t(1,399)\t—\t—\t\nNet change in postretirement benefit plan, net of taxes of $101, $434, and $207 at December 31, 2019, 2018 and 2017, respectively\t328\t1,022\t(197)\t\nOther comprehensive (loss)/income\t(1,962)\t(1,960)\t5,207\t\nComprehensive income\t$ 77,709\t$ 76,613\t$ 95,278"
+          }
+        ]
+      }
+    ],
+    "q015": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t017",
+            "quote": "The specialist review has been rescheduled, freeing four more interview-hours. My authorised Balchem interview allowance is now 16 hours instead of 12; the 4 booked hours are unchanged. Use this revised roster in place of the earlier allowance."
+          },
+          {
+            "session_id": "s001",
+            "turn_id": "t020",
+            "quote": "You can now offer 12 interview-hours for booking."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t027",
+            "quote": "For the FY2017 finance study, allow one two-hour interview for each started 30,000 USD thousands of consolidated GAAP net earnings. For the separate treasury study, allow one interview-hour per USD 100 million of committed revolving capacity. Compare each option with the revised interview-roster snapshot without booking hours. Use the revolving commitment in the 2018 report for treasury, keeping total commitment distinct from available liquidity."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d003",
+            "passage_id": "c006",
+            "quote": "## Item 1. Business (All amounts in thousands, except share and per share data)"
+          },
+          {
+            "document_id": "d003",
+            "passage_id": "c064",
+            "quote": "The Credit Agreement, which expires on June 27, 2023, provides for revolving loans up to $500,000 (collectively referred to as the “loans”)."
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s002",
+            "turn_id": "t030",
+            "quote": "The revised roster provides 12 hours: 16 allowed minus 4 already booked. The FY2017 finance option needs four two-hour interviews, totaling eight hours and leaving four modeled hours."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t027",
+            "quote": "For the FY2017 finance study, allow one two-hour interview for each started 30,000 USD thousands of consolidated GAAP net earnings. For the separate treasury study, allow one interview-hour per USD 100 million of committed revolving capacity. Compare each option with the revised interview-roster snapshot without booking hours. Use the revolving commitment in the 2018 report for treasury, keeping total commitment distinct from available liquidity."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c006",
+            "quote": "## Item 1. Business (All amounts in thousands, except share and per share data)"
+          },
+          {
+            "document_id": "d002",
+            "passage_id": "c064",
+            "quote": "The Credit Agreement, which expires on June 27, 2023, provides for revolving loans up to $500,000 (collectively referred to as the “loans”)."
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s002",
+            "turn_id": "t030",
+            "quote": "The revised roster provides 12 hours: 16 allowed minus 4 already booked. The FY2017 finance option needs four two-hour interviews, totaling eight hours and leaving four modeled hours."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t027",
+            "quote": "For the FY2017 finance study, allow one two-hour interview for each started 30,000 USD thousands of consolidated GAAP net earnings. For the separate treasury study, allow one interview-hour per USD 100 million of committed revolving capacity. Compare each option with the revised interview-roster snapshot without booking hours. Use the revolving commitment in the 2018 report for treasury, keeping total commitment distinct from available liquidity."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d003",
+            "passage_id": "c006",
+            "quote": "## Item 1. Business (All amounts in thousands, except share and per share data)"
+          },
+          {
+            "document_id": "d003",
+            "passage_id": "c064",
+            "quote": "The Credit Agreement, which expires on June 27, 2023, provides for revolving loans up to $500,000 (collectively referred to as the “loans”)."
+          }
+        ]
+      }
+    ],
+    "q018": [
+      {
+        "turns": [
+          {
+            "session_id": "s002",
+            "turn_id": "t037",
+            "quote": "My independently verified final ledger records Balchem actual consolidated US-GAAP net earnings of 61,000 USD thousands for the year ended December 31, 2015, and 57,000 USD thousands for the year ended December 31, 2016. These are claims of actual results, not forecasts. We haven't established precedence or a reconciliation rule between this private ledger and the public report."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c042",
+            "quote": "We have audited the accompanying consolidated balance sheets of Balchem Corporation and subsidiaries (the Company) as of December 31, 2018 and 2017, and the related consolidated statements of earnings, comprehensive income, stockholders' equity and cash flows for each of the three years in the period ended December 31, 2018, and the related notes and the financial statement schedule of Balchem Corporation listed at Item 8 (collectively, the financial statements). We also have audited the Company's internal control over financial reporting as of December 31, 2018, based on criteria established in Internal Control - Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\nIn our opinion, the financial statements referred to above present fairly, in all material respects, the financial position of the Company as of December 31, 2018 and 2017, and the results of their operations and their cash flows for each of the years in the three-year period ended December 31, 2018, in conformity with accounting principles generally accepted in the United States of America. Also in our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2018, based on criteria established in Internal Control - Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\nAs described in Management’s Report on Internal Control Over Financial Reporting, management has excluded Bioscreen Technologies Srl (Bioscreen) from its assessment of internal control over financial reporting as of December 31, 2018, because it was acquired by the Company in a purchase business combination in the third quarter of 2018. We have also excluded Bioscreen from our audit of internal control over financial reporting. Bioscreen is a wholly owned subsidiary whose total assets and net sales represent approximately 2.0 percent and 0.2 percent, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2018.\n\n## Basis for Opinions\n\nThe Company's management is responsible for these financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Report on Internal Control Over Financial Reporting. Our responsibility is to express an opinion on the Company's financial statements and an opinion on the company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are required to be independent with respect to the Company in accordance with U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB."
+          },
+          {
+            "document_id": "d002",
+            "passage_id": "c045",
+            "quote": "Total liabilities and stockholders' equity\t$ 981,355\t$ 963,636\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Earnings\nYears Ended December 31, 2018, 2017 and 2016\n(In thousands, except per share data)\n\n2018\t2017\t2016\t\nNet sales\t$ 643,679\t$ 594,790\t$ 553,204\t\nCost of sales\t439,427\t405,781\t372,343\t\nGross margin\t204,252\t189,009\t180,861\t\nOperating expenses:\t\t\t\t\nSelling expenses\t57,219\t54,720\t55,172\t\nResearch and development expenses\t11,592\t9,305\t7,325\t\nGeneral and administrative expenses\t27,690\t27,729\t27,526\t\n\t96,501\t91,754\t90,023\t\nEarnings from operations\t107,751\t97,255\t90,838\t\nOther expenses:\t\t\t\t\nInterest expense, net\t7,611\t7,532\t7,256\t\nOther, net\t1,110\t1,235\t648\t\nEarnings before income tax expense\t99,030\t88,488\t82,934\t\nIncome tax expense/(benefit)\t20,457\t(1,583)\t26,962\t\nNet earnings\t$ 78,573\t$ 90,071\t$ 55,972\t\nBasic net earnings per common share\t$ 2.45\t$ 2.83\t$ 1.78\t\nDiluted net earnings per common share\t$ 2.42\t$ 2.79\t$ 1.75\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Comprehensive Income\nYears Ended December 31, 2018, 2017 and 2016\n(In thousands)\n\n2018\t2017\t2016\t\nNet earnings\t$ 78,573\t$ 90,071\t$ 55,972\t\nOther comprehensive (loss)/income, net of tax:\t\t\t\t\nNet foreign currency translation adjustment\t(2,982)\t5,404\t(1,390)\t\nNet change in postretirement benefit plan, net of taxes of $434, $207, and $49 at December 31, 2018, 2017 and 2016, respectively\t1,022\t(197)\t(345)\t\nOther comprehensive (loss)/income\t(1,960)\t5,207\t(1,735)\t\nComprehensive income\t$ 76,613\t$ 95,278\t$ 54,237\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Stockholders' Equity\nYears Ended December 31, 2018, 2017 and 2016\n(Dollars in thousands, except share and per share data)"
+          }
+        ]
+      }
+    ],
+    "q022": [
+      {
+        "turns": [
+          {
+            "session_id": "s002",
+            "turn_id": "t001",
+            "quote": "Let's carry the forecast workpapers and recorded capacity benchmarks into the acquisition and systems review. My archived FY2019 Balchem planning sheet has additive sales components of 700,000 core and 100,000 incremental, and research-funding components of 12,000 core and 2,000 incremental, all in USD thousands. These are my private projections for the same consolidated company perimeter, not actual results."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c042",
+            "quote": "We have audited the accompanying consolidated balance sheets of Balchem Corporation and subsidiaries (the Company) as of December 31, 2018 and 2017, and the related consolidated statements of earnings, comprehensive income, stockholders' equity and cash flows for each of the three years in the period ended December 31, 2018, and the related notes and the financial statement schedule of Balchem Corporation listed at Item 8 (collectively, the financial statements). We also have audited the Company's internal control over financial reporting as of December 31, 2018, based on criteria established in Internal Control - Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\nIn our opinion, the financial statements referred to above present fairly, in all material respects, the financial position of the Company as of December 31, 2018 and 2017, and the results of their operations and their cash flows for each of the years in the three-year period ended December 31, 2018, in conformity with accounting principles generally accepted in the United States of America. Also in our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2018, based on criteria established in Internal Control - Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\nAs described in Management’s Report on Internal Control Over Financial Reporting, management has excluded Bioscreen Technologies Srl (Bioscreen) from its assessment of internal control over financial reporting as of December 31, 2018, because it was acquired by the Company in a purchase business combination in the third quarter of 2018. We have also excluded Bioscreen from our audit of internal control over financial reporting. Bioscreen is a wholly owned subsidiary whose total assets and net sales represent approximately 2.0 percent and 0.2 percent, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2018.\n\n## Basis for Opinions\n\nThe Company's management is responsible for these financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Report on Internal Control Over Financial Reporting. Our responsibility is to express an opinion on the Company's financial statements and an opinion on the company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are required to be independent with respect to the Company in accordance with U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB."
+          },
+          {
+            "document_id": "d002",
+            "passage_id": "c045",
+            "quote": "Total liabilities and stockholders' equity\t$ 981,355\t$ 963,636\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Earnings\nYears Ended December 31, 2018, 2017 and 2016\n(In thousands, except per share data)\n\n2018\t2017\t2016\t\nNet sales\t$ 643,679\t$ 594,790\t$ 553,204\t\nCost of sales\t439,427\t405,781\t372,343\t\nGross margin\t204,252\t189,009\t180,861\t\nOperating expenses:\t\t\t\t\nSelling expenses\t57,219\t54,720\t55,172\t\nResearch and development expenses\t11,592\t9,305\t7,325\t\nGeneral and administrative expenses\t27,690\t27,729\t27,526\t\n\t96,501\t91,754\t90,023\t\nEarnings from operations\t107,751\t97,255\t90,838\t\nOther expenses:\t\t\t\t\nInterest expense, net\t7,611\t7,532\t7,256\t\nOther, net\t1,110\t1,235\t648\t\nEarnings before income tax expense\t99,030\t88,488\t82,934\t\nIncome tax expense/(benefit)\t20,457\t(1,583)\t26,962\t\nNet earnings\t$ 78,573\t$ 90,071\t$ 55,972\t\nBasic net earnings per common share\t$ 2.45\t$ 2.83\t$ 1.78\t\nDiluted net earnings per common share\t$ 2.42\t$ 2.79\t$ 1.75\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Comprehensive Income\nYears Ended December 31, 2018, 2017 and 2016\n(In thousands)\n\n2018\t2017\t2016\t\nNet earnings\t$ 78,573\t$ 90,071\t$ 55,972\t\nOther comprehensive (loss)/income, net of tax:\t\t\t\t\nNet foreign currency translation adjustment\t(2,982)\t5,404\t(1,390)\t\nNet change in postretirement benefit plan, net of taxes of $434, $207, and $49 at December 31, 2018, 2017 and 2016, respectively\t1,022\t(197)\t(345)\t\nOther comprehensive (loss)/income\t(1,960)\t5,207\t(1,735)\t\nComprehensive income\t$ 76,613\t$ 95,278\t$ 54,237\n\nSee accompanying notes to consolidated financial statements.\n\nBALCHEM CORPORATION\nConsolidated Statements of Stockholders' Equity\nYears Ended December 31, 2018, 2017 and 2016\n(Dollars in thousands, except share and per share data)"
+          }
+        ]
+      }
+    ],
+    "q028": [
+      {
+        "turns": [
+          {
+            "session_id": "s002",
+            "turn_id": "t022",
+            "quote": "USD 1,800 is uncommitted at the revised procurement worksheet snapshot."
+          },
+          {
+            "session_id": "s003",
+            "turn_id": "t029",
+            "quote": "The expanded methods work order replaces the original USD 400 quote with USD 500 per disclosed FY2017 nutrition technology. The hedging quote remains USD 500 per reported instrument category. Assess each separately against our revised acquisition-procurement remit; check any proposed quotation against that remit rather than treating an earlier published remaining amount as a new approval, without executing a purchase or deducting one option from the other. For hedging, adopt the instrument change in the 2019 report. The methods work order also requires one FY2017 reported application statement for each commissioned technology, so the vendor knows the research use being priced."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d001",
+            "passage_id": "c005",
+            "quote": "Our Animal Nutrition & Health (“ANH”) segment provides nutritional products derived from our microencapsulation and chelation technologies in addition to basic choline chloride. For ruminant animals, our microencapsulated products boost health and milk production, delivering nutrient supplements that are biologically available, providing required nutritional levels. Our proprietary chelation technology provides enhanced nutrient absorption for various species of production and companion animals and is marketed for use in animal feed throughout the world."
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s002",
+            "turn_id": "t019",
+            "quote": "Procurement has approved the expanded brief, adding an independent screening review and a second specialist diligence brief. The acquisition-review allowance is now USD 2,400, replacing the original allowance; the USD 600 spent is unchanged."
+          },
+          {
+            "session_id": "s003",
+            "turn_id": "t029",
+            "quote": "The expanded methods work order replaces the original USD 400 quote with USD 500 per disclosed FY2017 nutrition technology. The hedging quote remains USD 500 per reported instrument category. Assess each separately against our revised acquisition-procurement remit; check any proposed quotation against that remit rather than treating an earlier published remaining amount as a new approval, without executing a purchase or deducting one option from the other. For hedging, adopt the instrument change in the 2019 report. The methods work order also requires one FY2017 reported application statement for each commissioned technology, so the vendor knows the research use being priced."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d001",
+            "passage_id": "c005",
+            "quote": "Our Animal Nutrition & Health (“ANH”) segment provides nutritional products derived from our microencapsulation and chelation technologies in addition to basic choline chloride. For ruminant animals, our microencapsulated products boost health and milk production, delivering nutrient supplements that are biologically available, providing required nutritional levels. Our proprietary chelation technology provides enhanced nutrient absorption for various species of production and companion animals and is marketed for use in animal feed throughout the world."
+          }
+        ]
+      }
+    ],
+    "q034": [
+      {
+        "turns": [
+          {
+            "session_id": "s003",
+            "turn_id": "t055",
+            "quote": "The comparative presentation template now requires USD millions instead of USD thousands for Balchem's cash chart at December 31, 2018. Replace the scale convention, but the editor hasn't chosen the decimal precision. Ask the editor to choose whether to preserve the reported precision or use a two-decimal chart format."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d003",
+            "passage_id": "c041",
+            "quote": "BALCHEM CORPORATION\nConsolidated Balance Sheets\nDecember 31, 2019 and 2018\n(Dollars in thousands, except share and per share data)\n\n2019\t2018\t\nCurrent assets:\t\t\t\nCash and cash equivalents\t$ 65,672\t$ 54,268\t"
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s003",
+            "turn_id": "t055",
+            "quote": "The comparative presentation template now requires USD millions instead of USD thousands for Balchem's cash chart at December 31, 2018. Replace the scale convention, but the editor hasn't chosen the decimal precision. Ask the editor to choose whether to preserve the reported precision or use a two-decimal chart format."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c043",
+            "quote": "BALCHEM CORPORATION\nConsolidated Balance Sheets\nDecember 31, 2018 and 2017\n(Dollars in thousands, except share and per share data)"
+          },
+          {
+            "document_id": "d002",
+            "passage_id": "c044",
+            "quote": "2018\t2017\t\nCurrent assets:\t\t\t\nCash and cash equivalents\t$ 54,268\t$ 40,416"
+          }
+        ]
+      }
+    ],
+    "q039": [
+      {
+        "turns": [
+          {
+            "session_id": "s003",
+            "turn_id": "t018",
+            "quote": "The revised worksheet yields 12 free validation person-days at this scenario-planning snapshot."
+          },
+          {
+            "session_id": "s004",
+            "turn_id": "t009",
+            "quote": "Change the December 31, 2017 liquidity-validation rule to three person-days when consolidated cash is below 5% of total assets, otherwise one. Compare this option separately with the revised systems-validation benchmark, without reserving time or deducting earlier estimates."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d001",
+            "passage_id": "c038",
+            "quote": "Consolidated Statements of Comprehensive Income for the years ended December 31, 2017, 2016 and 2015\n\nConsolidated Statements of Stockholders' Equity for the years ended December 31, 2017, 2016 and 2015 35\n\nConsolidated Statements of Cash Flows for the years ended December 31, 2017, 2016 and 2015\n\nNotes to Consolidated Financial Statements 37\n\nSchedule II – Valuation and Qualifying Accounts for the years ended December 31, 2017, 2016 and 2015 64\n\n# Report of Independent Registered Public Accounting Firm\n\nTo the Stockholders and the Board of Directors of Balchem Corporation\n\n## Opinions on the Financial Statements and Internal Control over Financial Reporting\n\nWe have audited the accompanying consolidated balance sheets of Balchem Corporation and Subsidiaries (the \"Company\") as of December 31, 2017 and 2016, and the related consolidated statements of earnings, comprehensive income, stockholders' equity and cash flows for each of the years in the three-year period ended December 31, 2017, and the related notes and the financial statement schedule of Balchem Corporation listed at Item 8 (collectively referred to as the \"financial statements\"). We also have audited the Company's internal control over financial reporting as of December 31, 2017, based on criteria established in Internal Control - Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\nIn our opinion, the financial statements referred to above present fairly, in all material respects, the financial position of the Company as of December 31, 2017 and 2016, and the results of its operations and its cash flows for each of the years in the three-year period ended December 31, 2017 in conformity with accounting principles generally accepted in the United States of America. Also in our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2017, based on criteria established in Internal Control - Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\n## Basis for Opinions\n\nThe Company's management is responsible for these financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Report on Internal Control Over Financial Reporting. Our responsibility is to express an opinion on the Company's financial statements and an opinion on the company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (\"PCAOB\") and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB."
+          },
+          {
+            "document_id": "d001",
+            "passage_id": "c040",
+            "quote": "2017\t2016\t\nCurrent assets:\t\t\t\nCash and cash equivalents\t$ 40,416\t$ 38,643\t\nAccounts receivable, net of allowance for doubtful accounts of $431 and $489 at December 31, 2017 and 2016, respectively\t91,226\t83,252\t\nInventories\t60,696\t57,245\t\nPrepaid expenses\t4,774\t4,110\t\nDeferred income taxes\t-\t712\t\nOther current assets\t2,224\t4,480\t\nTotal current assets\t199,336\t188,442\t\nProperty, plant and equipment, net\t189,793\t165,754\t\nGoodwill\t441,361\t439,811\t\nIntangible assets with finite lives, net\t128,073\t147,484\t\nOther assets\t5,073\t7,135\t\nTotal assets\t$ 963,636\t$ 948,626\t\nLiabilities and Stockholders' Equity\t\t\t\nCurrent liabilities:\t\t\t\nTrade accounts payable\t$ 28,451\t$ 32,514\t\nAccrued expenses\t22,930\t14,758\t\nAccrued compensation and other benefits\t8,531\t6,648\t\nDividends payable\t13,484\t12,088\t\nCurrent portion of long-term debt\t35,000\t35,000\t\nTotal current liabilities\t108,396\t101,008\t\nLong-term debt\t183,964\t226,490\t\nRevolver loan - long-term\t-\t19,000\t\nDeferred income taxes\t48,548\t74,199\t\nOther long-term obligations\t5,847\t6,896\t\nTotal liabilities\t346,755\t427,593\t\nCommitments and contingencies (note 12)\t\t\t\nStockholders' equity:\t\t\t\nPreferred stock, $25 par value. Authorized 2,000,000 shares; none issued and outstanding\t-\t-\t\nCommon stock, $0.0667 par value. Authorized 120,000,000 shares; 32,019,605 shares issued and outstanding at December 31, 2017 and 31,757,861 shares issued and outstanding at December 31, 2016\t2,135\t2,117\t\nAdditional paid-in capital\t151,749\t137,676\t\nRetained earnings\t464,639\t388,089\t\nAccumulated other comprehensive loss\t(1,642)\t(6,849)\t\nTotal stockholders' equity\t616,881\t521,033\t\nTotal liabilities and stockholders' equity\t$ 963,636\t$ 948,626"
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s003",
+            "turn_id": "t015",
+            "quote": "A specialist has raised the study's assigned capacity to 15 person-days, with 3 still committed, and expanded lease validation to two person-days per reported class. Replace the earlier worksheet inputs, use the classification in the 2020 report, and estimate this option separately."
+          },
+          {
+            "session_id": "s004",
+            "turn_id": "t009",
+            "quote": "Change the December 31, 2017 liquidity-validation rule to three person-days when consolidated cash is below 5% of total assets, otherwise one. Compare this option separately with the revised systems-validation benchmark, without reserving time or deducting earlier estimates."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d001",
+            "passage_id": "c038",
+            "quote": "Consolidated Statements of Comprehensive Income for the years ended December 31, 2017, 2016 and 2015\n\nConsolidated Statements of Stockholders' Equity for the years ended December 31, 2017, 2016 and 2015 35\n\nConsolidated Statements of Cash Flows for the years ended December 31, 2017, 2016 and 2015\n\nNotes to Consolidated Financial Statements 37\n\nSchedule II – Valuation and Qualifying Accounts for the years ended December 31, 2017, 2016 and 2015 64\n\n# Report of Independent Registered Public Accounting Firm\n\nTo the Stockholders and the Board of Directors of Balchem Corporation\n\n## Opinions on the Financial Statements and Internal Control over Financial Reporting\n\nWe have audited the accompanying consolidated balance sheets of Balchem Corporation and Subsidiaries (the \"Company\") as of December 31, 2017 and 2016, and the related consolidated statements of earnings, comprehensive income, stockholders' equity and cash flows for each of the years in the three-year period ended December 31, 2017, and the related notes and the financial statement schedule of Balchem Corporation listed at Item 8 (collectively referred to as the \"financial statements\"). We also have audited the Company's internal control over financial reporting as of December 31, 2017, based on criteria established in Internal Control - Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\nIn our opinion, the financial statements referred to above present fairly, in all material respects, the financial position of the Company as of December 31, 2017 and 2016, and the results of its operations and its cash flows for each of the years in the three-year period ended December 31, 2017 in conformity with accounting principles generally accepted in the United States of America. Also in our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2017, based on criteria established in Internal Control - Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission in 2013.\n\n## Basis for Opinions\n\nThe Company's management is responsible for these financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Report on Internal Control Over Financial Reporting. Our responsibility is to express an opinion on the Company's financial statements and an opinion on the company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (\"PCAOB\") and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB."
+          },
+          {
+            "document_id": "d001",
+            "passage_id": "c040",
+            "quote": "2017\t2016\t\nCurrent assets:\t\t\t\nCash and cash equivalents\t$ 40,416\t$ 38,643\t\nAccounts receivable, net of allowance for doubtful accounts of $431 and $489 at December 31, 2017 and 2016, respectively\t91,226\t83,252\t\nInventories\t60,696\t57,245\t\nPrepaid expenses\t4,774\t4,110\t\nDeferred income taxes\t-\t712\t\nOther current assets\t2,224\t4,480\t\nTotal current assets\t199,336\t188,442\t\nProperty, plant and equipment, net\t189,793\t165,754\t\nGoodwill\t441,361\t439,811\t\nIntangible assets with finite lives, net\t128,073\t147,484\t\nOther assets\t5,073\t7,135\t\nTotal assets\t$ 963,636\t$ 948,626\t\nLiabilities and Stockholders' Equity\t\t\t\nCurrent liabilities:\t\t\t\nTrade accounts payable\t$ 28,451\t$ 32,514\t\nAccrued expenses\t22,930\t14,758\t\nAccrued compensation and other benefits\t8,531\t6,648\t\nDividends payable\t13,484\t12,088\t\nCurrent portion of long-term debt\t35,000\t35,000\t\nTotal current liabilities\t108,396\t101,008\t\nLong-term debt\t183,964\t226,490\t\nRevolver loan - long-term\t-\t19,000\t\nDeferred income taxes\t48,548\t74,199\t\nOther long-term obligations\t5,847\t6,896\t\nTotal liabilities\t346,755\t427,593\t\nCommitments and contingencies (note 12)\t\t\t\nStockholders' equity:\t\t\t\nPreferred stock, $25 par value. Authorized 2,000,000 shares; none issued and outstanding\t-\t-\t\nCommon stock, $0.0667 par value. Authorized 120,000,000 shares; 32,019,605 shares issued and outstanding at December 31, 2017 and 31,757,861 shares issued and outstanding at December 31, 2016\t2,135\t2,117\t\nAdditional paid-in capital\t151,749\t137,676\t\nRetained earnings\t464,639\t388,089\t\nAccumulated other comprehensive loss\t(1,642)\t(6,849)\t\nTotal stockholders' equity\t616,881\t521,033\t\nTotal liabilities and stockholders' equity\t$ 963,636\t$ 948,626"
+          }
+        ]
+      }
+    ],
+    "q042": [
+      {
+        "turns": [
+          {
+            "session_id": "s004",
+            "turn_id": "t021",
+            "quote": "My signed private actuals review asserts Balchem consolidated US-GAAP operating cash flow of 108,000 USD thousands for the year ended December 31, 2016. It claims the same actual measure and scope as the public workpaper, with no source precedence assigned."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d001",
+            "passage_id": "c038",
+            "quote": "In our opinion, the financial statements referred to above present fairly, in all material respects, the financial position of the Company as of December 31, 2017 and 2016, and the results of its operations and its cash flows for each of the years in the three-year period ended December 31, 2017 in conformity with accounting principles generally accepted in the United States of America."
+          },
+          {
+            "document_id": "d002",
+            "passage_id": "c047",
+            "quote": "## BALCHEM CORPORATION\nConsolidated Statements of Cash Flows\nYears Ended December 31, 2018, 2017 and 2016\n(In thousands)\n\n2018\t2017\t2016\t\nCash flows from operating activities:\t\t\t\t\nNet earnings\t$ 78,573\t$ 90,071\t$ 55,972\t\nAdjustments to reconcile net earnings to net cash provided by operating activities:\t\t\t\t\nDepreciation and amortization\t44,666\t44,379\t46,202\t\nStock compensation expense\t6,413\t6,264\t7,024\t\nDeferred income taxes\t(5,403)\t(28,777)\t(6,881)\t\nProvision for doubtful accounts\t43\t69\t258\t\nForeign currency transaction (gain)/loss\t(141)\t340\t(16)\t\nAsset impairment charge\t1,801\t—\t—\t\n(Gain)/Loss on disposal of assets\t(3,244)\t254\t320\t\nChanges in assets and liabilities, net of acquired balances\t\t\t\t\nAccounts receivable\t(7,773)\t(3,906)\t(15,659)\t\nInventories\t(6,016)\t(319)\t4,745\t\nPrepaid expenses and other current assets\t1,517\t(439)\t240\t\nAccounts payable and accrued expenses\t5,988\t1,511\t17,841\t\nIncome taxes\t1,121\t449\t(2,765)\t\nOther\t1,152\t722\t331\t\nNet cash provided by operating activities\t118,697\t110,618\t107,612\t\nCash flows from investing activities:\t\t\t\t\nCapital expenditures\t(19,170)\t(27,526)\t(23,034)\t\nCash paid for acquisitions, net of cash acquired\t(17,399)\t(17,393)\t(110,601)\t\nProceeds from sale of property, plant and equipment\t966\t22\t4\t\nProceeds from insurance\t4,165\t2,792\t1,000\t\nIntangible assets acquired\t(553)\t(591)\t(963)\t\nNet cash used in investing activities\t(31,991)\t(42,696)\t(133,594)\t\nCash flows from financing activities:\t\t\t\t\nProceeds from revolving loan\t210,750\t25,000\t72,500\t\nPrincipal payments on revolving loan\t(54,750)\t(44,000)\t(53,500)\t\nPrincipal payments on long-term debt\t(219,500)\t(43,000)\t(35,000)\t\nPrincipal payment on acquired debt\t(19)\t(2,384)\t(884)\t\nCash paid for financing costs\t(1,374)\t—\t—\t\nProceeds from stock options exercised\t8,272\t9,732\t7,192\t\nExcess tax benefits from stock compensation\t—\t—\t2,546\t\nDividends paid\t(13,432)\t(12,069)\t(10,720)\t\nPurchase of treasury stock\t(1,394)\t(1,905)\t(1,588)\t\nNet cash used in by financing activities\t(71,447)\t(68,626)\t(19,454)\t\nEffect of exchange rate changes on cash\t(1,407)\t2,477\t(716)\t\nIncrease/(Decrease) in cash and cash equivalents\t13,852\t1,773\t(46,152)\t\nCash and cash equivalents beginning of period\t40,416\t38,643\t84,795\t\nCash and cash equivalents end of period\t$ 54,268\t$ 40,416\t$ 38,643"
+          }
+        ]
+      }
+    ],
+    "q043": [
+      {
+        "turns": [
+          {
+            "session_id": "s004",
+            "turn_id": "t025",
+            "quote": "For the FY2017 consolidated cash-conversion panel, use a cash-generation comparison only when the report shows positive operating cash. In that case, the publication protocol allows either operating cash flow divided by net earnings or operating cash flow minus net earnings, and the owner must select the convention. If operating cash is zero or negative, use a cash-use entry with the signed cash-minus-earnings gap instead; do not present a cash-generation ratio or ask for that two-option choice. Check the report's operating-cash entry before deciding which editorial step is needed. No convention has been selected."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d001",
+            "passage_id": "c043",
+            "quote": "BALCHEM CORPORATION\nConsolidated Statements of Cash Flows\nYears Ended December 31, 2017, 2016 and 2015\n(In thousands)\n\n2017\t2016\t2015\t\nCash flows from operating activities:\t\t\t\t\nNet earnings\t$ 90,071\t$ 55,972\t$ 59,722\t\nAdjustments to reconcile net earnings to net cash provided by operating activities:\t\t\t\t\nDepreciation and amortization\t44,379\t46,202\t39,964\t\nStock compensation expense\t6,264\t7,024\t6,829\t\nDeferred income taxes\t(28,777)\t(6,881)\t(2,857)\t\nProvision for doubtful accounts\t69\t258\t(53)\t\nForeign currency transaction loss\t340\t(16)\t25\t\nLoss on disposal of assets\t254\t320\t301\t\nChanges in assets and liabilities, net of acquired balances\t\t\t\t\nAccounts receivable\t(3,906)\t(15,659)\t10,809\t\nInventories\t(319)\t4,745\t3,126\t\nPrepaid expenses and other current assets\t(439)\t240\t1,233\t\nAccounts payable and accrued expenses\t1,511\t17,841\t(15,718)\t\nIncome taxes\t449\t(2,765)\t633\t\nOther\t722\t331\t(188)\t\nNet cash provided by operating activities\t110,618\t107,612\t103,826\t"
+          }
+        ]
+      }
+    ],
+    "q052": [
+      {
+        "turns": [
+          {
+            "session_id": "s005",
+            "turn_id": "t017",
+            "quote": "A signed revision expands my archived Freshpet route programme B from 150 to 200 planned private study locations, keeping its 60 completed visits unchanged. Replace the earlier frame in that worksheet; B remains distinct from pilot A and is not a company global-store count or current booking. For a separate, unbooked interview-stratification option, multiply outstanding assignments by the selected report's global in-house product-volume share and round up for the in-house proxy slots, allocating the remainder outside. Use the approximate disclosed percentage as the nominal weight before rounding up. Global manufacturing mix is deliberately a proxy, not an observed pilot or regional mix. Before carrying a proposed interview allocation into the research handoff, check that it matches this signed sample-frame revision as well as the selected global proxy; a previously prepared allocation is a comparison entry, not a new sample-frame approval."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d008",
+            "passage_id": "c007",
+            "quote": "The success of our approach is evidenced by our broad product portfolio today. We began Freshpet by producing fresh, refrigerated slice and serve rolls, and over time have steadily expanded into successful new product forms including bags, tubs and treats. We also introduced new fresh recipes and ingredients, such as proteins and grain-free options never before seen in pet food that cater to the specific dietary requirements of pets.\n\nOur Innovation Center near our Freshpet Kitchens manufacturing plant, helps us ensure that we remain capable of strong innovation including creating new product platforms to expand the breadth of our fresh offerings. We expect that new product introductions will continue to meaningfully drive growth going forward.\n\n## Our Supply Chain\n\nManufacturing: All of our products are manufactured in the United States. We own and operate what we believe to be the first fresh, refrigerated pet food manufacturing facility in North America, the Freshpet Kitchens in Pennsylvania. This 100,000 square foot facility was built to United States Department of Agriculture standards and houses four production lines customized to produce fresh, refrigerated food. In 2018, approximately 97% of our product volume was manufactured by us.\n\nExpansion: Due to the continued growth of the Company’s fresh pet food sales, the Company has plans to expand its manufacturing capacity. The expansion includes the renovation of an existing 50,000 square foot building and a 90,000 square-foot addition. The $100 million strategic capital investment is expected to support Freshpet’s growth in the United States, Canada and Europe by creating total capacity for approximately $540 million in net sales from the facility. The facility “Freshpet Kitchens 2.0” will make greater use of automation to improve quality, safety and reduce costs. Production start-up is slated for the second half of 2020.\n\nIngredients and Packaging: Our products are made with natural and fresh ingredients including meat, vegetables, fruits, whole grains, vitamins and minerals. We use high quality food grade plastic packaging materials. Over 60% of our ingredients are sourced locally from within a 200 mile radius of the Freshpet Kitchens, and 96% are from North America. We maintain rigorous standards for ingredient quality and safety. By volume, our largest input, fresh chicken, represents approximately 50% of total ingredients. In order to retain operating flexibility and negotiating leverage, we do not enter into exclusivity agreements or long-term commitments with any of our suppliers. All of our suppliers are well-established companies that have the scale to support our growth. For every ingredient, we either use multiple suppliers or have identified alternative sources of supply that meet our quality and safety standards."
+          }
+        ]
+      }
+    ],
+    "q061": [
+      {
+        "turns": [
+          {
+            "session_id": "s006",
+            "turn_id": "t023",
+            "quote": "My private Freshpet FY2017 comparison worksheet retains shipment/FOB recognition as its legacy benchmark. For the consolidated US-GAAP sales entry for the year ended December 31, 2017, in USD thousands, the owner hasn't decided whether to keep that basis or adopt the report's ASC 606 full-retrospective recast. Frame that decision by the recognition trigger used for product sales on each basis, so the owner can distinguish when sales enter the cell rather than choose from standard names alone. Use the report to identify its trigger before asking for the basis; leave the selected sales value unfilled."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d008",
+            "passage_id": "c072",
+            "quote": "The Company adopted Topic 606 in the first quarter of 2018 using the full retrospective method approach and recast prior year results as shown below. The adoption did not have any material impact on our financial statements and is generally limited to classification differences within the Consolidated Statements of Operations and Comprehensive Loss from cost of goods sold to a reduction to net sales. The new accounting standard did not impact Net Loss.\n\nThe Company recast certain prior period amounts to conform with the adoption of the revenue recognition standard, as shown in the table below:\n\nTwelve Months Ended\tTwelve Months Ended\t\nDecember 31, 2017\tDecember 31, 2016\t\nAs Previously Reported\tAdjustments\tCurrent Presentation\tAs Previously Reported\tAdjustments\tCurrent Presentation\t\nNet Sales\t$ 156,379,210\t$ (4,019,724)\t$ 152,359,487\t$ 133,053,517\t$ (3,346,905)\t$ 129,706,613\t\nCost of Goods Sold\t83,963,292\t(4,019,724)\t79,943,569\t72,682,634\t(3,346,905)\t69,335,730\t\nGross Profit\t$ 72,415,918\t$ —\t$ 72,415,918\t$ 60,370,883\t$ —\t$ 60,370,883\n\nRevenue from product sales is recognized when obligations under the terms of the contract with the customer are satisfied, which occurs once control is transferred upon delivery to the customer."
+          }
+        ]
+      }
+    ],
+    "q066": [
+      {
+        "turns": [
+          {
+            "session_id": "s005",
+            "turn_id": "t005",
+            "quote": "Here's my archived Freshpet FY2019 model, for the consolidated US-GAAP perimeter in the year ended December 31, 2019, all in USD thousands. Its two additive, mutually exclusive and exhaustive private cohorts are the core cold-chain programme and expansion cold-chain programme. Core forecasts sales of 180,000, loss magnitude of 800 and SG&A of 100,000; expansion forecasts sales of 60,000, loss magnitude of 700 and SG&A of 12,000. Those respective components belong to core and expansion for the later cohort-error workpaper, with no third cohort. They're expectations, not company actuals; positive loss magnitudes mean negative signed net income."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d009",
+            "passage_id": "c037",
+            "quote": "Research & development (“R&D”). R&D costs consist of expenses to develop and test new products. The costs are expensed as incurred.\n\nBrokerage. We utilize third-party brokers to assist with monitoring our products at the point-of-sale as well as representing us at headquarters for various customers. These brokers visit our retail customers' store locations and ensure items are appropriately stocked and maintained.\n\nShare-based compensation. We account for all share-based compensation payments issued to employees, directors and non-employees using a fair value method. Accordingly, share-based compensation expense is measured based on the estimated fair value of the awards on the grant date. We recognize compensation expense for the portion of the award that is ultimately expected to vest over the period during which the recipient renders the required services to us using the straight-line basis.\n\nOther general & administrative costs. Other general and administrative costs include plant salaried and non-plant personnel salaries and benefits, as well as corporate general & administrative costs.\n\n## Income Taxes\n\nWe had federal net operating loss (“NOL”) carry forwards of approximately $198.1 million as of December 31, 2019, of which, approximately $175.0 million, generated in 2017 and prior, will expire between 2025 and 2037. The NOL generated in 2018 and 2019, of approximately $23.0 million, will have an indefinite carryforward period but can generally only be used to offset 80% of taxable income in any particular year. We may be subject to certain limitations in our annual utilization of NOL carry forwards to off-set future taxable income pursuant to Section 382 of the Internal Revenue Code, which could result in NOLs expiring unused. At December 31, 2019, we had approximately $160.0 million of state NOLs, which expire between 2019 and 2038. At December 31, 2019, we had a full valuation allowance against our net deferred tax assets as the realization of such assets was not considered more likely than not.\n\n## Results of Operations\n\nTwelve Months Ended December 31,\n\n2019\t2018\t2017\t\nAmount\t% of Net Sales\tAmount\t% of Net Sales\tAmount\t% of Net Sales\t\n(Dollars in thousands)\t\nNet sales\t$ 245,862\t\t100%\t$ 193,237\t\t100%\t$ 152,359\t\t100%\t\t\t\t\t\nCost of goods sold\t131,665\t\t54\t103,247\t\t53\t79,943\t\t52\t\t\t\t\t\nGross profit\t114,197\t\t46\t89,990\t\t47\t72,416\t\t48\t\t\t\t\t\nSelling, general and administrative expenses\t114,450\t\t47\t94,876\t\t49\t75,167\t\t49\t\t\t\t\t\nLoss from operations\t(253)\t\t(0)\t(4,886)\t\t(3)\t(2,751)\t\t(2)\t\t\t\t\t\nOther income/(expenses), net\t5\t\t0\t(102)\t\t(0)\t(525)\t\t(0)\t\t\t\t\t\nInterest expense\t(991)\t\t(0)\t(296)\t\t(0)\t(910)\t\t0\t\t\t\t\t\nLoss before income taxes\t(1,239)\t\t(1)\t(5,284)\t\t(3)\t(4,187)\t\t(3)\t\t\t\t\t\nIncome tax expense\t144\t\t0\t77\t\t0\t75\t\t0\t\t\t\t\t\nNet loss\t(1,383)\t\t(1)%\t(5,361)\t\t(3)%\t(4,262)\t\t(3)%"
+          },
+          {
+            "document_id": "d009",
+            "passage_id": "c057",
+            "quote": "See accompanying notes to the consolidated financial statements.\n\n# FRESHPET, INC. AND SUBSIDIARIES\nNOTES TO CONSOLIDATED FINANCIAL STATEMENTS\n\n## Note 1 – Nature of the Business and Summary of Significant Accounting Policies:\n\nNature of the Business – Freshpet, Inc. (hereafter referred to as “Freshpet” or the “Company”), a Delaware corporation, manufactures and markets natural fresh, refrigerated meals and treats for dogs and cats. The Company’s products are distributed throughout the United States and other international markets into major retail classes including Grocery and Mass (which includes club), and Online, as well as Pet Specialty, and Natural retail.\n\nBasis of Presentation – The accompanying consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the U.S. (\"U.S. GAAP\").\n\nPrinciples of Consolidation – The financial statements include the accounts of the Company as well as the Company’s wholly-owned subsidiaries. All intercompany accounts and transactions have been eliminated in consolidation.\n\nSegments – The Company operates as a single operating segment reporting to its chief operating decision maker.\n\nEstimates and Uncertainties – The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements, and the reported amounts of revenues and expenses during the reporting period. Estimates are used in determining, among other items, trade incentives, share-based compensation and useful lives for long-lived assets. Actual results, as determined at a later date, could differ from those estimates.\n\nCash and Cash Equivalents – The Company at times considers money market funds and all other highly liquid debt instruments purchased with an original maturity of three months or less to be cash equivalents.\n\nAccounts Receivable – The Company records trade accounts receivable at net realizable value. This value includes an appropriate allowance for estimated uncollectible accounts. On a periodic basis, the Company evaluates its accounts receivable and establishes an allowance for doubtful accounts based on its history of write-offs and collections and current credit conditions. Accounts receivable are written off when management deems them to be uncollectible.\n\nInventories – Inventories are stated at the lower of cost or market, using the first-in, first-out method. When necessary, the Company provides allowances to adjust the carrying value of its inventories to the lower of cost or net realizable value, including any costs to sell or dispose and consideration for obsolescence, excessive inventory levels, product deterioration and other factors in evaluating net realizable value."
+          }
+        ]
+      }
+    ],
+    "q067": [
+      {
+        "turns": [
+          {
+            "session_id": "s005",
+            "turn_id": "t005",
+            "quote": "Here's my archived Freshpet FY2019 model, for the consolidated US-GAAP perimeter in the year ended December 31, 2019, all in USD thousands. Its two additive, mutually exclusive and exhaustive private cohorts are the core cold-chain programme and expansion cold-chain programme. Core forecasts sales of 180,000, loss magnitude of 800 and SG&A of 100,000; expansion forecasts sales of 60,000, loss magnitude of 700 and SG&A of 12,000. Those respective components belong to core and expansion for the later cohort-error workpaper, with no third cohort. They're expectations, not company actuals; positive loss magnitudes mean negative signed net income."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d009",
+            "passage_id": "c037",
+            "quote": "Research & development (“R&D”). R&D costs consist of expenses to develop and test new products. The costs are expensed as incurred.\n\nBrokerage. We utilize third-party brokers to assist with monitoring our products at the point-of-sale as well as representing us at headquarters for various customers. These brokers visit our retail customers' store locations and ensure items are appropriately stocked and maintained.\n\nShare-based compensation. We account for all share-based compensation payments issued to employees, directors and non-employees using a fair value method. Accordingly, share-based compensation expense is measured based on the estimated fair value of the awards on the grant date. We recognize compensation expense for the portion of the award that is ultimately expected to vest over the period during which the recipient renders the required services to us using the straight-line basis.\n\nOther general & administrative costs. Other general and administrative costs include plant salaried and non-plant personnel salaries and benefits, as well as corporate general & administrative costs.\n\n## Income Taxes\n\nWe had federal net operating loss (“NOL”) carry forwards of approximately $198.1 million as of December 31, 2019, of which, approximately $175.0 million, generated in 2017 and prior, will expire between 2025 and 2037. The NOL generated in 2018 and 2019, of approximately $23.0 million, will have an indefinite carryforward period but can generally only be used to offset 80% of taxable income in any particular year. We may be subject to certain limitations in our annual utilization of NOL carry forwards to off-set future taxable income pursuant to Section 382 of the Internal Revenue Code, which could result in NOLs expiring unused. At December 31, 2019, we had approximately $160.0 million of state NOLs, which expire between 2019 and 2038. At December 31, 2019, we had a full valuation allowance against our net deferred tax assets as the realization of such assets was not considered more likely than not.\n\n## Results of Operations\n\nTwelve Months Ended December 31,\n\n2019\t2018\t2017\t\nAmount\t% of Net Sales\tAmount\t% of Net Sales\tAmount\t% of Net Sales\t\n(Dollars in thousands)\t\nNet sales\t$ 245,862\t\t100%\t$ 193,237\t\t100%\t$ 152,359\t\t100%\t\t\t\t\t\nCost of goods sold\t131,665\t\t54\t103,247\t\t53\t79,943\t\t52\t\t\t\t\t\nGross profit\t114,197\t\t46\t89,990\t\t47\t72,416\t\t48\t\t\t\t\t\nSelling, general and administrative expenses\t114,450\t\t47\t94,876\t\t49\t75,167\t\t49\t\t\t\t\t\nLoss from operations\t(253)\t\t(0)\t(4,886)\t\t(3)\t(2,751)\t\t(2)\t\t\t\t\t\nOther income/(expenses), net\t5\t\t0\t(102)\t\t(0)\t(525)\t\t(0)\t\t\t\t\t\nInterest expense\t(991)\t\t(0)\t(296)\t\t(0)\t(910)\t\t0\t\t\t\t\t\nLoss before income taxes\t(1,239)\t\t(1)\t(5,284)\t\t(3)\t(4,187)\t\t(3)\t\t\t\t\t\nIncome tax expense\t144\t\t0\t77\t\t0\t75\t\t0\t\t\t\t\t\nNet loss\t(1,383)\t\t(1)%\t(5,361)\t\t(3)%\t(4,262)\t\t(3)%"
+          },
+          {
+            "document_id": "d009",
+            "passage_id": "c057",
+            "quote": "See accompanying notes to the consolidated financial statements.\n\n# FRESHPET, INC. AND SUBSIDIARIES\nNOTES TO CONSOLIDATED FINANCIAL STATEMENTS\n\n## Note 1 – Nature of the Business and Summary of Significant Accounting Policies:\n\nNature of the Business – Freshpet, Inc. (hereafter referred to as “Freshpet” or the “Company”), a Delaware corporation, manufactures and markets natural fresh, refrigerated meals and treats for dogs and cats. The Company’s products are distributed throughout the United States and other international markets into major retail classes including Grocery and Mass (which includes club), and Online, as well as Pet Specialty, and Natural retail.\n\nBasis of Presentation – The accompanying consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the U.S. (\"U.S. GAAP\").\n\nPrinciples of Consolidation – The financial statements include the accounts of the Company as well as the Company’s wholly-owned subsidiaries. All intercompany accounts and transactions have been eliminated in consolidation.\n\nSegments – The Company operates as a single operating segment reporting to its chief operating decision maker.\n\nEstimates and Uncertainties – The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements, and the reported amounts of revenues and expenses during the reporting period. Estimates are used in determining, among other items, trade incentives, share-based compensation and useful lives for long-lived assets. Actual results, as determined at a later date, could differ from those estimates.\n\nCash and Cash Equivalents – The Company at times considers money market funds and all other highly liquid debt instruments purchased with an original maturity of three months or less to be cash equivalents.\n\nAccounts Receivable – The Company records trade accounts receivable at net realizable value. This value includes an appropriate allowance for estimated uncollectible accounts. On a periodic basis, the Company evaluates its accounts receivable and establishes an allowance for doubtful accounts based on its history of write-offs and collections and current credit conditions. Accounts receivable are written off when management deems them to be uncollectible.\n\nInventories – Inventories are stated at the lower of cost or market, using the first-in, first-out method. When necessary, the Company provides allowances to adjust the carrying value of its inventories to the lower of cost or net realizable value, including any costs to sell or dispose and consideration for obsolescence, excessive inventory levels, product deterioration and other factors in evaluating net realizable value."
+          }
+        ]
+      }
+    ],
+    "q075": [
+      {
+        "turns": [
+          {
+            "session_id": "s007",
+            "turn_id": "t043",
+            "quote": "For the continuing Freshpet expansion-sizing worksheet, the funding-method teams must first choose the nominal capacity base: delayed-draw only, revolving only, or both components. Ask them to choose with each documented face commitment and the combined capacity shown, so they know the size of the research envelope they are approving. The owner-approved percentage is also unselected and will come in the second pass. Apply the chosen fraction to each selected component and retain their combined total if both are selected. This same worksheet may adopt later commitment states as we review the archive; it is not fixed to FY2020 and does not ask for drawable liquidity, an actual draw or bookings."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d010",
+            "passage_id": "c065",
+            "quote": "The Company considered the impact of the disallowance of certain incentive based compensation tax deductibility under Internal Revenue Code Section 162(m); however, to the extent an adjustment to the deferred tax asset is required the impact will be offset by a corresponding adjustment to the valuation allowance.\n\n## Note 7 – Accrued Expenses:\n\n2020\t2019\t\n(Dollars in thousands)\t\nLegal Contingency\t$ -\t$ 10,100\t\nAccrued Compensation and Employee Related Costs\t8,185\t6,391\t\nAccrued Chiller Cost\t2,049\t1,576\t\nAccrued Customer Consideration\t502\t635\t\nAccrued Freight\t1,002\t703\t\nAccrued Production Expenses\t705\t414\t\nAccrued Marketing\t684\t1,188\t\nAccrued IT/Systems\t805\t-\t\nOther Accrued Expenses\t1,439\t1,127\t\n\t$ 15,371\t$ 22,133\n\n## Note 8 – Debt:\n\nOn April 17, 2020, the Company entered into the 2020 Loan Agreement, which amended and restated in full the Company's Fourth Amended and Restated Loan and Security Agreement, dated as of May 15, 2019. The 2020 Loan Agreement provided for a $165.0 million senior secured credit facility (the \"Credit Facility\"), encompassing a $130.0 million delayed draw term loan facility (the \"Delayed Draw Facility\") and a $35.0 million revolving loan facility (the \"Revolving Loan Facility\"), which replaced the Company's prior $55.0 million delayed draw term loan facility and $35.0 million revolving loan facility.\n\nThe Credit Facility had a maturity date of April 17, 2025 and borrowings thereunder bored interest at variable rates depending on the Company's election, either at a base rate or at LIBOR, in each case, plus an applicable margin. Subject to the Company's leverage ratio, the applicable margin varied between 0.50% and 1.00% for base rate loans and 1.50% and 2.00% for LIBOR loans.\n\nBorrowings under the Credit Facility were secured by substantially all of the Company's and certain of its subsidiaries' assets.\n\nDuring the first quarter of 2020, the Company borrowed an additional $20.9 million under the Credit Facility, which consisted of $13.9 million related to Delayed Draw Term Loans, net of unamortized debt issuance cost of less than $0.1 million, and $7.0 million related to the Revolving Loan Facility, bringing the total outstanding debt to $76.0 million. Subsequent to the additional borrowings, the Company paid down the total outstanding debt on its Credit Facility of $76.0 million during the second quarter of 2020. As a result, the Company had no debt outstanding under the Credit Facility as of December 31, 2020."
+          }
+        ]
+      }
+    ],
+    "q079": [
+      {
+        "turns": [
+          {
+            "session_id": "s008",
+            "turn_id": "t015",
+            "quote": "For the Freshpet FY2021 consolidated US-GAAP workpaper, in USD thousands, the expense-to-result bridge is SG&A less an earnings endpoint. Use the report's signed net result directly if it is nonnegative. If the report shows a net loss, the publication protocol instead requires the owner to choose signed net income or absolute net loss as the endpoint before the bridge is released. Check the actual reported outcome, not the private forecast or an earlier year's outcome, to determine whether that choice is needed. The sign convention for a loss-year bridge remains unselected."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d011",
+            "passage_id": "c036",
+            "quote": "Twelve Months Ended December 31,\n\n2021\t2020\t2019\t\nAmount\t% of Net Sales\tAmount\t% of Net Sales\tAmount\t% of Net Sales\t\n(Dollars in thousands)\t\nNet sales\t$ 425,489\t100%\t$ 318,790\t100%\t$ 245,862\t100%\t\nCost of goods sold\t263,343\t62\t185,880\t58\t131,665\t54\t\nGross profit\t162,146\t38\t132,910\t42\t114,197\t46\t\nSelling, general and administrative expenses\t186,809\t44\t134,908\t42\t114,450\t47\t\n(Loss) from operations\t(24,663)\t(6)\t(1,998)\t(1)\t(253)\t(0)\t\nOther income/(expenses), net\t13\t0\t87\t0\t5\t0\t\nInterest expense\t(2,882)\t(1)\t(1,212)\t(0)\t(991)\t(0)\t\n(Loss) before income taxes\t(27,532)\t(7)\t(3,123)\t(1)\t(1,239)\t(1)\t\nIncome tax expense\t162\t0\t65\t0\t144\t0\t\nLoss on equity method investment\t2,005\t0\t-\t0\t-\t0\t\nNet (loss)\t$ (29,699)\t(7)%\t(3,188)\t(1)%\t(1,383)\t(1)%"
+          }
+        ]
+      }
+    ],
+    "q080": [
+      {
+        "turns": [
+          {
+            "session_id": "s008",
+            "turn_id": "t023",
+            "quote": "Replace that standalone instruction for Freshpet's FY2020 consolidated US-GAAP SG&A, in USD thousands, with expense divided by our private field-study participant count, which I haven't supplied. This is a macro research-density normalisation, not company cost attributable to each participant."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d011",
+            "passage_id": "c036",
+            "quote": "Research & development. Research and development costs consist of expenses to develop and test new products. The costs are expensed as incurred.\n\nBrokerage. We use third-party brokers to assist with monitoring our products at the point-of-sale as well as representing us at headquarters for various customers. These brokers visit our retail customers' store locations to ensure items are appropriately stocked and maintained.\n\nShare-based compensation. We account for all share-based compensation payments issued to employees, directors and non-employees using a fair value method. Accordingly, share-based compensation expense is measured based on the estimated fair value of the awards on the grant date using the Black-Scholes Merton option-pricing model. We recognize compensation expense for the portion of the award that is ultimately expected to vest over the period during which the recipient renders the required services to us using the straight-line single option method.\n\nOther general & administrative costs. Other general and administrative costs include non-plant personnel salaries and benefits, as well as corporate general & administrative costs.\n\n## Income Taxes\n\nWe had federal net operating loss (“NOL”) carry forwards of approximately $291.8 million as of December 31, 2021, of which, approximately $175.4 million, generated in 2017 and prior, will expire between 2025 and 2037. The NOL generated from 2018 through 2021, of approximately $116.4 million, will have an indefinite carryforward period but can generally only be used to offset 80% of taxable income in any particular year. We may be subject to certain limitations in our annual utilization of NOL carry forwards to off-set future taxable income pursuant to Section 382 of the Internal Revenue Code, which could result in NOLs expiring unused. At December 31, 2021, we had approximately $229.5 million of state NOLs, which expire between 2022 and 2041, and had $14.3 million of foreign NOLs which do not expire. At December 31, 2021, we had a full valuation allowance against our net deferred tax assets as the realization of such assets was not considered more likely than not.\n\n## Consolidated Statements of Operations and Comprehensive Loss\n\nTwelve Months Ended December 31,\n\n2021\t2020\t2019\t\nAmount\t% of Net Sales\tAmount\t% of Net Sales\tAmount\t% of Net Sales\t\n(Dollars in thousands)\t\nNet sales\t$ 425,489\t100%\t$ 318,790\t100%\t$ 245,862\t100%\t\nCost of goods sold\t263,343\t62\t185,880\t58\t131,665\t54\t\nGross profit\t162,146\t38\t132,910\t42\t114,197\t46\t\nSelling, general and administrative expenses\t186,809\t44\t134,908\t42\t114,450\t47\t\n(Loss) from operations\t(24,663)\t(6)\t(1,998)\t(1)\t(253)\t(0)\t\nOther income/(expenses), net\t13\t0\t87\t0\t5\t0\t\nInterest expense\t(2,882)\t(1)\t(1,212)\t(0)\t(991)\t(0)\t\n(Loss) before income taxes\t(27,532)\t(7)\t(3,123)\t(1)\t(1,239)\t(1)\t\nIncome tax expense\t162\t0\t65\t0\t144\t0\t\nLoss on equity method investment\t2,005\t0\t-\t0\t-\t0\t\nNet (loss)\t$ (29,699)\t(7)%\t(3,188)\t(1)%\t(1,383)\t(1)%"
+          },
+          {
+            "document_id": "d011",
+            "passage_id": "c057",
+            "quote": "See accompanying notes to the consolidated financial statements.\n\n# FRESHPET, INC. AND SUBSIDIARIES\nNOTES TO CONSOLIDATED FINANCIAL STATEMENTS\n(in thousands, except per share data)\n\n## Note 1 – Summary of Significant Accounting Policies:\n\nFreshpet, Inc. (hereafter referred to as “Freshpet”, the “Company”, “we,” “us” or “our”), a Delaware corporation, manufactures and markets natural fresh meals and treats for dogs and cats. The Company’s products are distributed throughout the United States, Canada and other international markets, into major retail classes including Grocery (including online), Mass and Club, Pet Specialty, and Natural retail.\n\nBasis of Presentation – The accompanying consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the U.S. (\"U.S. GAAP\"). All amounts included in the consolidated financial statements have been rounded except where otherwise stated. As figures are rounded, numbers presented throughout this document may not add up precisely to the totals we provide and percentages may not precisely reflect the absolute figures.\n\nPrinciples of Consolidation – The financial statements include the accounts of the Company as well as the Company’s wholly-owned subsidiaries. All intercompany accounts and transactions have been eliminated in consolidation.\n\nSegments – The Company operates as a single operating segment reporting to its chief operating decision maker.\n\nEquity method investment – The Company utilizes the equity method to account for investments when the Company possesses the ability to exercise significant influence, but not control, over the operating and financial policies of the investee. The ability to exercise significant influence is presumed when an investor possesses more than 20% of the voting interests of the investee. This presumption may be overcome based on specific facts and circumstances that demonstrate that the ability to exercise significant influence is restricted. The Company applies the equity method to investments in common stock and to other investments when such other investments possess substantially identical subordinated interests to common stock. The Company has elected to record its share of equity in income (losses) of equity method investments on a one-quarter lag based on the most recently available financial statements.\n\nOn September 2, 2020, the Company acquired a 19% interest in a privately held company that operates in our industry for $27.9 million. The Company concluded that they are not the primary beneficiary, which is primarily the result of the Company's conclusion that it does not have the power to direct activities that most significantly impact the economic performance. The total $27.9 million is comprised of an initial investment of $26.6 million and $1.3 million of transaction costs. The Company accounts for the investment under the equity method of accounting based on our ability to exercise significant influence even though the Company's percentage of ownership is below 20%. The basis difference between the Company's carrying value of its investment and the amount of underlying equity in net assets of the privately held company is not material to the Company's consolidated financial statements."
+          }
+        ]
+      }
+    ],
+    "q089": [
+      {
+        "turns": [
+          {
+            "session_id": "s009",
+            "turn_id": "t025",
+            "quote": "Two final signed private verifications assert Advance consolidated US-GAAP actuals for the 52-week fiscal period ended December 30, 2017: sales of 9,374,784 and net income of 476,505 USD thousands. These are actual-result claims, separate from my FY2020 forecast; neither has precedence over the public statements and neither has been reconciled."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c009",
+            "quote": "## PART I\n\n## Item 1. Business.\n\nUnless the context otherwise requires, “Advance,” “we,” “us,” “our,” and similar terms refer to Advance Auto Parts, Inc., its subsidiaries and their respective operations on a consolidated basis. Our fiscal year consists of 52 or 53 weeks ending on the Saturday closest to December 31 \\( ^{st} \\)  of each year. Our fiscal year ended December 29, 2018 (“2018”), fiscal year ended December 30, 2017 (“2017”) and fiscal year ended December 31, 2016 (“2016”) included 52 weeks of operations.\n\n## Overview\n\nWe are a leading automotive aftermarket parts provider in North America, serving both professional installers (“Professional”), and “do-it-yourself” (“DIY”), customers as well as independently owned operators. Our stores and branches offer a broad selection of brand name, original equipment manufacturer (“OEM”) and private label automotive replacement parts, accessories, batteries and maintenance items for domestic and imported cars, vans, sport utility vehicles and light and heavy duty trucks. As of December 29, 2018, we operated 4,966 total stores and 143 branches primarily under the trade names “Advance Auto Parts”, “Autopart International”, “Carquest” and “Worldpac”.\n\nWe were founded in 1929 as Advance Stores Company, Incorporated and operated as a retailer of general merchandise until the 1980s. During the 1980s, we began targeting the sale of automotive parts and accessories to DIY customers. We initiated our Professional delivery program in 1996 and have steadily increased our sales to Professional customers since 2000. We have grown significantly as a result of comparable store sales growth, new store openings and strategic acquisitions. Advance Auto Parts, Inc., a Delaware corporation, was incorporated in 2001 in conjunction with the acquisition of Discount Auto Parts, Inc. In 2014, we acquired General Parts International, Inc. (“GPI”), a privately held company that was a leading distributor and supplier of original equipment and aftermarket automotive replacement products for Professional markets operating under the Carquest and Worldpac names.\n\n## Stores and Branches\n\nThrough our integrated operating approach, we serve our Professional and DIY customers through a variety of channels ranging from traditional “brick and mortar” store locations to self-service e-commerce sites. We believe we are better able to meet our customers’ needs by operating under several store names, which are as follows:\n\nAdvance Auto Parts — Our 4,380 stores as of December 29, 2018 are generally located in freestanding buildings with a focus on both Professional and DIY customers. The average size of an Advance Auto Parts store is approximately 7,600 square feet with the size of our typical new stores ranging from approximately 6,600 to 22,900 square feet. These stores carry a wide variety of products serving aftermarket auto part needs for both domestic and import vehicles. Our Advance Auto Parts stores carry a product offering of approximately 21,000 stock keeping units (“SKUs”), generally consisting of a custom mix of product based on each store’s respective market. Supplementing the inventory on-hand at our stores, additional less common SKUs are available in many of our larger stores (known as “HUB” stores). These additional SKUs are available on a same-day or next-day basis."
+          },
+          {
+            "document_id": "d014",
+            "passage_id": "c044",
+            "quote": "## REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM\n\nTo the stockholders and the Board of Directors of Advance Auto Parts, Inc.\n\n## Opinion on the Financial Statements\n\nWe have audited the accompanying consolidated balance sheets of Advance Auto Parts, Inc. and subsidiaries (the \"Company\") as of December 29, 2018 and December 30, 2017, the related consolidated statements of operations, comprehensive income, changes in stockholders' equity, and cash flows for each of the three years in the period ended December 29, 2018, and the related notes and the schedule listed in the Index at Item 15 (collectively referred to as the \"financial statements\"). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 29, 2018 and December 30, 2017, and the results of its operations and its cash flows for each of the three years in the period ended December 29, 2018, in conformity with accounting principles generally accepted in the United States of America.\n\nWe have also audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the Company's internal control over financial reporting as of December 29, 2018, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission and our report dated February 19, 2019, expressed an unqualified opinion on the Company's internal control over financial reporting.\n\n## Basis for Opinion\n\nThese financial statements are the responsibility of the Company's management. Our responsibility is to express an opinion on the Company's financial statements based on our audits. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.\n\nWe conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement, whether due to error or fraud. Our audits included performing procedures to assess the risks of material misstatement of the financial statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the financial statements. We believe that our audits provide a reasonable basis for our opinion."
+          },
+          {
+            "document_id": "d014",
+            "passage_id": "c047",
+            "quote": "The accompanying notes to the consolidated financial statements are an integral part of these statements.\n\n# Advance Auto Parts, Inc. and Subsidiaries\nConsolidated Statements of Operations\n(in thousands, except per share data)\n\nYear Ended\t\nDecember 29, 2018\tDecember 30, 2017\tDecember 31, 2016\t\nNet sales\t$ 9,580,554\t$ 9,373,784\t$ 9,567,679\t\nCost of sales, including purchasing and warehousing costs\t5,361,141\t5,288,735\t5,311,764\t\nGross profit\t4,219,413\t4,085,049\t4,255,915\t\nSelling, general and administrative expenses\t3,615,138\t3,514,837\t3,468,317\t\nOperating income\t604,275\t570,212\t787,598\t\nOther, net:\t\t\t\t\nInterest expense\t(56,588)\t(58,801)\t(59,910)\t\nOther income, net\t7,577\t8,848\t11,147\t\nTotal other, net\t(49,011)\t(49,953)\t(48,763)\t\nIncome before provision for income taxes\t555,264\t520,259\t738,835\t\nProvision for income taxes\t131,417\t44,754\t279,213\t\nNet income\t$ 423,847\t$ 475,505\t$ 459,622\t\nBasic earnings per common share\t$ 5.75\t$ 6.44\t$ 6.22\t\nWeighted average common shares outstanding\t73,728\t73,846\t73,562\t\nDiluted earnings per common share\t$ 5.73\t$ 6.42\t$ 6.20\t\nWeighted average common shares outstanding\t73,991\t74,110\t73,856\n\n## Consolidated Statements of Comprehensive Income\n(in thousands)\n\nYear Ended\t\nDecember 29, 2018\tDecember 30, 2017\tDecember 31, 2016\t\nNet income\t$ 423,847\t$ 475,505\t$ 459,622\t\nOther comprehensive (loss) income:\t\t\t\t\nChanges in net unrecognized other postretirement benefit costs, net of tax of $103, $126 and $346\t(294)\t(194)\t(534)\t\nCurrency translation adjustments\t(18,945)\t14,941\t4,892\t\nTotal other comprehensive (loss) income\t(19,239)\t14,747\t4,358\t\nComprehensive income\t$ 404,608\t$ 490,252\t$ 463,980\n\nThe accompanying notes to the consolidated financial statements are an integral part of these statements.\n\n## Advance Auto Parts, Inc. and Subsidiaries\nConsolidated Statements of Changes in Stockholders' Equity\n(in thousands, except per share data)"
+          }
+        ]
+      }
+    ],
+    "q090": [
+      {
+        "turns": [
+          {
+            "session_id": "s009",
+            "turn_id": "t025",
+            "quote": "Two final signed private verifications assert Advance consolidated US-GAAP actuals for the 52-week fiscal period ended December 30, 2017: sales of 9,374,784 and net income of 476,505 USD thousands. These are actual-result claims, separate from my FY2020 forecast; neither has precedence over the public statements and neither has been reconciled."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c009",
+            "quote": "## PART I\n\n## Item 1. Business.\n\nUnless the context otherwise requires, “Advance,” “we,” “us,” “our,” and similar terms refer to Advance Auto Parts, Inc., its subsidiaries and their respective operations on a consolidated basis. Our fiscal year consists of 52 or 53 weeks ending on the Saturday closest to December 31 \\( ^{st} \\)  of each year. Our fiscal year ended December 29, 2018 (“2018”), fiscal year ended December 30, 2017 (“2017”) and fiscal year ended December 31, 2016 (“2016”) included 52 weeks of operations.\n\n## Overview\n\nWe are a leading automotive aftermarket parts provider in North America, serving both professional installers (“Professional”), and “do-it-yourself” (“DIY”), customers as well as independently owned operators. Our stores and branches offer a broad selection of brand name, original equipment manufacturer (“OEM”) and private label automotive replacement parts, accessories, batteries and maintenance items for domestic and imported cars, vans, sport utility vehicles and light and heavy duty trucks. As of December 29, 2018, we operated 4,966 total stores and 143 branches primarily under the trade names “Advance Auto Parts”, “Autopart International”, “Carquest” and “Worldpac”.\n\nWe were founded in 1929 as Advance Stores Company, Incorporated and operated as a retailer of general merchandise until the 1980s. During the 1980s, we began targeting the sale of automotive parts and accessories to DIY customers. We initiated our Professional delivery program in 1996 and have steadily increased our sales to Professional customers since 2000. We have grown significantly as a result of comparable store sales growth, new store openings and strategic acquisitions. Advance Auto Parts, Inc., a Delaware corporation, was incorporated in 2001 in conjunction with the acquisition of Discount Auto Parts, Inc. In 2014, we acquired General Parts International, Inc. (“GPI”), a privately held company that was a leading distributor and supplier of original equipment and aftermarket automotive replacement products for Professional markets operating under the Carquest and Worldpac names.\n\n## Stores and Branches\n\nThrough our integrated operating approach, we serve our Professional and DIY customers through a variety of channels ranging from traditional “brick and mortar” store locations to self-service e-commerce sites. We believe we are better able to meet our customers’ needs by operating under several store names, which are as follows:\n\nAdvance Auto Parts — Our 4,380 stores as of December 29, 2018 are generally located in freestanding buildings with a focus on both Professional and DIY customers. The average size of an Advance Auto Parts store is approximately 7,600 square feet with the size of our typical new stores ranging from approximately 6,600 to 22,900 square feet. These stores carry a wide variety of products serving aftermarket auto part needs for both domestic and import vehicles. Our Advance Auto Parts stores carry a product offering of approximately 21,000 stock keeping units (“SKUs”), generally consisting of a custom mix of product based on each store’s respective market. Supplementing the inventory on-hand at our stores, additional less common SKUs are available in many of our larger stores (known as “HUB” stores). These additional SKUs are available on a same-day or next-day basis."
+          },
+          {
+            "document_id": "d014",
+            "passage_id": "c044",
+            "quote": "## REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM\n\nTo the stockholders and the Board of Directors of Advance Auto Parts, Inc.\n\n## Opinion on the Financial Statements\n\nWe have audited the accompanying consolidated balance sheets of Advance Auto Parts, Inc. and subsidiaries (the \"Company\") as of December 29, 2018 and December 30, 2017, the related consolidated statements of operations, comprehensive income, changes in stockholders' equity, and cash flows for each of the three years in the period ended December 29, 2018, and the related notes and the schedule listed in the Index at Item 15 (collectively referred to as the \"financial statements\"). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 29, 2018 and December 30, 2017, and the results of its operations and its cash flows for each of the three years in the period ended December 29, 2018, in conformity with accounting principles generally accepted in the United States of America.\n\nWe have also audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the Company's internal control over financial reporting as of December 29, 2018, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission and our report dated February 19, 2019, expressed an unqualified opinion on the Company's internal control over financial reporting.\n\n## Basis for Opinion\n\nThese financial statements are the responsibility of the Company's management. Our responsibility is to express an opinion on the Company's financial statements based on our audits. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.\n\nWe conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement, whether due to error or fraud. Our audits included performing procedures to assess the risks of material misstatement of the financial statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the financial statements. We believe that our audits provide a reasonable basis for our opinion."
+          },
+          {
+            "document_id": "d014",
+            "passage_id": "c047",
+            "quote": "The accompanying notes to the consolidated financial statements are an integral part of these statements.\n\n# Advance Auto Parts, Inc. and Subsidiaries\nConsolidated Statements of Operations\n(in thousands, except per share data)\n\nYear Ended\t\nDecember 29, 2018\tDecember 30, 2017\tDecember 31, 2016\t\nNet sales\t$ 9,580,554\t$ 9,373,784\t$ 9,567,679\t\nCost of sales, including purchasing and warehousing costs\t5,361,141\t5,288,735\t5,311,764\t\nGross profit\t4,219,413\t4,085,049\t4,255,915\t\nSelling, general and administrative expenses\t3,615,138\t3,514,837\t3,468,317\t\nOperating income\t604,275\t570,212\t787,598\t\nOther, net:\t\t\t\t\nInterest expense\t(56,588)\t(58,801)\t(59,910)\t\nOther income, net\t7,577\t8,848\t11,147\t\nTotal other, net\t(49,011)\t(49,953)\t(48,763)\t\nIncome before provision for income taxes\t555,264\t520,259\t738,835\t\nProvision for income taxes\t131,417\t44,754\t279,213\t\nNet income\t$ 423,847\t$ 475,505\t$ 459,622\t\nBasic earnings per common share\t$ 5.75\t$ 6.44\t$ 6.22\t\nWeighted average common shares outstanding\t73,728\t73,846\t73,562\t\nDiluted earnings per common share\t$ 5.73\t$ 6.42\t$ 6.20\t\nWeighted average common shares outstanding\t73,991\t74,110\t73,856\n\n## Consolidated Statements of Comprehensive Income\n(in thousands)\n\nYear Ended\t\nDecember 29, 2018\tDecember 30, 2017\tDecember 31, 2016\t\nNet income\t$ 423,847\t$ 475,505\t$ 459,622\t\nOther comprehensive (loss) income:\t\t\t\t\nChanges in net unrecognized other postretirement benefit costs, net of tax of $103, $126 and $346\t(294)\t(194)\t(534)\t\nCurrency translation adjustments\t(18,945)\t14,941\t4,892\t\nTotal other comprehensive (loss) income\t(19,239)\t14,747\t4,358\t\nComprehensive income\t$ 404,608\t$ 490,252\t$ 463,980\n\nThe accompanying notes to the consolidated financial statements are an integral part of these statements.\n\n## Advance Auto Parts, Inc. and Subsidiaries\nConsolidated Statements of Changes in Stockholders' Equity\n(in thousands, except per share data)"
+          }
+        ]
+      }
+    ],
+    "q095": [
+      {
+        "turns": [
+          {
+            "session_id": "s010",
+            "turn_id": "t017",
+            "quote": "A signed recheck replaces my private Advance consolidated US-GAAP FY2017 diluted-EPS claim with USD 6.52 per common share for the same 52-week period ended December 30, 2017. Withdraw my earlier private USD 6.42 claim; no priority or reconciliation rule has been established against the public statement."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c009",
+            "quote": "## PART I\n\n## Item 1. Business.\n\nUnless the context otherwise requires, “Advance,” “we,” “us,” “our,” and similar terms refer to Advance Auto Parts, Inc., its subsidiaries and their respective operations on a consolidated basis. Our fiscal year consists of 52 or 53 weeks ending on the Saturday closest to December 31 \\( ^{st} \\)  of each year. Our fiscal year ended December 29, 2018 (“2018”), fiscal year ended December 30, 2017 (“2017”) and fiscal year ended December 31, 2016 (“2016”) included 52 weeks of operations.\n\n## Overview\n\nWe are a leading automotive aftermarket parts provider in North America, serving both professional installers (“Professional”), and “do-it-yourself” (“DIY”), customers as well as independently owned operators. Our stores and branches offer a broad selection of brand name, original equipment manufacturer (“OEM”) and private label automotive replacement parts, accessories, batteries and maintenance items for domestic and imported cars, vans, sport utility vehicles and light and heavy duty trucks. As of December 29, 2018, we operated 4,966 total stores and 143 branches primarily under the trade names “Advance Auto Parts”, “Autopart International”, “Carquest” and “Worldpac”.\n\nWe were founded in 1929 as Advance Stores Company, Incorporated and operated as a retailer of general merchandise until the 1980s. During the 1980s, we began targeting the sale of automotive parts and accessories to DIY customers. We initiated our Professional delivery program in 1996 and have steadily increased our sales to Professional customers since 2000. We have grown significantly as a result of comparable store sales growth, new store openings and strategic acquisitions. Advance Auto Parts, Inc., a Delaware corporation, was incorporated in 2001 in conjunction with the acquisition of Discount Auto Parts, Inc. In 2014, we acquired General Parts International, Inc. (“GPI”), a privately held company that was a leading distributor and supplier of original equipment and aftermarket automotive replacement products for Professional markets operating under the Carquest and Worldpac names.\n\n## Stores and Branches\n\nThrough our integrated operating approach, we serve our Professional and DIY customers through a variety of channels ranging from traditional “brick and mortar” store locations to self-service e-commerce sites. We believe we are better able to meet our customers’ needs by operating under several store names, which are as follows:\n\nAdvance Auto Parts — Our 4,380 stores as of December 29, 2018 are generally located in freestanding buildings with a focus on both Professional and DIY customers. The average size of an Advance Auto Parts store is approximately 7,600 square feet with the size of our typical new stores ranging from approximately 6,600 to 22,900 square feet. These stores carry a wide variety of products serving aftermarket auto part needs for both domestic and import vehicles. Our Advance Auto Parts stores carry a product offering of approximately 21,000 stock keeping units (“SKUs”), generally consisting of a custom mix of product based on each store’s respective market. Supplementing the inventory on-hand at our stores, additional less common SKUs are available in many of our larger stores (known as “HUB” stores). These additional SKUs are available on a same-day or next-day basis."
+          },
+          {
+            "document_id": "d014",
+            "passage_id": "c044",
+            "quote": "## REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM\n\nTo the stockholders and the Board of Directors of Advance Auto Parts, Inc.\n\n## Opinion on the Financial Statements\n\nWe have audited the accompanying consolidated balance sheets of Advance Auto Parts, Inc. and subsidiaries (the \"Company\") as of December 29, 2018 and December 30, 2017, the related consolidated statements of operations, comprehensive income, changes in stockholders' equity, and cash flows for each of the three years in the period ended December 29, 2018, and the related notes and the schedule listed in the Index at Item 15 (collectively referred to as the \"financial statements\"). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 29, 2018 and December 30, 2017, and the results of its operations and its cash flows for each of the three years in the period ended December 29, 2018, in conformity with accounting principles generally accepted in the United States of America.\n\nWe have also audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the Company's internal control over financial reporting as of December 29, 2018, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission and our report dated February 19, 2019, expressed an unqualified opinion on the Company's internal control over financial reporting.\n\n## Basis for Opinion\n\nThese financial statements are the responsibility of the Company's management. Our responsibility is to express an opinion on the Company's financial statements based on our audits. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.\n\nWe conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement, whether due to error or fraud. Our audits included performing procedures to assess the risks of material misstatement of the financial statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the financial statements. We believe that our audits provide a reasonable basis for our opinion."
+          },
+          {
+            "document_id": "d014",
+            "passage_id": "c047",
+            "quote": "The accompanying notes to the consolidated financial statements are an integral part of these statements.\n\n# Advance Auto Parts, Inc. and Subsidiaries\nConsolidated Statements of Operations\n(in thousands, except per share data)\n\nYear Ended\t\nDecember 29, 2018\tDecember 30, 2017\tDecember 31, 2016\t\nNet sales\t$ 9,580,554\t$ 9,373,784\t$ 9,567,679\t\nCost of sales, including purchasing and warehousing costs\t5,361,141\t5,288,735\t5,311,764\t\nGross profit\t4,219,413\t4,085,049\t4,255,915\t\nSelling, general and administrative expenses\t3,615,138\t3,514,837\t3,468,317\t\nOperating income\t604,275\t570,212\t787,598\t\nOther, net:\t\t\t\t\nInterest expense\t(56,588)\t(58,801)\t(59,910)\t\nOther income, net\t7,577\t8,848\t11,147\t\nTotal other, net\t(49,011)\t(49,953)\t(48,763)\t\nIncome before provision for income taxes\t555,264\t520,259\t738,835\t\nProvision for income taxes\t131,417\t44,754\t279,213\t\nNet income\t$ 423,847\t$ 475,505\t$ 459,622\t\nBasic earnings per common share\t$ 5.75\t$ 6.44\t$ 6.22\t\nWeighted average common shares outstanding\t73,728\t73,846\t73,562\t\nDiluted earnings per common share\t$ 5.73\t$ 6.42\t$ 6.20\t\nWeighted average common shares outstanding\t73,991\t74,110\t73,856\n\n## Consolidated Statements of Comprehensive Income\n(in thousands)\n\nYear Ended\t\nDecember 29, 2018\tDecember 30, 2017\tDecember 31, 2016\t\nNet income\t$ 423,847\t$ 475,505\t$ 459,622\t\nOther comprehensive (loss) income:\t\t\t\t\nChanges in net unrecognized other postretirement benefit costs, net of tax of $103, $126 and $346\t(294)\t(194)\t(534)\t\nCurrency translation adjustments\t(18,945)\t14,941\t4,892\t\nTotal other comprehensive (loss) income\t(19,239)\t14,747\t4,358\t\nComprehensive income\t$ 404,608\t$ 490,252\t$ 463,980\n\nThe accompanying notes to the consolidated financial statements are an integral part of these statements.\n\n## Advance Auto Parts, Inc. and Subsidiaries\nConsolidated Statements of Changes in Stockholders' Equity\n(in thousands, except per share data)"
+          }
+        ]
+      }
+    ],
+    "q096": [
+      {
+        "turns": [
+          {
+            "session_id": "s010",
+            "turn_id": "t015",
+            "quote": "Add two private actual-results records for Advance consolidated US-GAAP FY2017, the 52-week period ended December 30, 2017: my earlier EPS ledger claims diluted earnings of USD 6.42 per common share, and a separate privately verified cash-flow record claims operating cash flow of USD 601,805 thousand. These assert actual results, not my FY2020 forecast, and neither has established priority over the report. The earlier sales and net-income certification disputes remain unresolved."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d013",
+            "passage_id": "c008",
+            "quote": "Unless the context otherwise requires, “Advance,” “we,” “us,” “our,” and similar terms refer to Advance Auto Parts, Inc., its subsidiaries and their respective operations. Our fiscal year consists of 52 or 53 weeks ending on the Saturday closest to December 31 \\( ^{st} \\)  of each year. Our 2017, 2016 and 2015 fiscal years included 52 weeks of operations."
+          },
+          {
+            "document_id": "d013",
+            "passage_id": "c044",
+            "quote": "In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 30, 2017 and December 31, 2016, and the results of its operations and its cash flows for each of the three years in the period ended December 30, 2017, in conformity with accounting principles generally accepted in the United States of America."
+          },
+          {
+            "document_id": "d014",
+            "passage_id": "c049",
+            "quote": "The accompanying notes to the consolidated financial statements are an integral part of these statements.\n\n## Advance Auto Parts, Inc. and Subsidiaries\nConsolidated Statements of Cash Flows\n(in thousands)\n\nYear Ended\t\nDecember 29, 2018\tDecember 30, 2017\tDecember 31, 2016\t\t\nCash flows from operating activities:\t\t\t\t\t\nNet income\t$ 423,847\t$ 475,505\t$ 459,622\t\t\nAdjustments to reconcile net income to net cash provided by operating activities:\t\t\t\t\t\nDepreciation and amortization\t238,184\t249,260\t258,387\t\t\nShare-based compensation\t27,760\t35,267\t20,452\t\t\nLoss and impairment of long-lived assets\t15,956\t17,106\t5,999\t\t\nOther, net\t2,195\t3,123\t(2,039)\t\t\nProvision (benefit) for deferred income taxes\t15,956\t(151,263)\t20,213\t\t\nNet change in:\t\t\t\t\t\nReceivables, net\t(21,471)\t36,047\t(41,642)\t\t\nInventories\t(206,125)\t167,548\t(144,603)\t\t\nAccounts payable\t285,493\t(197,168)\t(119,325)\t\t\nAccrued expenses\t93,940\t(13,295)\t49,341\t\t\nOther assets and liabilities, net\t(64,707)\t(21,325)\t16,898\t\t\nNet cash provided by operating activities\t811,028\t600,805\t523,303\t\t\nCash flows from investing activities:\t\t\t\t\t\nPurchases of property and equipment\t(193,715)\t(189,758)\t(259,559)\t\t\nProceeds from sales of property and equipment\t1,888\t11,099\t2,212\t\t\nOther, net\t—\t20\t(4,697)\t\t\nNet cash used in investing activities\t(191,827)\t(178,639)\t(262,044)\t\t\nCash flows from financing activities:\t\t\t\t\t\nIncrease (decrease) in bank overdrafts\t32,014\t14,004\t(5,573)\t\t\nBorrowings under credit facilities\t—\t534,400\t799,600\t\t\nPayments on credit facilities\t—\t(534,400)\t(959,600)\t\t\nDividends paid\t(17,819)\t(17,854)\t(17,738)\t\t\nProceeds from the issuance of common stock\t3,200\t4,076\t4,532\t\t\nTax withholdings related to the exercise of stock appreciation rights\t(773)\t(6,531)\t(19,558)\t\t\nRepurchase of common stock\t(281,354)\t(6,498)\t(18,393)\t\t\nOther, net\t817\t(2,069)\t(390)\t\t\nNet cash used in financing activities\t(263,915)\t(14,872)\t(217,120)\t\t\nEffect of exchange rate changes on cash\t(5,696)\t4,465\t257\t\t\nNet increase in cash and cash equivalents\t349,590\t411,759\t44,396\t\t\nCash and cash equivalents, beginning of period\t546,937\t135,178\t90,782\t\t\nCash and cash equivalents, end of period\t$ 896,527\t$ 546,937\t$ 135,178\t\t\nSupplemental cash flow information:\t\t\t\t\t\nInterest paid\t$ 45,322\t$ 53,509\t$ 55,457\t\t\nIncome tax payments\t$ 143,213\t$ 192,116\t$ 225,327\t\t\nNon-cash transactions:\t\t\t\t\t\nAccrued purchases of property and equipment\t$ 15,365\t$ 14,335\t$ 21,176"
+          }
+        ]
+      }
+    ],
+    "q105": [
+      {
+        "turns": [
+          {
+            "session_id": "s011",
+            "turn_id": "t025",
+            "quote": "Add a final private actual-results record claiming Advance consolidated US-GAAP operating cash of USD 812,028 thousand for the 52-week FY2018 period ended December 29, 2018. It is separate from the FY2020 forecast, with no precedence over or reconciliation against the public statement. For the securities class action commenced February 6, 2018 in the District of Delaware against Advance and certain officers, my archived analyst protocol called for monthly checks after class certification and monthly checks during discovery without certification."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c009",
+            "quote": "Unless the context otherwise requires, “Advance,” “we,” “us,” “our,” and similar terms refer to Advance Auto Parts, Inc., its subsidiaries and their respective operations on a consolidated basis. Our fiscal year consists of 52 or 53 weeks ending on the Saturday closest to December 31 \\( ^{st} \\)  of each year. Our fiscal year ended December 29, 2018 (“2018”), fiscal year ended December 30, 2017 (“2017”) and fiscal year ended December 31, 2016 (“2016”) included 52 weeks of operations."
+          },
+          {
+            "document_id": "d014",
+            "passage_id": "c044",
+            "quote": "In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 29, 2018 and December 30, 2017, and the results of its operations and its cash flows for each of the three years in the period ended December 29, 2018, in conformity with accounting principles generally accepted in the United States of America."
+          },
+          {
+            "document_id": "d016",
+            "passage_id": "c057",
+            "quote": "The accompanying notes to the consolidated financial statements are an integral part of these statements.\n\n## Advance Auto Parts, Inc. and Subsidiaries\nConsolidated Statements of Cash Flows\n(in thousands)\n\nYear Ended\t\nJanuary 2, 2021\tDecember 28, 2019\tDecember 29, 2018\t\t\nCash flows from operating activities:\t\t\t\t\t\nNet income\t$ 493,021\t$ 486,896\t$ 423,847\t\t\nAdjustments to reconcile net income to net cash provided by operating activities:\t\t\t\t\t\nDepreciation and amortization\t250,081\t238,371\t238,184\t\t\nShare-based compensation\t45,271\t37,438\t27,760\t\t\nLoss and impairment of long-lived assets\t4,727\t6,671\t15,956\t\t\nLoss on early redemption of senior unsecured notes\t48,022\t10,756\t—\t\t\nOther, net\t1,467\t1,681\t2,195\t\t\nProvision for deferred income taxes\t8,136\t23,148\t15,956\t\t\nNet change in:\t\t\t\t\t\nReceivables, net\t(59,014)\t(62,837)\t(21,471)\t\t\nInventories\t(101,449)\t(63,130)\t(206,125)\t\t\nAccounts payable\t216,488\t245,785\t285,493\t\t\nAccrued expenses\t78,507\t(72,288)\t93,940\t\t\nOther assets and liabilities, net\t(15,569)\t14,418\t(64,707)\t\t\nNet cash provided by operating activities\t969,688\t866,909\t811,028\t\t\nCash flows from investing activities:\t\t\t\t\t\nPurchases of property and equipment\t(267,576)\t(270,129)\t(193,715)\t\t\nPurchase of an indefinite-lived intangible asset\t(230)\t(201,519)\t—\t\t\nProceeds from sales of property and equipment\t909\t8,709\t1,888\t\t\nOther, net\t—\t—\t—\t\t\nNet cash used in investing activities\t(266,897)\t(462,939)\t(191,827)\t\t\nCash flows from financing activities:\t\t\t\t\t\n(Decrease) increase in bank overdrafts\t—\t(59,339)\t32,014\t\t\nRedemption of senior unsecured note\t(602,568)\t(310,047)\t—\t\t\nBorrowings under credit facilities\t500,000\t—\t—\t\t\nPayments on credit facilities\t(500,000)\t—\t—\t\t\nProceeds from issuance of senior unsecured notes, net\t847,092\t—\t—\t\t\nDividends paid\t(56,347)\t(17,185)\t(17,819)\t\t\nProceeds from the issuance of common stock\t3,270\t3,334\t3,200\t\t\nRepurchases of common stock\t(469,691)\t(498,435)\t(281,354)\t\t\nOther, net\t(7,753)\t(481)\t44\t\t\nNet cash used in financing activities\t(285,997)\t(882,153)\t(263,915)\t\t\nEffect of exchange rate changes on cash\t(467)\t321\t(5,696)\t\t\nNet increase (decrease) in cash and cash equivalents\t416,327\t(477,862)\t349,590\t\t\nCash and cash equivalents, beginning of period\t418,665\t896,527\t546,937\t\t\nCash and cash equivalents, end of period\t$ 834,992\t$ 418,665\t$ 896,527\t\t\nSupplemental cash flow information:\t\t\t\t\t\nInterest paid\t$ 34,011\t$ 41,099\t$ 45,322\t\t\nIncome tax payments\t$ 146,073\t$ 108,163\t$ 143,213\t\t\nNon-cash transactions:\t\t\t\t\t\nAccrued purchases of property and equipment\t$ 4,963\t$ 26,201\t$ 15,365"
+          }
+        ]
+      }
+    ],
+    "q116": [
+      {
+        "turns": [
+          {
+            "session_id": "s012",
+            "turn_id": "t023",
+            "quote": "For the longitudinal FY2021 earnings-versus-sales workpaper, use matching consolidated GAAP income and sales in USD thousands for the 52-week year ended January 1, 2022; I haven't chosen net margin or signed income-minus-sales difference. Separately, the full-length replication worksheet must reproduce exactly one FY2020 adjusted diluted EPS entry and its attributed period description, but shareholder wrapper versus formal reconciliation is unselected independently of the compact appendix. The financing comparison needs an owner choice between the selected agreement's entire revolving facility and its optional requestable commitment increase as the percentage denominator. Show their documented sizes when asking, since confusing the two would change the modeled scope. Neither that denominator nor the percentage has been selected. This is an illustrative comparison, not committed cash or an approved increase."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d017",
+            "passage_id": "c061",
+            "quote": "## Fair Value of Financial Assets and Liabilities\n\nThe fair value of our senior unsecured notes was determined using Level 2 inputs based on quoted market prices. The carrying amounts of our Cash and cash equivalents, Receivables, net, Accounts payable and Accrued expenses approximate their fair values due to the relatively short-term nature of these instruments.\n\n## Bank Debt\n\nOn January 31, 2017, we entered into a five-year credit agreement that provided a $1.0 billion unsecured revolving credit facility (the \"2017 Credit Agreement\") with Advance Stores, as Borrower, the lenders party thereto, and Bank of America, N.A., as the Administrative Agent, and replaced a prior credit agreement entered into in 2013. The 2017 Credit Agreement provided for the issuance of letters of credit with a sublimit of $200.0 million. On January 31, 2018, we entered into Amendment No. 1 to the 2017 Credit Agreement, which provided for LIBOR replacement rates in the event that LIBOR is unavailable in the future, modified the definitions of the financial covenants and extended the termination date of the 2017 Credit Agreement from January 31, 2022 until January 31, 2023. On January 10, 2019, we entered into Amendment No. 2 to the 2017 Credit Agreement, which added a new definition of \"Insurance Subsidiary\" to the 2017 Credit Agreement, provided that an Insurance Subsidiary does not serve as a Guarantor of the 2017 Credit Agreement and provided that Insurance Subsidiaries are permitted to incur intercompany indebtedness.\n\nOn November 9, 2021, we entered into a new credit agreement that provides a $1.2 billion unsecured revolving credit facility (the \"2021 Credit Agreement\") with Advance Auto Parts, Inc., as Borrower, the lenders party thereto, and Bank of America, N.A., as the Administrative Agent, and replaced the 2017 Credit Agreement. The revolver under the 2021 Credit Agreement replaced the revolver under the previous credit agreement. The new revolver provides for the issuance of letters of credit with a sublimit of $200.0 million. We may request that the total revolving commitment be increased by an amount not exceeding $500.0 million during the term of the 2021 Credit Agreement.\n\nAs of January 1, 2022, we had no outstanding borrowings under the 2021 Credit Agreement and borrowing availability was $1.2 billion. Under the 2021 Credit Agreement, we had no letters of credit outstanding as of January 1, 2022. As of January 2, 2021, we had no outstanding borrowings under the 2017 Credit Agreement and borrowing availability was $1.0 billion. Under the 2017 Credit Agreement, we had no letters of credit outstanding as of January 2, 2021."
+          }
+        ]
+      }
+    ],
+    "q131": [
+      {
+        "turns": [
+          {
+            "session_id": "s013",
+            "turn_id": "t005",
+            "quote": "My archived Sensient FY2020 forecast covers the year ended December 31, 2020 on a consolidated US-GAAP perimeter, including assigned corporate contributions and disposed product-line activity. Its model-established and model-expansion customer cohorts are mutually exclusive and exhaustive private allocations, not disclosed operating segments or regional classifications. Established forecasts revenue of 1,300,000 and operating cash of 190,000 USD thousands; expansion forecasts revenue of 30,000 and operating cash of 20,000 USD thousands. Their respective diluted GAAP EPS contributions are USD 2.50 and USD 0.10 per common share, both using the same assumed 40,000,000 diluted weighted-average shares for that period and perimeter. Established is the first component and expansion the second for all three measures, including later cash-error attribution. These additive signed analyst forecasts are not company actuals or separate reported EPS figures. For the eventual EPS-or-operating-cash error review, also document the chosen field basis: actual reported diluted weighted-average shares versus the model assumption for EPS, or the reported Inventories operating-cash reconciliation component for operating cash; not the sole cause of forecast error or a private-cohort allocation."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d019",
+            "passage_id": "c001",
+            "quote": "## Sensient Technologies Corporation"
+          },
+          {
+            "document_id": "d019",
+            "passage_id": "c053",
+            "quote": "The consolidated financial statements include the accounts of the Company and have been prepared in accordance with accounting principles generally accepted in the United States of America (GAAP). All significant intercompany accounts and transactions have been eliminated in consolidation."
+          },
+          {
+            "document_id": "d020",
+            "passage_id": "c055",
+            "quote": "See notes to consolidated financial statements.\n\n## CONSOLIDATED STATEMENTS OF CASH FLOWS\n(In thousands)\n\n(In thousands)\tYears ended December 31,\t\n2020\t2019\t2018\t\nCash Flows from Operating Activities\t\t\t\t\nNet earnings\t$ 109,472\t$ 82,047\t$ 157,360\t\nAdjustments to arrive at net cash provided by operating activities:\t\t\t\t\nDepreciation and amortization\t49,641\t55,015\t53,244\t\nShare-based compensation expense (income)\t5,608\t(739)\t503\t\nNet (gain) loss on assets\t(252)\t(1,122)\t63\t\nLoss on divestitures and other charges\t6,904\t44,375\t-\t\nDeferred income taxes\t(8,705)\t(19,340)\t9,844\t\nChanges in operating assets and liabilities:\t\t\t\t\nTrade accounts receivable\t(11,357)\t10,930\t(96,638)\t\nInventories\t46,828\t25,238\t(34,114)\t\nPrepaid expenses and other assets\t(12,868)\t3,257\t(12,544)\t\nTrade accounts payable and other accrued expenses\t15,524\t(18,251)\t7,457\t\nAccrued salaries, wages, and withholdings from employees\t15,140\t(3,039)\t599\t\nIncome taxes\t22\t(1,836)\t(7,335)\t\nOther liabilities\t2,823\t647\t5,081\t\nNet cash provided by operating activities\t218,780\t177,182\t83,520\t\nCash Flows from Investing Activities\t\t\t\t\nAcquisition of property, plant, and equipment\t(52,162)\t(39,100)\t(50,740)\t\nCash receipts on sold receivables\t-\t-\t91,142\t\nProceeds from sale of assets\t1,075\t2,242\t2,615\t\nProceeds from divestiture of businesses\t12,595\t-\t-\t\nAcquisition of new business\t-\t-\t(31,100)\t\nOther investing activities\t5,071\t(553)\t2,916\t\nNet cash (used in) provided by investing activities\t(33,421)\t(37,411)\t14,833\t\nCash Flows from Financing Activities\t\t\t\t\nProceeds from additional borrowings\t36,667\t47,083\t322,529\t\nDebt payments\t(154,348)\t(134,449)\t(284,332)\t\nPurchase of treasury stock\t-\t-\t(76,734)\t\nDividends paid\t(66,057)\t(62,190)\t(57,410)\t\nOther financing activities\t(415)\t(1,027)\t(2,777)\t\nNet cash used in financing activities\t(184,153)\t(150,583)\t(98,724)\t\nEffect of exchange rate changes on cash and cash equivalents\t2,411\t64\t2,928\t\nNet increase (decrease) in cash and cash equivalents\t3,617\t(10,748)\t2,557\t\nCash and cash equivalents at beginning of year\t21,153\t31,901\t29,344\t\nCash and cash equivalents at end of year\t$ 24,770\t$ 21,153\t$ 31,901\t\nCash paid during the year for:\t\t\t\t\nInterest\t$ 14,751\t$ 20,130\t$ 21,567\t\nIncome taxes\t44,755\t40,139\t24,089\t\nCapitalized interest\t514\t540\t604"
+          }
+        ]
+      }
+    ],
+    "q135": [
+      {
+        "turns": [
+          {
+            "session_id": "s014",
+            "turn_id": "t025",
+            "quote": "The covenant workpaper needs one hypothetical boundary sensitivity case under the selected historical agreement's strict interest-coverage minimum. Ask me to choose the boundary value itself or half a ratio unit below it, with both actual test inputs specified; I haven't selected the case. This is not company actual coverage. Separately, my original Sensient GILTI sensitivity convention uses a hypothetical 5% rate if the selected report year applied the high-tax election, or 10% if it did not. These are analyst illustration rates, not reported effective tax rates; each source year's election state must remain distinct."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d021",
+            "passage_id": "c056",
+            "quote": "In October 2021, the Company amended its accounts receivable securitization program with Wells Fargo Bank N.A. (Wells Fargo) to reduce the program amount from $65 million to $30 million. Under the amended program, Wells Fargo has extended a secured loan (Secured Loan) of up to $30 million to the Company secured by Wells Fargo's undivided interests in certain of the Company's trade accounts receivables. The interest rate on the Secured Loan is LIBOR plus 0.75%. The Company has the intent and ability either to repay the Secured Loan with available funds from the Company's existing long-term revolving credit facility or to extend its accounts receivable program with Wells Fargo when it matures. Accordingly, the Secured Loan has been classified as long-term debt on the Company's Consolidated Balance Sheet and is included with the Revolving Credit Facilities above. As of December 31, 2021, the amount was fully drawn.\n\nThe borrowings under the revolving credit facility, excluding borrowings on the accounts receivable securitization program, had an average interest rate of 1.33% and 1.35% for the years ended December 31, 2021 and 2020, respectively.\n\nThe aggregate amounts of contractual maturities on long-term debt subsequent to December 31, 2021, are as follows:\n\n(In thousands)\t\t\nYear ending December 31,\t\t\n2022\t$106,504\t\n2023\t152,834\t\n2024\t83,981\t\n2025\t58,830\t\n2026\t56,000\t\nThereafter\t45,480\t\nTotal long-term debt maturities\t$503,629\n\nThe Company had $291.2 million available under the revolving credit facility and $22.6 million available under other lines of credit from several banks at December 31, 2021.\n\nSubstantially all of the senior financing obligations contain restrictions concerning interest coverage, borrowings, and investments. The Company is in compliance with all of these restrictions at December 31, 2021. The following table summarizes the Company’s most restrictive loan covenants calculated in accordance with the applicable agreements as of December 31, 2021:\n\nActual\tRequired\t\nDebt to EBITDA \\( ^{(1)} \\)  (Maximum)\t2.04\t<3.50\t\nInterest Coverage (Minimum)\t21.60\t>3.00\n\n(1) Debt to EBITDA is defined in the Company’s debt covenants as total funded debt divided by the Company’s consolidated operating income excluding non-operating gains and losses and depreciation and amortization."
+          }
+        ]
+      }
+    ],
+    "q156": [
+      {
+        "turns": [
+          {
+            "session_id": "s016",
+            "turn_id": "t037",
+            "quote": "For the historical Freshpet cash comparison, my unchanged display convention is an illustrative EUR 0.90 per USD. It is an analyst conversion, not a market exchange rate or company-reported EUR balance; use the FY2021 annual source for that historical cash entry."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d011",
+            "passage_id": "c057",
+            "quote": "# FRESHPET, INC. AND SUBSIDIARIES\nNOTES TO CONSOLIDATED FINANCIAL STATEMENTS\n(in thousands, except per share data)\n\n## Note 1 – Summary of Significant Accounting Policies:\n\nFreshpet, Inc. (hereafter referred to as “Freshpet”, the “Company”, “we,” “us” or “our”), a Delaware corporation, manufactures and markets natural fresh meals and treats for dogs and cats. The Company’s products are distributed throughout the United States, Canada and other international markets, into major retail classes including Grocery (including online), Mass and Club, Pet Specialty, and Natural retail.\n\nBasis of Presentation – The accompanying consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the U.S. (\"U.S. GAAP\")."
+          },
+          {
+            "document_id": "d012",
+            "passage_id": "c058",
+            "quote": "## /s/ KPMG LLP\n\nWe have served as the Company’s auditor since 2012.\n\nShort Hills, New Jersey\nFebruary 28, 2023\n\n## FRESHPET, INC. AND SUBSIDIARIES\nCONSOLIDATED BALANCE SHEETS\n(in thousands, except per share data)\n\nDecember 31, 2022\tDecember 31, 2021\t\nASSETS\t\t\t\nCURRENT ASSETS:\t\t\t\nCash and cash equivalents\t$ 132,735\t$ 72,788\t\nAccounts receivable, net of allowance for doubtful accounts\t57,572\t34,780\t\nInventories, net\t58,290\t35,574\t\nPrepaid expenses\t9,778\t5,834\t\nOther current assets\t3,590\t1,349\t\nTotal Current Assets\t261,965\t150,325\t\nProperty, plant and equipment, net\t800,586\t583,922\t\nDeposits on equipment\t3,823\t4,100\t\nOperating lease right of use assets\t5,165\t6,537\t\nEquity method investment\t25,418\t25,856\t\nOther assets\t28,426\t13,670\t\nTotal Assets\t$ 1,125,383\t$ 784,410\t\nLIABILITIES AND STOCKHOLDERS' EQUITY\t\t\t\nCURRENT LIABILITIES:\t\t\t\nAccounts payable\t$ 55,088\t$ 42,612\t\nAccrued expenses\t33,016\t14,950\t\nCurrent operating lease liabilities\t1,510\t1,384\t\nTotal Current Liabilities\t$ 89,614\t$ 58,946\t\nLong term operating lease liabilities\t4,200\t5,710\t\nTotal Liabilities\t$ 93,814\t$ 64,656\t\nSTOCKHOLDERS' EQUITY:\t\t\t\nCommon stock — voting, $0.001 par value, 200,000 shares authorized, 48,051 issued and 48,037 outstanding on December 31, 2022, and 43,449 issued and 43,435 outstanding on December 31, 2021\t48\t43\t\nAdditional paid-in capital\t1,325,524\t955,710\t\nAccumulated deficit\t(295,117)\t(235,623)\t\nAccumulated other comprehensive income (loss)\t1,370\t(120)\t\nTreasury stock, at cost — 14 shares on December 31, 2022 and on December 31, 2021\t(256)\t(256)\t\nTotal Stockholders' Equity\t1,031,569\t719,754\t\nTotal Liabilities and Stockholders' Equity\t$ 1,125,383\t$ 784,410"
+          }
+        ]
+      }
+    ],
+    "q184": [
+      {
+        "turns": [
+          {
+            "session_id": "s013",
+            "turn_id": "t001",
+            "quote": "I'm opening Sensient's historical dossier with its FY2019 annual report. My archived general portfolio calendar assigns 40 analyst-hours, with 16 committed. Use this fixed balance for separate legal, operating and financing estimates without booking time.\n\nAllow 16 hours for pre-sale fragrance interviews, or eight for retained-essential-oil research after a fragrance sale that excludes essential oils.\n\nFor raw-material interviews, name each principal reported material so recruitment can identify the right workstream. Brief interviews take one hour per category and full interviews take two. Check both named rosters against the portfolio balance before asking for depth. If both fit, offer either depth; if full interviews exceed the balance, first ask which categories to prioritize. Depth and priorities remain unselected.\n\nFor legal chronology, allow four hours per distinct court disposition plus two for dated ordering. Verifying an unapproved dismissal request takes six hours, versus two for an entered dismissal.\n\nImplementation evidence checks take eight hours per completed case or 20 per ongoing case. Distinct company cases may share an illustrative order while keeping their entities and operating scopes separate. These are research rules, not company or court findings."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d021",
+            "passage_id": "c075",
+            "quote": "The Company recorded the Operational Improvement Plan expenses for the year ended December 31, 2020, as follows:\n\nSelling and Administrative Expenses\tCost of Products Sold\tConsolidated\t\n(In thousands)\t\t\t\t\nEmployee separation\t$2,690\t$—\t$2,690\t\nOther costs \\( ^{(1)} \\)\t614\t35\t649\t\nTotal\t$3,304\t$35\t$3,339\n\n(1) Other costs include professional services, accelerated depreciation, and other related costs.\n\nAs of December 31, 2021 and 2020, accrued liabilities in Other Accrued Expenses totaled $0.8 million and $2.2 million, respectively, related to this plan.\n\n## 16. Commitments and Contingencies\n\n## Agar v. Sensient Natural Ingredients LLC\n\nOn March 29, 2019, Calvin Agar (Agar), a former employee, filed a Class Action Complaint in Stanislaus County Superior Court against Sensient Natural Ingredients LLC (SNI). On May 22, 2019, Agar filed a First Amended Class Action Complaint against SNI (the Complaint). Agar alleges that SNI improperly reported overtime pay on employees' wage statements, in violation of the California Labor Code. The Complaint alleges two causes of action, both of which concern the wage statements.\n\nThe Complaint does not allege that SNI failed to pay any overtime due to Agar or any of the putative class or group members. The Complaint merely challenges the manner in which SNI has reported overtime pay on its wage statements.\n\nSNI maintains that it has accurately paid Agar and the putative class members for all overtime worked, and that they have not experienced any harm. SNI further maintains that the format of its wage statements does not violate the requirements of state law or any specific guidance from California decisional law, the California Division of Labor Standards Enforcement, or the California Labor Commissioner’s Office. Finally, SNI contended that certain of the state law claims are subject to mandatory individual arbitration.\n\nSNI filed its Answer and Affirmative Defenses to the Complaint on July 10, 2019. The parties participated in an early mediation in the case in December 2019, which was not successful. On March 17, 2020, the Court granted Agar leave to file a Second Amended Complaint, which removed the claim that SNI had asserted was subject to mandatory individual arbitration. SNI filed a Demurrer to the Second Amended Complaint, seeking dismissal of the remaining claim, on May 1, 2020. The Court overruled the Demurrer on September 1, 2020. SNI requested discretionary appellate review of this decision. The Court of Appeal of the State of California, Fifth Appellate District granted SNI's application on February 19, 2021 and ordered briefing by the parties. Discovery is currently stayed in the matter pending the outcome of appellate review. SNI continues to evaluate the developing legal authority on this issue. SNI intends to continue to vigorously defend its interests, absent a reasonable resolution."
+          }
+        ]
+      }
+    ],
+    "q188": [
+      {
+        "turns": [
+          {
+            "session_id": "s019",
+            "turn_id": "t023",
+            "quote": "The portfolio-model owner raises the same illustrative weight from 1% to 2% against Sensient's FY2020 consolidated US-GAAP annual net earnings for the year ended December 31, 2020. Replace the earlier weight, retaining USD-thousand scope and the hypothetical interpretation; this asserts neither actual holdings nor a company profit allocation."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d020",
+            "passage_id": "c001",
+            "quote": "## Sensient Technologies Corporation"
+          },
+          {
+            "document_id": "d020",
+            "passage_id": "c057",
+            "quote": "The consolidated financial statements include the accounts of the Company and have been prepared in accordance with accounting principles generally accepted in the United States of America (GAAP). All significant intercompany accounts and transactions have been eliminated in consolidation."
+          },
+          {
+            "document_id": "d022",
+            "passage_id": "c042",
+            "quote": "The Company is the purchaser of certain commodities, such as vanilla, corn, sugar, soybean meal, and fruits. The Company generally purchases these commodities based upon market prices that are established with the vendor as part of the purchase process. In general, the Company does not use commodity financial instruments to hedge commodity prices due to a high correlation between the commodity cost and the ultimate selling price of the Company's products. On occasion, the Company may enter into non-cancelable forward purchase contracts, as deemed appropriate, to reduce the effect of price fluctuations on future manufacturing requirements.\n\n## Index\n\n## Item 8. Financial Statements and Supplementary Data.\n\n## CONSOLIDATED STATEMENTS OF EARNINGS\n\n(In thousands except per share amounts)\tYears Ended December 31,\t\n2022\t2021\t2020\t\nRevenue\t$ 1,437,039\t$ 1,380,264\t$ 1,332,001\t\nCost of products sold\t947,928\t925,603\t908,254\t\nSelling and administrative expenses\t292,360\t284,633\t271,091\t\nOperating income\t196,751\t170,028\t152,656\t\nInterest expense\t14,547\t12,544\t14,811\t\nEarnings before income taxes\t182,204\t157,484\t137,845\t\nIncome taxes\t41,317\t38,739\t28,373\t\nNet earnings\t$ 140,887\t$ 118,745\t$ 109,472\t\nEarnings per common share:\t\nBasic\t$ 3.36\t$ 2.82\t$ 2.59\t\nDiluted\t$ 3.34\t$ 2.81\t$ 2.59\t\nWeighted average number of common shares outstanding:\t\nBasic\t41,888\t42,077\t42,301\t\nDiluted\t42,213\t42,258\t42,346\n\nSee notes to consolidated financial statements.\n\n## CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME\n\n(In thousands)\tYears Ended December 31,\t\n2022\t2021\t2020\t\nNet earnings\t$     140,887\t$     118,745\t$     109,472\t\nCash flow hedges adjustment, net of tax (benefit) expense of $ (471), $ (430), and $524, respectively\t(805)\t(543)\t948\t\nPension adjustment, net of tax (benefit) expense of $ (462), $577, and $ (475), respectively\t(1,439)\t1,612\t(1,293)\t\nForeign currency translation on net investment hedges\t19,340\t17,937\t(24,044)\t\nTax effect of current year activity on net investment hedges\t(4,804)\t(4,455)\t5,973\t\nForeign currency translation on long-term intercompany loans\t(2,468)\t13,798\t(7,731)\t\nTax effect of current year activity on intercompany long-term loans\t(2,408)\t(3,990)\t3,757\t\nReclassification of cumulative translation to net earnings\t-\t10,203\t(8,625)\t\nOther foreign currency translation\t(33,476)\t(50,099)\t34,932\t\nTotal comprehensive income\t$     114,827\t$     103,208\t$     113,389"
+          },
+          {
+            "document_id": "d022",
+            "passage_id": "c046",
+            "quote": "See notes to consolidated financial statements.\n\n## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS\n\nYears ended December 31, 2022, 2021, and 2020\n\n## 1. Summary of Significant Accounting Policies\n\n## Nature of Operations\n\nSensient Technologies Corporation, together with its subsidiaries (the Company or Sensient), is a leading global manufacturer and marketer of colors, flavors, and other specialty ingredients. The Company uses advanced technologies at facilities around the world to develop specialty food and beverage systems; personal care, essential oils, pharmaceutical, and nutraceutical systems; specialty colors; and other specialty and fine chemicals. The Company's three reportable segments are the Flavors & Extracts Group and the Color Group, which are managed on a product basis, and the Asia Pacific Group, which is managed on a geographic basis. The Company's corporate expenses, restructuring including operational improvement plans, divestiture, share-based compensation, the one-time COVID-19 employee payment in 2020, and other costs are included in the \"Corporate & Other\" category. In the second quarter of 2020, the Company divested its inks product line; in the third quarter of 2020, the Company divested its yogurt fruit preparations product line; and in the second quarter of 2021, the Company divested its fragrances (excluding essential oils) product line.\n\n## Principles of Consolidation and Basis of Presentation\n\nThe consolidated financial statements include the accounts of the Company and have been prepared in accordance with accounting principles generally accepted in the United States of America (GAAP). All significant intercompany accounts and transactions have been eliminated in consolidation.\n\n## Use of Estimates\n\nThe preparation of the consolidated financial statements requires the use of management’s estimates and assumptions that affect reported amounts of assets, liabilities, revenue, and expenses during the reporting period and the disclosure of contingent assets and liabilities at the date of the financial statements. Actual results could differ from those estimates.\n\n## Revenue Recognition\n\nThe Company recognizes revenue at the transfer of control of its products to the Company’s customers in an amount reflecting the consideration to which the Company expects to be entitled. In order to achieve this core principle, the Company applies the following five-step approach:\n\n• Identification of the contract, or contracts, with a customer\n\n• Identification of the performance obligations in the contract\n\n• Determination of the transaction price\n\n• Allocation of the transaction price to the performance obligations in the contract\n\n• Recognition of revenue when, or as, the Company satisfies the performance obligations\n\nThe Company considers customer purchase orders, which in some cases are governed by master sales agreements, coupled with the Company’s purchase order acceptances, to be the contracts with the customer. For each contract, the Company considers the identified performance obligation to be the promise to transfer products. In determining the transaction price, the Company evaluates whether the price is subject to refund or adjustment and then determines the net consideration to which the Company expects to be entitled. In addition, the Company assesses the customer’s ability to pay as part of its evaluation of the contract. As the Company’s standard payment terms are less than one year, the Company elected the practical expedient under Accounting Standards Codification (ASC) 606-10-32-18, and determined that its contracts do not have a significant financing component. The Company allocates the transaction price to each distinct product based on the relative standalone selling price. Revenue is recognized when control of the product is transferred to the customer, the customer is obligated to pay the Company, and the Company has no remaining obligations, which is typically at shipment. In certain locations, primarily outside the United States, product delivery terms may vary. Thus, in such locations, the point at which control of the product transfers to the customer and revenue recognition occurs will vary accordingly."
+          }
+        ]
+      }
+    ],
+    "q194": [
+      {
+        "turns": [
+          {
+            "session_id": "s019",
+            "turn_id": "t003",
+            "quote": "The editor expands that archived appendix from 15 to 24 allowed pages, with nine committed unchanged. Replace the original allowance. An independent buyback-capacity layout takes one page per started 500,000 shares of remaining authorization in the selected historical source, rather than shares repurchased or the initial authorization; this is my layout convention, not a reported share balance."
+          },
+          {
+            "session_id": "s020",
+            "turn_id": "t011",
+            "quote": "For the legal chronology appendix, my editor now specifies three pages per selected distinct dated procedural event, preserving each case's identity and whether it is a request or a court disposition. Apply this new convention independently against the earlier methods-space benchmark; it wasn't part of that earlier worksheet and makes no publication commitment."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d021",
+            "passage_id": "c076",
+            "quote": "Bryan v. Sensient Natural Ingredients LLC; Walters v. Sensient Natural Ingredients LLC\n\nOn March 4, 2020, Monique Kelley filed a Class Action Complaint against SNI in Merced County Superior Court in California. Ms. Kelley worked at SNI for less than a week in 2017 through a temporary staffing company. Ms. Kelley has brought suit for purported violations of the California Labor Code and the California Business and Professions Code on her own behalf, and on behalf of all current and former California-based hourly-paid or non-exempt employees of SNI. Ms. Kelley specifically asserts claims for unpaid overtime wages, unpaid minimum wages, unpaid meal and rest break premiums, failure to timely pay final wages upon termination, non-compliant wage statements, and unreimbursed business expenses. SNI filed a Demurrer on May 21, 2020, seeking dismissal of the Complaint in its entirety on the grounds that it contains only boilerplate allegations that fail to state facts sufficient to constitute a cause of action, and it is otherwise uncertain, ambiguous, and unintelligible. SNI further sought dismissal of one cause of action based upon the statute of limitations. SNI simultaneously filed a Motion to Strike certain allegations in the Complaint as improperly pled. The Court sustained the Demurrer with leave to amend on August 25, 2020. The Court also granted the Motion to Strike. Ms. Kelley has amended her original pleading, asserting the same causes of action, to which SNI has filed a responsive pleading. The parties have begun discovery.\n\nOn June 15, 2020, the same law firm representing Ms. Kelley also filed notice with the State of California of the intent to pursue a claim on a representative basis pursuant to the California Private Attorneys General Act of 2004 (PAGA). This notice was served on behalf of Julie Bryan, who worked at SNI through a temporary staffing agency in early 2020. The notice states the intent to pursue relief on behalf of Ms. Bryan as well as other alleged aggrieved employees, identified as all current and former hourly or non-exempt employees of SNI, whether hired directly or through staffing agencies or labor contractors. The notice alleges that SNI failed to properly pay Ms. Bryan and the other alleged aggrieved employees for all hours worked, failed to properly provide or compensate minimum and overtime wages and for meal and rest breaks, failed to issue compliant wage statements, and failed to reimburse for all necessary business-related expenses, in violation of the California Labor Code and California Industrial Welfare Commission Orders. On August 19, 2020, Ms. Bryan filed a Complaint in Merced County Superior Court asserting the claims set forth in her PAGA notice. SNI filed its Answer and Affirmative Defenses, and the parties entered the discovery phase of the case. On May 20, 2021, however, Ms. Bryan filed a Request for Dismissal of her action, without prejudice."
+          },
+          {
+            "document_id": "d021",
+            "passage_id": "c075",
+            "quote": "The Company recorded the Operational Improvement Plan expenses for the year ended December 31, 2020, as follows:\n\nSelling and Administrative Expenses\tCost of Products Sold\tConsolidated\t\n(In thousands)\t\t\t\t\nEmployee separation\t$2,690\t$—\t$2,690\t\nOther costs \\( ^{(1)} \\)\t614\t35\t649\t\nTotal\t$3,304\t$35\t$3,339\n\n(1) Other costs include professional services, accelerated depreciation, and other related costs.\n\nAs of December 31, 2021 and 2020, accrued liabilities in Other Accrued Expenses totaled $0.8 million and $2.2 million, respectively, related to this plan.\n\n## 16. Commitments and Contingencies\n\n## Agar v. Sensient Natural Ingredients LLC\n\nOn March 29, 2019, Calvin Agar (Agar), a former employee, filed a Class Action Complaint in Stanislaus County Superior Court against Sensient Natural Ingredients LLC (SNI). On May 22, 2019, Agar filed a First Amended Class Action Complaint against SNI (the Complaint). Agar alleges that SNI improperly reported overtime pay on employees' wage statements, in violation of the California Labor Code. The Complaint alleges two causes of action, both of which concern the wage statements.\n\nThe Complaint does not allege that SNI failed to pay any overtime due to Agar or any of the putative class or group members. The Complaint merely challenges the manner in which SNI has reported overtime pay on its wage statements.\n\nSNI maintains that it has accurately paid Agar and the putative class members for all overtime worked, and that they have not experienced any harm. SNI further maintains that the format of its wage statements does not violate the requirements of state law or any specific guidance from California decisional law, the California Division of Labor Standards Enforcement, or the California Labor Commissioner’s Office. Finally, SNI contended that certain of the state law claims are subject to mandatory individual arbitration.\n\nSNI filed its Answer and Affirmative Defenses to the Complaint on July 10, 2019. The parties participated in an early mediation in the case in December 2019, which was not successful. On March 17, 2020, the Court granted Agar leave to file a Second Amended Complaint, which removed the claim that SNI had asserted was subject to mandatory individual arbitration. SNI filed a Demurrer to the Second Amended Complaint, seeking dismissal of the remaining claim, on May 1, 2020. The Court overruled the Demurrer on September 1, 2020. SNI requested discretionary appellate review of this decision. The Court of Appeal of the State of California, Fifth Appellate District granted SNI's application on February 19, 2021 and ordered briefing by the parties. Discovery is currently stayed in the matter pending the outcome of appellate review. SNI continues to evaluate the developing legal authority on this issue. SNI intends to continue to vigorously defend its interests, absent a reasonable resolution."
+          }
+        ]
+      }
+    ],
+    "q196": [
+      {
+        "turns": [
+          {
+            "session_id": "s020",
+            "turn_id": "t019",
+            "quote": "The current signed private verification sheet claims Sensient's actual FY2019 consolidated US-GAAP diluted EPS was USD 2.04 per common share for the year ended December 31, 2019. This is an actual-result claim, not the FY2020 forecast or a desired outcome, and no priority or reconciliation against the historical annual source has been agreed."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d019",
+            "passage_id": "c001",
+            "quote": "## Sensient Technologies Corporation"
+          },
+          {
+            "document_id": "d019",
+            "passage_id": "c053",
+            "quote": "The consolidated financial statements include the accounts of the Company and have been prepared in accordance with accounting principles generally accepted in the United States of America (GAAP). All significant intercompany accounts and transactions have been eliminated in consolidation."
+          },
+          {
+            "document_id": "d020",
+            "passage_id": "c053",
+            "quote": "## Item 14. Principal Accountant Fees and Services.\n\nThe disclosure regarding principal accountant fees and services appearing under “Audit Committee Report” in the 2021 Proxy Statement is incorporated by reference.\n\n## PART IV\n\n## Item 15. Exhibits and Financial Statement Schedules.\n\nDocuments filed:\n\n1 and 2: Financial Statements and Financial Statement Schedule. See below for “List of Financial Statements and Financial Statement Schedule.”\n\n3: See Exhibit Index following this report.\n\n## List of Financial Statements and Financial Statement Schedule\n\n## 1. Financial Statements\n\nThe following consolidated financial statements of Sensient Technologies Corporation and subsidiaries are included in this annual report on Form 10-K:\n\nReports of Independent Registered Public Accounting Firm\t65-67\t\nConsolidated Balance Sheets - December 31, 2020 and 2019\t38\t\nConsolidated Statements of Earnings - Years ended December 31, 2020, 2019 and 2018\t36\t\nConsolidated Statements of Comprehensive Income - Years ended December 31, 2020, 2019 and 2018\t37\t\nConsolidated Statements of Shareholders' Equity - Years ended December 31, 2020, 2019 and 2018\t40\t\nConsolidated Statements of Cash Flows - Years ended December 31, 2020, 2019 and 2018\t39\t\nNotes to Consolidated Financial Statements\t41-64\n\n## 2. Financial Statement Schedule\n\nSchedule II – Valuation and Qualifying Accounts 68\n\nAll other schedules are omitted because they are inapplicable, not required by the instructions, or the information is included in the consolidated financial statements or notes thereto.\n\n## Item 16. Form 10-K Summary.\n\nNone.\n\n## CONSOLIDATED STATEMENTS OF EARNINGS\n\n(In thousands except per share amounts)\tYears Ended December 31,\t\n2020\t2019\t2018\t\nRevenue\t$ 1,332,001\t$ 1,322,934\t$ 1,386,815\t\nCost of products sold\t908,254\t908,061\t920,686\t\nSelling and administrative expenses\t271,091\t293,763\t262,751\t\nOperating income\t152,656\t121,110\t203,378\t\nInterest expense\t14,811\t20,107\t21,853\t\nEarnings before income taxes\t137,845\t101,003\t181,525\t\nIncome taxes\t28,373\t18,956\t24,165\t\nNet earnings\t$ 109,472\t$ 82,047\t$ 157,360\t\nEarnings per common share:\t\t\t\t\nBasic\t$ 2.59\t$ 1.94\t$ 3.71\t\nDiluted\t$ 2.59\t$ 1.94\t$ 3.70\t\nWeighted average number of common shares outstanding:\t\t\t\t\nBasic\t42,301\t42,263\t42,404\t\nDiluted\t42,346\t42,294\t42,499"
+          }
+        ]
+      }
+    ],
+    "q197": [
+      {
+        "turns": [
+          {
+            "session_id": "s020",
+            "turn_id": "t025",
+            "quote": "The expanded coverage model doubles that illustrative obligation from 100,000 to 200,000 USD thousands for the same fixed FY2021 consolidated US-GAAP earnings period ending December 31, 2021. Replace the private obligation while preserving the hypothetical interpretation; it doesn't establish company debt or a covenant."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d021",
+            "passage_id": "c001",
+            "quote": "## Sensient Technologies Corporation"
+          },
+          {
+            "document_id": "d021",
+            "passage_id": "c045",
+            "quote": "The consolidated financial statements include the accounts of the Company and have been prepared in accordance with accounting principles generally accepted in the United States of America (GAAP). All significant intercompany accounts and transactions have been eliminated in consolidation."
+          },
+          {
+            "document_id": "d022",
+            "passage_id": "c042",
+            "quote": "The Company is the purchaser of certain commodities, such as vanilla, corn, sugar, soybean meal, and fruits. The Company generally purchases these commodities based upon market prices that are established with the vendor as part of the purchase process. In general, the Company does not use commodity financial instruments to hedge commodity prices due to a high correlation between the commodity cost and the ultimate selling price of the Company's products. On occasion, the Company may enter into non-cancelable forward purchase contracts, as deemed appropriate, to reduce the effect of price fluctuations on future manufacturing requirements.\n\n## Index\n\n## Item 8. Financial Statements and Supplementary Data.\n\n## CONSOLIDATED STATEMENTS OF EARNINGS\n\n(In thousands except per share amounts)\tYears Ended December 31,\t\n2022\t2021\t2020\t\nRevenue\t$ 1,437,039\t$ 1,380,264\t$ 1,332,001\t\nCost of products sold\t947,928\t925,603\t908,254\t\nSelling and administrative expenses\t292,360\t284,633\t271,091\t\nOperating income\t196,751\t170,028\t152,656\t\nInterest expense\t14,547\t12,544\t14,811\t\nEarnings before income taxes\t182,204\t157,484\t137,845\t\nIncome taxes\t41,317\t38,739\t28,373\t\nNet earnings\t$ 140,887\t$ 118,745\t$ 109,472\t\nEarnings per common share:\t\nBasic\t$ 3.36\t$ 2.82\t$ 2.59\t\nDiluted\t$ 3.34\t$ 2.81\t$ 2.59\t\nWeighted average number of common shares outstanding:\t\nBasic\t41,888\t42,077\t42,301\t\nDiluted\t42,213\t42,258\t42,346\n\nSee notes to consolidated financial statements.\n\n## CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME\n\n(In thousands)\tYears Ended December 31,\t\n2022\t2021\t2020\t\nNet earnings\t$     140,887\t$     118,745\t$     109,472\t\nCash flow hedges adjustment, net of tax (benefit) expense of $ (471), $ (430), and $524, respectively\t(805)\t(543)\t948\t\nPension adjustment, net of tax (benefit) expense of $ (462), $577, and $ (475), respectively\t(1,439)\t1,612\t(1,293)\t\nForeign currency translation on net investment hedges\t19,340\t17,937\t(24,044)\t\nTax effect of current year activity on net investment hedges\t(4,804)\t(4,455)\t5,973\t\nForeign currency translation on long-term intercompany loans\t(2,468)\t13,798\t(7,731)\t\nTax effect of current year activity on intercompany long-term loans\t(2,408)\t(3,990)\t3,757\t\nReclassification of cumulative translation to net earnings\t-\t10,203\t(8,625)\t\nOther foreign currency translation\t(33,476)\t(50,099)\t34,932\t\nTotal comprehensive income\t$     114,827\t$     103,208\t$     113,389"
+          },
+          {
+            "document_id": "d022",
+            "passage_id": "c046",
+            "quote": "See notes to consolidated financial statements.\n\n## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS\n\nYears ended December 31, 2022, 2021, and 2020\n\n## 1. Summary of Significant Accounting Policies\n\n## Nature of Operations\n\nSensient Technologies Corporation, together with its subsidiaries (the Company or Sensient), is a leading global manufacturer and marketer of colors, flavors, and other specialty ingredients. The Company uses advanced technologies at facilities around the world to develop specialty food and beverage systems; personal care, essential oils, pharmaceutical, and nutraceutical systems; specialty colors; and other specialty and fine chemicals. The Company's three reportable segments are the Flavors & Extracts Group and the Color Group, which are managed on a product basis, and the Asia Pacific Group, which is managed on a geographic basis. The Company's corporate expenses, restructuring including operational improvement plans, divestiture, share-based compensation, the one-time COVID-19 employee payment in 2020, and other costs are included in the \"Corporate & Other\" category. In the second quarter of 2020, the Company divested its inks product line; in the third quarter of 2020, the Company divested its yogurt fruit preparations product line; and in the second quarter of 2021, the Company divested its fragrances (excluding essential oils) product line.\n\n## Principles of Consolidation and Basis of Presentation\n\nThe consolidated financial statements include the accounts of the Company and have been prepared in accordance with accounting principles generally accepted in the United States of America (GAAP). All significant intercompany accounts and transactions have been eliminated in consolidation.\n\n## Use of Estimates\n\nThe preparation of the consolidated financial statements requires the use of management’s estimates and assumptions that affect reported amounts of assets, liabilities, revenue, and expenses during the reporting period and the disclosure of contingent assets and liabilities at the date of the financial statements. Actual results could differ from those estimates.\n\n## Revenue Recognition\n\nThe Company recognizes revenue at the transfer of control of its products to the Company’s customers in an amount reflecting the consideration to which the Company expects to be entitled. In order to achieve this core principle, the Company applies the following five-step approach:\n\n• Identification of the contract, or contracts, with a customer\n\n• Identification of the performance obligations in the contract\n\n• Determination of the transaction price\n\n• Allocation of the transaction price to the performance obligations in the contract\n\n• Recognition of revenue when, or as, the Company satisfies the performance obligations\n\nThe Company considers customer purchase orders, which in some cases are governed by master sales agreements, coupled with the Company’s purchase order acceptances, to be the contracts with the customer. For each contract, the Company considers the identified performance obligation to be the promise to transfer products. In determining the transaction price, the Company evaluates whether the price is subject to refund or adjustment and then determines the net consideration to which the Company expects to be entitled. In addition, the Company assesses the customer’s ability to pay as part of its evaluation of the contract. As the Company’s standard payment terms are less than one year, the Company elected the practical expedient under Accounting Standards Codification (ASC) 606-10-32-18, and determined that its contracts do not have a significant financing component. The Company allocates the transaction price to each distinct product based on the relative standalone selling price. Revenue is recognized when control of the product is transferred to the customer, the customer is obligated to pay the Company, and the Company has no remaining obligations, which is typically at shipment. In certain locations, primarily outside the United States, product delivery terms may vary. Thus, in such locations, the point at which control of the product transfers to the customer and revenue recognition occurs will vary accordingly."
+          }
+        ]
+      }
+    ]
+  }
+}

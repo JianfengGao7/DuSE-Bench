@@ -1,0 +1,343 @@
+{
+  "scenario_id": "Scenario_3_Software",
+  "tasks": {
+    "q003": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t001",
+            "quote": "Debug these saved records. P-Equal invokes handle H-equal; P-Release invokes handle H-release. H-equal resolves to native Node11.15.0 assert.equal legacy control and native Node12.22.12 assert.strictEqual strict control; H-release resolves to native Node12.22.12 assertion and CallTracker fixture set. The inspector finds no replacement, interception, later mutation or altered native behavior. A packet enters documentation-based triage only when both its recorded branch/fixture provenance and native instrumentation have been confirmed. P-Equal’s paired records use numeric 1 and string \"1\": the legacy-mode trace reports AssertionError, while the strict-mode trace reports success. P-Equal actual is numeric 1; its expected value is string \"1\". The fixture preview preserves String(actual) and String(expected), both \"1\", independently of the retained original types. Both saved assertion invocations pass only actual and expected, with no third message argument."
+          },
+          {
+            "session_id": "s001",
+            "turn_id": "t010",
+            "quote": "For numeric 1 versus string \"1\", coercive legacy equality predicts success while strict equality predicts failure. The mode therefore selects different equality expectations for this single calibration."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c018",
+            "quote": "## `assert.strictEqual(actual, expected[, message])`\n<!-- YAML\nadded: v0.1.21\nchanges:\n  - version: v10.0.0\n    pr-url: https://github.com/nodejs/node/pull/17003\n    description: Used comparison changed from Strict Equality to `Object.is()`\n-->\n\n* `actual` {any}\n* `expected` {any}\n* `message` {string|Error}\n\nTests strict equality between the `actual` and `expected` parameters as\ndetermined by the [SameValue Comparison][].\n\n```js\nconst assert = require('assert').strict;\n\nassert.strictEqual(1, 2);\n// AssertionError [ERR_ASSERTION]: Expected inputs to be strictly equal:\n//\n// 1 !== 2\n\nassert.strictEqual(1, 1);\n// OK\n\nassert.strictEqual('Hello foobar', 'Hello World!');\n// AssertionError [ERR_ASSERTION]: Expected inputs to be strictly equal:\n// + actual - expected\n//\n// + 'Hello foobar'\n// - 'Hello World!'\n//          ^\n\nconst apples = 1;\nconst oranges = 2;\nassert.strictEqual(apples, oranges, `apples ${apples} !== oranges ${oranges}`);\n// AssertionError [ERR_ASSERTION]: apples 1 !== oranges 2\n\nassert.strictEqual(1, '1', new TypeError('Inputs are not identical'));\n// TypeError: Inputs are not identical\n```\n\nIf the values are not strictly equal, an [`AssertionError`][] is thrown with a\n`message` property set equal to the value of the `message` parameter. If the\n`message` parameter is undefined, a default error message is assigned. If the\n`message` parameter is an instance of an [`Error`][] then it will be thrown\ninstead of the [`AssertionError`][]."
+          }
+        ]
+      }
+    ],
+    "q011": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t008",
+            "quote": "P-Equal uses the native Node11.15.0 assert.equal legacy control and Node12.22.12 assert.strictEqual strict control. P-Release uses the native Node12.22.12 assertion and CallTracker fixtures. The previews match, but the original value types differ; preview text alone cannot determine whether acceptance should preserve types or allow cross-type equality."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t009",
+            "quote": "The owner has not selected the equality acceptance semantics for P-Equal’s retained numeric/string control. The proposed oracle wrapper imports require('assert').strict and calls its equal(actual, expected) method. Before choosing the policy, review whether that spelling gives the acceptance semantics we intend; use the earlier preview-versus-original-type diagnostic to frame the decision."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d001",
+            "passage_id": "c008",
+            "quote": "The following, for instance, will throw the [`TypeError`][] because there is no\nmatching error type in the assertion:\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  SyntaxError\n);\n```\n\nHowever, the following will result in an `AssertionError` with the message\n'Got unwanted exception...':\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  TypeError\n);\n```\n\nIf an `AssertionError` is thrown and a value is provided for the `message`\nparameter, the value of `message` will be appended to the `AssertionError`\nmessage:\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  /Wrong value/,\n  'Whoops'\n);\n// Throws: AssertionError: Got unwanted exception: Whoops\n```\n\n## assert.equal(actual, expected[, message])\n<!-- YAML\nadded: v0.1.21\n-->\n* `actual` {any}\n* `expected` {any}\n* `message` {string|Error}\n\n**Strict mode**\n\nAn alias of [`assert.strictEqual()`][].\n\n**Legacy mode**\n\n> Stability: 0 - Deprecated: Use [`assert.strictEqual()`][] instead.\n\nTests shallow, coercive equality between the `actual` and `expected` parameters\nusing the [Abstract Equality Comparison][] ( `==` ).\n\n```js\nconst assert = require('assert');\n\nassert.equal(1, 1);\n// OK, 1 == 1\nassert.equal(1, '1');\n// OK, 1 == '1'\n\nassert.equal(1, 2);\n// AssertionError: 1 == 2\nassert.equal({ a: { b: 1 } }, { a: { b: 1 } });\n// AssertionError: { a: { b: 1 } } == { a: { b: 1 } }\n```\n\nIf the values are not equal, an `AssertionError` is thrown with a `message`\nproperty set equal to the value of the `message` parameter. If the `message`\nparameter is undefined, a default error message is assigned. If the `message`\nparameter is an instance of an [`Error`][] then it will be thrown instead of the\n`AssertionError`."
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t008",
+            "quote": "P-Equal uses the native Node11.15.0 assert.equal legacy control and Node12.22.12 assert.strictEqual strict control. P-Release uses the native Node12.22.12 assertion and CallTracker fixtures. The previews match, but the original value types differ; preview text alone cannot determine whether acceptance should preserve types or allow cross-type equality."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t009",
+            "quote": "The owner has not selected the equality acceptance semantics for P-Equal’s retained numeric/string control. The proposed oracle wrapper imports require('assert').strict and calls its equal(actual, expected) method. Before choosing the policy, review whether that spelling gives the acceptance semantics we intend; use the earlier preview-versus-original-type diagnostic to frame the decision."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c010",
+            "quote": "Asserts that the function `fn` does not throw an error.\n\nUsing `assert.doesNotThrow()` is actually not useful because there\nis no benefit in catching an error and then rethrowing it. Instead, consider\nadding a comment next to the specific code path that should not throw and keep\nerror messages as expressive as possible.\n\nWhen `assert.doesNotThrow()` is called, it will immediately call the `fn`\nfunction.\n\nIf an error is thrown and it is the same type as that specified by the `error`\nparameter, then an [`AssertionError`][] is thrown. If the error is of a\ndifferent type, or if the `error` parameter is undefined, the error is\npropagated back to the caller.\n\nIf specified, `error` can be a [`Class`][], [`RegExp`][] or a validation\nfunction. See [`assert.throws()`][] for more details.\n\nThe following, for instance, will throw the [`TypeError`][] because there is no\nmatching error type in the assertion:\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  SyntaxError\n);\n```\n\nHowever, the following will result in an [`AssertionError`][] with the message\n'Got unwanted exception...':\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  TypeError\n);\n```\n\nIf an [`AssertionError`][] is thrown and a value is provided for the `message`\nparameter, the value of `message` will be appended to the [`AssertionError`][]\nmessage:\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  /Wrong value/,\n  'Whoops'\n);\n// Throws: AssertionError: Got unwanted exception: Whoops\n```\n\n## `assert.equal(actual, expected[, message])`\n<!-- YAML\nadded: v0.1.21\n-->\n\n* `actual` {any}\n* `expected` {any}\n* `message` {string|Error}\n\n**Strict assertion mode**\n\nAn alias of [`assert.strictEqual()`][].\n\n**Legacy assertion mode**\n\n> Stability: 0 - Deprecated: Use [`assert.strictEqual()`][] instead.\n\nTests shallow, coercive equality between the `actual` and `expected` parameters\nusing the [Abstract Equality Comparison][] ( `==` )."
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t001",
+            "quote": "Debug these saved records. P-Equal invokes handle H-equal; P-Release invokes handle H-release. H-equal resolves to native Node11.15.0 assert.equal legacy control and native Node12.22.12 assert.strictEqual strict control; H-release resolves to native Node12.22.12 assertion and CallTracker fixture set. The inspector finds no replacement, interception, later mutation or altered native behavior. A packet enters documentation-based triage only when both its recorded branch/fixture provenance and native instrumentation have been confirmed. P-Equal’s paired records use numeric 1 and string \"1\": the legacy-mode trace reports AssertionError, while the strict-mode trace reports success. P-Equal actual is numeric 1; its expected value is string \"1\". The fixture preview preserves String(actual) and String(expected), both \"1\", independently of the retained original types. Both saved assertion invocations pass only actual and expected, with no third message argument."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t009",
+            "quote": "The owner has not selected the equality acceptance semantics for P-Equal’s retained numeric/string control. The proposed oracle wrapper imports require('assert').strict and calls its equal(actual, expected) method. Before choosing the policy, review whether that spelling gives the acceptance semantics we intend; use the earlier preview-versus-original-type diagnostic to frame the decision."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d001",
+            "passage_id": "c008",
+            "quote": "The following, for instance, will throw the [`TypeError`][] because there is no\nmatching error type in the assertion:\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  SyntaxError\n);\n```\n\nHowever, the following will result in an `AssertionError` with the message\n'Got unwanted exception...':\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  TypeError\n);\n```\n\nIf an `AssertionError` is thrown and a value is provided for the `message`\nparameter, the value of `message` will be appended to the `AssertionError`\nmessage:\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  /Wrong value/,\n  'Whoops'\n);\n// Throws: AssertionError: Got unwanted exception: Whoops\n```\n\n## assert.equal(actual, expected[, message])\n<!-- YAML\nadded: v0.1.21\n-->\n* `actual` {any}\n* `expected` {any}\n* `message` {string|Error}\n\n**Strict mode**\n\nAn alias of [`assert.strictEqual()`][].\n\n**Legacy mode**\n\n> Stability: 0 - Deprecated: Use [`assert.strictEqual()`][] instead.\n\nTests shallow, coercive equality between the `actual` and `expected` parameters\nusing the [Abstract Equality Comparison][] ( `==` ).\n\n```js\nconst assert = require('assert');\n\nassert.equal(1, 1);\n// OK, 1 == 1\nassert.equal(1, '1');\n// OK, 1 == '1'\n\nassert.equal(1, 2);\n// AssertionError: 1 == 2\nassert.equal({ a: { b: 1 } }, { a: { b: 1 } });\n// AssertionError: { a: { b: 1 } } == { a: { b: 1 } }\n```\n\nIf the values are not equal, an `AssertionError` is thrown with a `message`\nproperty set equal to the value of the `message` parameter. If the `message`\nparameter is undefined, a default error message is assigned. If the `message`\nparameter is an instance of an [`Error`][] then it will be thrown instead of the\n`AssertionError`."
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t001",
+            "quote": "Debug these saved records. P-Equal invokes handle H-equal; P-Release invokes handle H-release. H-equal resolves to native Node11.15.0 assert.equal legacy control and native Node12.22.12 assert.strictEqual strict control; H-release resolves to native Node12.22.12 assertion and CallTracker fixture set. The inspector finds no replacement, interception, later mutation or altered native behavior. A packet enters documentation-based triage only when both its recorded branch/fixture provenance and native instrumentation have been confirmed. P-Equal’s paired records use numeric 1 and string \"1\": the legacy-mode trace reports AssertionError, while the strict-mode trace reports success. P-Equal actual is numeric 1; its expected value is string \"1\". The fixture preview preserves String(actual) and String(expected), both \"1\", independently of the retained original types. Both saved assertion invocations pass only actual and expected, with no third message argument."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t009",
+            "quote": "The owner has not selected the equality acceptance semantics for P-Equal’s retained numeric/string control. The proposed oracle wrapper imports require('assert').strict and calls its equal(actual, expected) method. Before choosing the policy, review whether that spelling gives the acceptance semantics we intend; use the earlier preview-versus-original-type diagnostic to frame the decision."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c010",
+            "quote": "Asserts that the function `fn` does not throw an error.\n\nUsing `assert.doesNotThrow()` is actually not useful because there\nis no benefit in catching an error and then rethrowing it. Instead, consider\nadding a comment next to the specific code path that should not throw and keep\nerror messages as expressive as possible.\n\nWhen `assert.doesNotThrow()` is called, it will immediately call the `fn`\nfunction.\n\nIf an error is thrown and it is the same type as that specified by the `error`\nparameter, then an [`AssertionError`][] is thrown. If the error is of a\ndifferent type, or if the `error` parameter is undefined, the error is\npropagated back to the caller.\n\nIf specified, `error` can be a [`Class`][], [`RegExp`][] or a validation\nfunction. See [`assert.throws()`][] for more details.\n\nThe following, for instance, will throw the [`TypeError`][] because there is no\nmatching error type in the assertion:\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  SyntaxError\n);\n```\n\nHowever, the following will result in an [`AssertionError`][] with the message\n'Got unwanted exception...':\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  TypeError\n);\n```\n\nIf an [`AssertionError`][] is thrown and a value is provided for the `message`\nparameter, the value of `message` will be appended to the [`AssertionError`][]\nmessage:\n\n<!-- eslint-disable no-restricted-syntax -->\n```js\nassert.doesNotThrow(\n  () => {\n    throw new TypeError('Wrong value');\n  },\n  /Wrong value/,\n  'Whoops'\n);\n// Throws: AssertionError: Got unwanted exception: Whoops\n```\n\n## `assert.equal(actual, expected[, message])`\n<!-- YAML\nadded: v0.1.21\n-->\n\n* `actual` {any}\n* `expected` {any}\n* `message` {string|Error}\n\n**Strict assertion mode**\n\nAn alias of [`assert.strictEqual()`][].\n\n**Legacy assertion mode**\n\n> Stability: 0 - Deprecated: Use [`assert.strictEqual()`][] instead.\n\nTests shallow, coercive equality between the `actual` and `expected` parameters\nusing the [Abstract Equality Comparison][] ( `==` )."
+          }
+        ]
+      }
+    ],
+    "q012": [
+      {
+        "turns": [
+          {
+            "session_id": "s002",
+            "turn_id": "t002",
+            "quote": "The pilot starts with one completion callback and a completed-operation verification boundary. The qualified archival packets and exercised-only certification rule remain distinct from this new workload."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c003",
+            "quote": "Creates a new [`CallTracker`][] object which can be used to track if functions\nwere called a specific number of times. The `tracker.verify()` must be called\nfor the verification to take place. The usual pattern would be to call it in a\n[`process.on('exit')`][] handler.\n\n```js\nconst assert = require('assert');\n\nconst tracker = new assert.CallTracker();\n\nfunction func() {}\n\n// callsfunc() must be called exactly 1 time before tracker.verify().\nconst callsfunc = tracker.calls(func, 1);\n\ncallsfunc();\n\n// Calls tracker.verify() and verifies if all tracker.calls() functions have\n// been called exact times.\nprocess.on('exit', () => {\n  tracker.verify();\n});\n```\n\n### `tracker.calls([fn][, exact])`\n<!-- YAML\nadded: v12.19.0\n-->\n\n* `fn` {Function} **Default** A no-op function.\n* `exact` {number} **Default** `1`.\n* Returns: {Function} that wraps `fn`.\n\nThe wrapper function is expected to be called exactly `exact` times. If the\nfunction has not been called exactly `exact` times when\n[`tracker.verify()`][] is called, then [`tracker.verify()`][] will throw an\nerror.\n\n```js\nconst assert = require('assert');\n\n// Creates call tracker.\nconst tracker = new assert.CallTracker();\n\nfunction func() {}\n\n// Returns a function that wraps func() that must be called exact times\n// before tracker.verify().\nconst callsfunc = tracker.calls(func);\n```"
+          }
+        ]
+      }
+    ],
+    "q020": [
+      {
+        "turns": [
+          {
+            "session_id": "s002",
+            "turn_id": "t029",
+            "quote": "Two completion callbacks, one for validation and one for persistence, are expected for each pilot operation. The scalar validator selects finite-number fixtures plus NaN-sentinel comparisons under the documented legacy equality semantics. Retain identical nested-object pairs with NaN sentinels as well as finite-valued fixtures for the native negative deep-equality check, without a custom message Error. The pilot’s numeric controls now exercise scalar NaN-sentinel comparisons and identical nested NaN negative-comparison fixtures as well as finite-valued cases. For assert.CallTracker, assert.deepEqual, assert.equal, assert.notDeepEqual, replace the working reference with the reviewed boundary Node13.14.0 assert to Node14.21.3 assert. Keep recorded runtime controls on their own branches. For the retained negative-comparison maintenance entry, record the owner-selected fixture coverage and its unexecuted expectation. We retain a helper on this calibration branch only while its reference does not mark it Deprecated; keep that maintenance decision separate from an observed pilot run."
+          },
+          {
+            "session_id": "s002",
+            "turn_id": "t038",
+            "quote": "Expect legacy assert.deepEqual to treat NaN as identical on both sides."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d004",
+            "passage_id": "c015",
+            "quote": "* `actual` {any}\n* `expected` {any}\n* `message` {string|Error}\n\n**Strict assertion mode**\n\nAn alias of [`assert.notDeepStrictEqual()`][].\n\n**Legacy assertion mode**\n\n> Stability: 3 - Legacy: Use [`assert.notDeepStrictEqual()`][] instead.\n\nTests for any deep inequality. Opposite of [`assert.deepEqual()`][].\n\n```js\nconst assert = require('assert');\n\nconst obj1 = {\n  a: {\n    b: 1\n  }\n};\nconst obj2 = {\n  a: {\n    b: 2\n  }\n};\nconst obj3 = {\n  a: {\n    b: 1\n  }\n};\nconst obj4 = Object.create(obj1);\n\nassert.notDeepEqual(obj1, obj1);\n// AssertionError: { a: { b: 1 } } notDeepEqual { a: { b: 1 } }\n\nassert.notDeepEqual(obj1, obj2);\n// OK\n\nassert.notDeepEqual(obj1, obj3);\n// AssertionError: { a: { b: 1 } } notDeepEqual { a: { b: 1 } }\n\nassert.notDeepEqual(obj1, obj4);\n// OK\n```\n\nIf the values are deeply equal, an [`AssertionError`][] is thrown with a\n`message` property set equal to the value of the `message` parameter. If the\n`message` parameter is undefined, a default error message is assigned. If the\n`message` parameter is an instance of an [`Error`][] then it will be thrown\ninstead of the `AssertionError`.\n\n## `assert.notDeepStrictEqual(actual, expected[, message])`\n<!-- YAML\nadded: v1.2.0\nchanges:\n  - version: v9.0.0\n    pr-url: https://github.com/nodejs/node/pull/15398\n    description: The `-0` and `+0` are not considered equal anymore.\n  - version: v9.0.0\n    pr-url: https://github.com/nodejs/node/pull/15036\n    description: The `NaN` is now compared using the\n              [SameValueZero](https://tc39.github.io/ecma262/#sec-samevaluezero)\n              comparison.\n  - version: v9.0.0\n    pr-url: https://github.com/nodejs/node/pull/15001\n    description: The `Error` names and messages are now properly compared.\n  - version: v8.0.0\n    pr-url: https://github.com/nodejs/node/pull/12142\n    description: The `Set` and `Map` content is also compared.\n  - version:\n    - v6.4.0\n    - v4.7.1\n    pr-url: https://github.com/nodejs/node/pull/8002\n    description: Typed array slices are handled correctly now.\n  - version: v6.1.0\n    pr-url: https://github.com/nodejs/node/pull/6432\n    description: Objects with circular references can be used as inputs now.\n  - version:\n    - v5.10.1\n    - v4.4.3\n    pr-url: https://github.com/nodejs/node/pull/5910\n    description: Handle non-`Uint8Array` typed arrays correctly.\n-->"
+          }
+        ]
+      }
+    ],
+    "q026": [
+      {
+        "turns": [
+          {
+            "session_id": "s003",
+            "turn_id": "t022",
+            "quote": "Integration approval requires the retained negative deep helper to satisfy the selected no-Deprecated-helper condition. Under our exercised-only rule, certification covers the native callback and capture/render structured-envelope controls under the selected criteria, excluding unexercised external adapter integrations."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c002",
+            "quote": "Developers must refer to the documentation for each method to determine\nexactly how errors raised by those methods are propagated."
+          },
+          {
+            "document_id": "d014",
+            "passage_id": "c003",
+            "quote": "A generic JavaScript {Error} object that does not denote any specific\ncircumstance of why the error occurred."
+          }
+        ]
+      }
+    ],
+    "q034": [
+      {
+        "turns": [
+          {
+            "session_id": "s004",
+            "turn_id": "t017",
+            "quote": "Each emitted envelope label must positively match our project-owned regular expression. We are now generating this checker inside the service adapter rather than copying the archived release fixture. Its CommonJS dependency slot passes require(specifier) directly as the assertion binding; the generator has no post-load property-selection stage. Select a documented strict assertion entry that fits that slot and provide its positive-label call. Keep the archived Node12 fixture on its recorded branch."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d005",
+            "passage_id": "c018",
+            "quote": "Throws `value` if `value` is not `undefined` or `null`. This is useful when\ntesting the `error` argument in callbacks. The stack trace contains all frames\nfrom the error passed to `ifError()` including the potential new frames for\n`ifError()` itself.\n\n```mjs\nimport assert from 'assert/strict';\n\nassert.ifError(null);\n// OK\nassert.ifError(0);\n// AssertionError [ERR_ASSERTION]: ifError got unwanted exception: 0\nassert.ifError('error');\n// AssertionError [ERR_ASSERTION]: ifError got unwanted exception: 'error'\nassert.ifError(new Error());\n// AssertionError [ERR_ASSERTION]: ifError got unwanted exception: Error\n\n// Create some random error frames.\nlet err;\n(function errorFrame() {\n  err = new Error('test error');\n})();\n\n(function ifErrorFrame() {\n  assert.ifError(err);\n})();\n// AssertionError [ERR_ASSERTION]: ifError got unwanted exception: test error\n//     at ifErrorFrame\n//     at errorFrame\n```\n\n```cjs\nconst assert = require('assert/strict');\n\nassert.ifError(null);\n// OK\nassert.ifError(0);\n// AssertionError [ERR_ASSERTION]: ifError got unwanted exception: 0\nassert.ifError('error');\n// AssertionError [ERR_ASSERTION]: ifError got unwanted exception: 'error'\nassert.ifError(new Error());\n// AssertionError [ERR_ASSERTION]: ifError got unwanted exception: Error\n\n// Create some random error frames.\nlet err;\n(function errorFrame() {\n  err = new Error('test error');\n})();\n\n(function ifErrorFrame() {\n  assert.ifError(err);\n})();\n// AssertionError [ERR_ASSERTION]: ifError got unwanted exception: test error\n//     at ifErrorFrame\n//     at errorFrame\n```\n\n## `assert.match(string, regexp[, message])`\n<!-- YAML\nadded:\n  - v13.6.0\n  - v12.16.0\n-->\n\n* `string` {string}\n* `regexp` {RegExp}\n* `message` {string|Error}\n\n> Stability: 1 - Experimental\n\nExpects the `string` input to match the regular expression.\n\nThis feature is currently experimental and the name might change or it might be\ncompletely removed again.\n\n```mjs\nimport assert from 'assert/strict';\n\nassert.match('I will fail', /pass/);\n// AssertionError [ERR_ASSERTION]: The input did not match the regular ...\n\nassert.match(123, /pass/);\n// AssertionError [ERR_ASSERTION]: The \"string\" argument must be of type string."
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s004",
+            "turn_id": "t017",
+            "quote": "Each emitted envelope label must positively match our project-owned regular expression. We are now generating this checker inside the service adapter rather than copying the archived release fixture. Its CommonJS dependency slot passes require(specifier) directly as the assertion binding; the generator has no post-load property-selection stage. Select a documented strict assertion entry that fits that slot and provide its positive-label call. Keep the archived Node12 fixture on its recorded branch."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d005",
+            "passage_id": "c019",
+            "quote": "assert.match('I will pass', /pass/);\n// OK\n```\n\n```cjs\nconst assert = require('assert/strict');\n\nassert.match('I will fail', /pass/);\n// AssertionError [ERR_ASSERTION]: The input did not match the regular ...\n\nassert.match(123, /pass/);\n// AssertionError [ERR_ASSERTION]: The \"string\" argument must be of type string.\n\nassert.match('I will pass', /pass/);\n// OK\n```\n\nIf the values do not match, or if the `string` argument is of another type than\n`string`, an [`AssertionError`][] is thrown with a `message` property set equal\nto the value of the `message` parameter. If the `message` parameter is\nundefined, a default error message is assigned. If the `message` parameter is an\ninstance of an [`Error`][] then it will be thrown instead of the\n[`AssertionError`][].\n\n## `assert.notDeepEqual(actual, expected[, message])`\n<!-- YAML\nadded: v0.1.21\nchanges:\n  - version: v14.0.0\n    pr-url: https://github.com/nodejs/node/pull/30766\n    description: NaN is now treated as being identical in case both sides are\n                 NaN.\n  - version: v9.0.0\n    pr-url: https://github.com/nodejs/node/pull/15001\n    description: The `Error` names and messages are now properly compared.\n  - version: v8.0.0\n    pr-url: https://github.com/nodejs/node/pull/12142\n    description: The `Set` and `Map` content is also compared.\n  - version:\n    - v6.4.0\n    - v4.7.1\n    pr-url: https://github.com/nodejs/node/pull/8002\n    description: Typed array slices are handled correctly now.\n  - version:\n    - v6.1.0\n    - v4.5.0\n    pr-url: https://github.com/nodejs/node/pull/6432\n    description: Objects with circular references can be used as inputs now.\n  - version:\n    - v5.10.1\n    - v4.4.3\n    pr-url: https://github.com/nodejs/node/pull/5910\n    description: Handle non-`Uint8Array` typed arrays correctly.\n-->"
+          }
+        ]
+      }
+    ],
+    "q040": [
+      {
+        "turns": [
+          {
+            "session_id": "s004",
+            "turn_id": "t033",
+            "quote": "The relay needs an expanded-frame diagnostic from its already captured Error trace. The review record does not retain the original frame-budget setting or when the larger budget was set. Before planning a rerun, give the operator the documented capture-configuration categories so we can distinguish an ordinary default, an explicit numeric budget and a setting that captured no frames. Ask for the actual original configuration and its timing under our approved capture/render ordering; do not infer them from the first stack-string read."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c004",
+            "quote": "### `Error.stackTraceLimit`\n\n* {number}\n\nThe `Error.stackTraceLimit` property specifies the number of stack frames\ncollected by a stack trace (whether generated by `new Error().stack` or\n`Error.captureStackTrace(obj)`).\n\nThe default value is `10` but may be set to any valid JavaScript number. Changes\nwill affect any stack trace captured *after* the value has been changed.\n\nIf set to a non-number value, or set to a negative number, stack traces will\nnot capture any frames."
+          }
+        ]
+      }
+    ],
+    "q074": [
+      {
+        "turns": [
+          {
+            "session_id": "s008",
+            "turn_id": "t015",
+            "quote": "For the separate stream incident, prepare a diagnostic card comparing immediate call-site throws with error events delivered after the initiating call returns. The incident is labelled as an asynchronous API call, but its record has not retained the specific method or when and how the error arrived. Check whether that API-family label is enough to select one of these two handling routes, using our retained Node15 interception reference, before selecting the incident route."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c002",
+            "quote": "* When an asynchronous method is called on an object that is an\n  [`EventEmitter`][], errors can be routed to that object's `'error'` event.\n\n```js\n  const net = require('net');\n  const connection = net.connect('localhost');\n\n// Adding an 'error' event handler to a stream:\n  connection.on('error', (err) => {\n    // If the connection is reset by the server, or if it can't\n    // connect at all, or on any sort of error encountered by\n    // the connection, the error will be sent here.\n    console.error(err);\n  });\n\nconnection.pipe(process.stdout);\n  ```\n\n* A handful of typically asynchronous methods in the Node.js API may still\n  use the `throw` mechanism to raise exceptions that must be handled using\n  `try…catch`. There is no comprehensive list of such methods; please\n  refer to the documentation of each method to determine the appropriate\n  error handling mechanism required.\n\nThe use of the `'error'` event mechanism is most common for [stream-based][]\nand [event emitter-based][] APIs, which themselves represent a series of\nasynchronous operations over time (as opposed to a single operation that may\npass or fail).\n\nFor *all* [`EventEmitter`][] objects, if an `'error'` event handler is not\nprovided, the error will be thrown, causing the Node.js process to report an\nuncaught exception and crash unless either: The [`domain`][domains] module is\nused appropriately or a handler has been registered for the\n[`'uncaughtException'`][] event.\n\n```js\nconst EventEmitter = require('events');\nconst ee = new EventEmitter();\n\nsetImmediate(() => {\n  // This will crash the process because no 'error' event\n  // handler has been added.\n  ee.emit('error', new Error('This will crash'));\n});\n```\n\nErrors generated in this way *cannot* be intercepted using `try…catch` as\nthey are thrown *after* the calling code has already exited.\n\nDevelopers must refer to the documentation for each method to determine\nexactly how errors raised by those methods are propagated."
+          }
+        ]
+      }
+    ],
+    "q098": [
+      {
+        "turns": [
+          {
+            "session_id": "s010",
+            "turn_id": "t001",
+            "quote": "Resume our incident-envelope work, keeping the unresolved tenant and proxy issues open. The new deployment pilot selects both clientCertEngine and privateKeyEngine fixtures; its exercised artifacts are catalogue-classification controls for those paths, not verification of external OpenSSL compilation flags. Independently, our fixed client control requests a certificate engine unsupported by its OpenSSL version, with no error emission reported. The historical native Node 18 client-engine incident has fixed option delivery but no retained build flags; use its Node 18 likely-cause passage only for that historical lookup. Neither packet contains secrets or private-key contents, and the earlier tracker audit plans are not new measured runs. Keep a separate renegotiation incident row for the triage handoff. Its saved control attempts to renegotiate a TLS-enabled socket with renegotiation disabled. Record the catalogue condition-match code separately from the observed-code field; no emitted-error observation is retained for this row."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d018",
+            "passage_id": "c037",
+            "quote": "### `ERR_TLS_RENEGOTIATION_DISABLED`\n\nAn attempt was made to renegotiate TLS on a socket instance with renegotiation\ndisabled."
+          }
+        ]
+      }
+    ],
+    "q168": [
+      {
+        "turns": [
+          {
+            "session_id": "s017",
+            "turn_id": "t020",
+            "quote": "Worksheet approval now requires the selected release-candidate-or-stable maturity component alongside every other selected obligation. Candidates are no longer excluded, but the normative dependency establishes no capability, coverage or passing run."
+          },
+          {
+            "session_id": "s017",
+            "turn_id": "t025",
+            "quote": "For the same Error-control review note, retain the owner's external support-lifetime request; no provider contract, support policy or lifecycle commitment has been supplied. Include a separate, unexecuted companion check for its opaque cause handles: actual and expected are two distinct WeakMap objects built with the same entries, and the check compares the handles directly using E's partialDeepStrictEqual comparator. Use the native reference to decide whether matching entries are enough for this check; do not treat it as a nested Error.cause test or a captured E run. The note should also state the allowed maturity categories under our derived approval prerequisite and retain the registered Error fields."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d013",
+            "passage_id": "c032",
+            "quote": "## `assert.partialDeepStrictEqual(actual, expected[, message])`\n\n<!-- YAML\nadded: v23.4.0\n-->\n\n> Stability: 1.2 - Release candidate\n\n* `actual` {any}\n* `expected` {any}\n* `message` {string|Error}\n\nTests for partial deep equality between the `actual` and `expected` parameters.\n\"Deep\" equality means that the enumerable \"own\" properties of child objects\nare recursively evaluated also by the following rules. \"Partial\" equality means\nthat only properties that exist on the `expected` parameter are going to be\ncompared.\n\nThis method always passes the same test cases as [`assert.deepStrictEqual()`][],\nbehaving as a super set of it.\n\n### Comparison details\n\n* Primitive values are compared using [`Object.is()`][].\n* [Type tags][Object.prototype.toString()] of objects should be the same.\n* [`[[Prototype]]`][prototype-spec] of objects are not compared.\n* Only [enumerable \"own\" properties][] are considered.\n* {Error} names, messages, causes, and errors are always compared,\n  even if these are not enumerable properties.\n  `errors` is also compared.\n* Enumerable own {Symbol} properties are compared as well.\n* [Object wrappers][] are compared both as objects and unwrapped values.\n* `Object` properties are compared unordered.\n* {Map} keys and {Set} items are compared unordered.\n* Recursion stops when both sides differ or both sides encounter a circular\n  reference.\n* {WeakMap} and {WeakSet} instances are **not** compared structurally.\n  They are only equal if they reference the same object. Any comparison between\n  different `WeakMap` or `WeakSet` instances will result in inequality,\n  even if they contain the same entries."
+          }
+        ]
+      }
+    ],
+    "q169": [
+      {
+        "turns": [
+          {
+            "session_id": "s017",
+            "turn_id": "t017",
+            "quote": "The release worksheet now permits release-candidate or stable comparison APIs in its maturity criterion, replacing stable-only exclusion; correctness and execution coverage remain separate obligations. The bootstrap instrumentation now retrieves options before bootstrap completion, replacing after-completion timing. For assert.partialDeepStrictEqual, ERR_OPTIONS_BEFORE_BOOTSTRAPPING, ERR_CRYPTO_SCRYPT_INVALID_PARAMETER, replace the working reference with the reviewed boundary Node22.14.0 assert to Node23.11.0 assert; Node22.14.0 error catalogue to Node23.11.0 error catalogue. Keep recorded runtime controls on their own branches."
+          },
+          {
+            "session_id": "s017",
+            "turn_id": "t028",
+            "quote": "The current maturity lane allows release-candidate or stable APIs into review, alongside every other selected obligation. Retain Error name, message, cause and errors even when non-enumerable. For the registered direct handle check, the two distinct WeakMap objects compare unequal under partialDeepStrictEqual even though their entries match: this rule requires the same object, rather than comparing their contents. That is an expected result for the unexecuted companion check, not a captured E outcome or full approval. List the external lifetime request separately as unsupported because no provider contract, support policy or lifecycle commitment is supplied."
+          },
+          {
+            "session_id": "s017",
+            "turn_id": "t029",
+            "quote": "Before I send the comparison worksheet, reconcile the maturity criterion recorded in my revision with the prerequisite we derived; retain any disagreement rather than treating the API inventory as approval. Its proposed object-shape guard is also unexecuted: actual and expected are ordinary objects with the same type tag and matching enumerable own properties and values, but different prototypes only. The guard is intended to reject that prototype difference using E's partialDeepStrictEqual comparator. Check whether that is a valid negative control for this helper before we rely on it."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d013",
+            "passage_id": "c032",
+            "quote": "// The string is only used (as message) in case the function does not throw:\nassert.throws(notThrowing, 'Second');\n// AssertionError [ERR_ASSERTION]: Missing expected exception: Second\n\n// If it was intended to match for the error message do this instead:\n// It does not throw because the error messages match.\nassert.throws(throwingSecond, /Second$/);\n\n// If the error message does not match, an AssertionError is thrown.\nassert.throws(throwingFirst, /Second$/);\n// AssertionError [ERR_ASSERTION]\n```\n\nDue to the confusing error-prone notation, avoid a string as the second\nargument.\n\n## `assert.partialDeepStrictEqual(actual, expected[, message])`\n\n<!-- YAML\nadded: v23.4.0\n-->\n\n> Stability: 1.2 - Release candidate\n\n* `actual` {any}\n* `expected` {any}\n* `message` {string|Error}\n\nTests for partial deep equality between the `actual` and `expected` parameters.\n\"Deep\" equality means that the enumerable \"own\" properties of child objects\nare recursively evaluated also by the following rules. \"Partial\" equality means\nthat only properties that exist on the `expected` parameter are going to be\ncompared.\n\nThis method always passes the same test cases as [`assert.deepStrictEqual()`][],\nbehaving as a super set of it.\n\n### Comparison details\n\n* Primitive values are compared using [`Object.is()`][].\n* [Type tags][Object.prototype.toString()] of objects should be the same.\n* [`[[Prototype]]`][prototype-spec] of objects are not compared.\n* Only [enumerable \"own\" properties][] are considered.\n* {Error} names, messages, causes, and errors are always compared,\n  even if these are not enumerable properties.\n  `errors` is also compared.\n* Enumerable own {Symbol} properties are compared as well.\n* [Object wrappers][] are compared both as objects and unwrapped values.\n* `Object` properties are compared unordered.\n* {Map} keys and {Set} items are compared unordered.\n* Recursion stops when both sides differ or both sides encounter a circular\n  reference.\n* {WeakMap} and {WeakSet} instances are **not** compared structurally.\n  They are only equal if they reference the same object. Any comparison between\n  different `WeakMap` or `WeakSet` instances will result in inequality,\n  even if they contain the same entries.\n* {RegExp} lastIndex, flags, and source are always compared, even if these\n  are not enumerable properties.\n* Holes in sparse arrays are ignored."
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s003",
+            "turn_id": "t013",
+            "quote": "Our pre-review integration baseline is console-only failure reporting. The retained negative deep helper’s deprecation warnings are advisory, and compatibility-module comparisons are advisory rather than release-blocking. The native callback and capture/render controls currently exercise console reporting only under those advisory criteria. Integration approval requires every selected release criterion to be satisfied, and our stable maintenance policy forbids newly introducing a helper marked deprecated by the selected target documentation."
+          },
+          {
+            "session_id": "s017",
+            "turn_id": "t017",
+            "quote": "The release worksheet now permits release-candidate or stable comparison APIs in its maturity criterion, replacing stable-only exclusion; correctness and execution coverage remain separate obligations. The bootstrap instrumentation now retrieves options before bootstrap completion, replacing after-completion timing. For assert.partialDeepStrictEqual, ERR_OPTIONS_BEFORE_BOOTSTRAPPING, ERR_CRYPTO_SCRYPT_INVALID_PARAMETER, replace the working reference with the reviewed boundary Node22.14.0 assert to Node23.11.0 assert; Node22.14.0 error catalogue to Node23.11.0 error catalogue. Keep recorded runtime controls on their own branches."
+          },
+          {
+            "session_id": "s017",
+            "turn_id": "t029",
+            "quote": "Before I send the comparison worksheet, reconcile the maturity criterion recorded in my revision with the prerequisite we derived; retain any disagreement rather than treating the API inventory as approval. Its proposed object-shape guard is also unexecuted: actual and expected are ordinary objects with the same type tag and matching enumerable own properties and values, but different prototypes only. The guard is intended to reject that prototype difference using E's partialDeepStrictEqual comparator. Check whether that is a valid negative control for this helper before we rely on it."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d013",
+            "passage_id": "c032",
+            "quote": "// The string is only used (as message) in case the function does not throw:\nassert.throws(notThrowing, 'Second');\n// AssertionError [ERR_ASSERTION]: Missing expected exception: Second\n\n// If it was intended to match for the error message do this instead:\n// It does not throw because the error messages match.\nassert.throws(throwingSecond, /Second$/);\n\n// If the error message does not match, an AssertionError is thrown.\nassert.throws(throwingFirst, /Second$/);\n// AssertionError [ERR_ASSERTION]\n```\n\nDue to the confusing error-prone notation, avoid a string as the second\nargument.\n\n## `assert.partialDeepStrictEqual(actual, expected[, message])`\n\n<!-- YAML\nadded: v23.4.0\n-->\n\n> Stability: 1.2 - Release candidate\n\n* `actual` {any}\n* `expected` {any}\n* `message` {string|Error}\n\nTests for partial deep equality between the `actual` and `expected` parameters.\n\"Deep\" equality means that the enumerable \"own\" properties of child objects\nare recursively evaluated also by the following rules. \"Partial\" equality means\nthat only properties that exist on the `expected` parameter are going to be\ncompared.\n\nThis method always passes the same test cases as [`assert.deepStrictEqual()`][],\nbehaving as a super set of it.\n\n### Comparison details\n\n* Primitive values are compared using [`Object.is()`][].\n* [Type tags][Object.prototype.toString()] of objects should be the same.\n* [`[[Prototype]]`][prototype-spec] of objects are not compared.\n* Only [enumerable \"own\" properties][] are considered.\n* {Error} names, messages, causes, and errors are always compared,\n  even if these are not enumerable properties.\n  `errors` is also compared.\n* Enumerable own {Symbol} properties are compared as well.\n* [Object wrappers][] are compared both as objects and unwrapped values.\n* `Object` properties are compared unordered.\n* {Map} keys and {Set} items are compared unordered.\n* Recursion stops when both sides differ or both sides encounter a circular\n  reference.\n* {WeakMap} and {WeakSet} instances are **not** compared structurally.\n  They are only equal if they reference the same object. Any comparison between\n  different `WeakMap` or `WeakSet` instances will result in inequality,\n  even if they contain the same entries.\n* {RegExp} lastIndex, flags, and source are always compared, even if these\n  are not enumerable properties.\n* Holes in sparse arrays are ignored."
+          }
+        ]
+      }
+    ]
+  }
+}

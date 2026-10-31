@@ -1,0 +1,343 @@
+{
+  "scenario_id": "Scenario_5_Environment",
+  "tasks": {
+    "q001": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t002",
+            "quote": "I'll retain the draft with your dated observation inventory in the review dossier. Archive A records daylight, low-power activity from 26 September, with facility identification and power records absent; it supplies no compliance finding."
+          },
+          {
+            "session_id": "s001",
+            "turn_id": "t003",
+            "quote": "My separate inventory of Archive B today contains runway photographs from the same 26 September visit, with neither nighttime observations nor route traces. I've also received a separate remit for LA-OBS-2023: prepare explanations of high-power maintenance handling, night operations and traffic patterns over populated areas, matching the observational evidence to each section rather than asserting measured compliance."
+          }
+        ],
+        "passages": []
+      }
+    ],
+    "q003": [
+      {
+        "turns": [],
+        "passages": [
+          {
+            "document_id": "d013",
+            "passage_id": "c124",
+            "quote": "Construction contractors would locate and mark water lines prior to any ground-disturbing activities that could result in unintended utility disruptions."
+          }
+        ]
+      }
+    ],
+    "q004": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t001",
+            "quote": "I'm opening the Laughlin review archive with the complete October 2023 draft EIS. For our observation file LA-OBS-2023, I inventoried two photo collections today, 3 October, from observations made on 26 September 2023; future checks of this file should revisit that frozen collection, rather than describe new field conditions. Archive A contains daylight photographs of low-power engine activity, with no Hush House or Test Cell identification and no engine-run power records."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d013",
+            "passage_id": "c065",
+            "quote": "Laughlin AFB has an active AICUZ program that informs the public about its aircraft noise environment and recommends specific actions for local jurisdictions with planning and zoning authority that can enhance the health, safety, and welfare of those living near the installation. To implement the AICUZ program, the installation is required to take the following actions: • Prepare periodic AICUZ updates to quantify aircraft noise zone areas and provide compatible land use recommendations to local municipalities. • Coordinate with federal, state, and local agencies and community leaders to maintain public awareness of the AICUZ program. • Promote encroachment partnering projects to achieve long-term encroachment protection. • Use Hush House and Test Cell buildings to suppress noise from high power maintenance engine runs."
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t006",
+            "quote": "Neither collection of 26 September 2023 observations, inventoried on 3 October, provides matching support for the three assigned sections: high-power maintenance lacks power and facility records, night operations lack nighttime observations, and populated-area traffic patterns lack route traces. These are gaps in the retained archive, not evidence of an operational breach."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d013",
+            "passage_id": "c065",
+            "quote": "Laughlin AFB has an active AICUZ program that informs the public about its aircraft noise environment and recommends specific actions for local jurisdictions with planning and zoning authority that can enhance the health, safety, and welfare of those living near the installation. To implement the AICUZ program, the installation is required to take the following actions: • Prepare periodic AICUZ updates to quantify aircraft noise zone areas and provide compatible land use recommendations to local municipalities. • Coordinate with federal, state, and local agencies and community leaders to maintain public awareness of the AICUZ program. • Promote encroachment partnering projects to achieve long-term encroachment protection. • Use Hush House and Test Cell buildings to suppress noise from high power maintenance engine runs."
+          }
+        ]
+      }
+    ],
+    "q006": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t007",
+            "quote": "For our desk-review packet LA-DESK-2023, the original session is 12 October 2023, 13:00-17:00 local Laughlin time. My recipient map assigns Imani to the Alternative 2 environmental-justice and fleet explanation and Noel to Alternative 1 utilities; the independent availability ledger confirms only Imani for that session and marks Noel unavailable. A separate work request adds a public-comment participation section to the Alternative 2 packet. These are our internal arrangements, not report findings about classifications, aircraft numbers or participation status; later revisits should revise this original packet without assuming that availability continues."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d013",
+            "passage_id": "c020",
+            "quote": "Draft EIS for T-7A Recapitalization at Laughlin AFB, Texas DESCRIPTION OF THE PROPOSED ACTION AND ALTERNATIVES October 2023 || 2-11 2.2.2.1.4.2 FSRM Projects Table 2-3 summarizes the seven FSRM projects that would occur at Laughlin AFB to support T-7A recapitalization. Figure 2-4 shows the proposed FSRM projects locations. Table 2-3. FSRM Projects Descriptions Project Name Project Description Modify Hangars Modify Buildings 50 and 210 to meet Unified Facilities Criteria (UFC) and facility safety requirements. Antenna Farm Incorporate an antenna farm into the GBTS facility design. Squadron Operations Buildings Renovations Renovate the interior of the Squadron Operations Buildings (Buildings 307, 320, and 328). Airfield Improvements Reconfigure the airfield to meet T-7A specifications rather than T-38C. These improvements include remarking the T-38C parking ramp to the width of the T-7A, installing new moorings and anchor rods for T-7A aircraft, replacing the aircraft arresting system, and removing aboveground Centralized Aircraft Support System service modules. Trim Pad Rebuild the existing trim pad. Install proper concrete and a T-7A anchor block. Relocate the compass rose at the site to another magnetically quiet site. T-7A Explosive Component Storage Facility Construct an approximately 7,200-ft2 concrete pad and provide utilities for a storage container to store T-7A ejection system explosive components. Addition to Building 905 Construct an approximately 1,000-ft2 addition onto Building 905, which is used for ammunition storage and maintenance. Add perimeter fences and gates and construct a 10-vehicle parking lot. Source: AETC 2022c\n\nDraft EIS for T-7A Recapitalization at Laughlin AFB, Texas DESCRIPTION OF THE PROPOSED ACTION AND ALTERNATIVES October 2023 || 2-12 Figure 2-4. FSRM Project Locations\n\nDraft EIS for T-7A Recapitalization at Laughlin AFB, Texas DESCRIPTION OF THE PROPOSED ACTION AND ALTERNATIVES October 2023 || 2-13 2.2.2.1.4.3 New Impervious Surfaces Table 2-4 summarizes the estimated amount of new impervious surfaces resulting from the MILCON and FSRM projects. MILCON and FSRM projects not listed in the table (e.g., interior renovations) would entail no ground disturbance and would add no new impervious surfaces. Table 2-4. Estimated New Impervious Surfaces from the MILCON and FSRM Projects Project Construction Element (ft2) Current Site Condition New Impervious Surfaces (ft2) GBTS Facility Building - 34,000 Paved Parking Lot - 35,000 Grass Area Grass Area 34,000 35,000 UMT Facility Building - 11,500 Grass Area 11,500 Hush House Pad - 25,000 Road Alteration - 25,000 to remove; 25,000 to add Grass Area, Building 15, and a Storage Tank Paved Roadway; Grass Area 12,500 0 T-7A Shelters/ Airfield Improvements Aircraft Pavement Paved Aircraft Parking Ramp 0 Addition to Egress Shop Building Addition - 3,400 Grass Area 3,400 T-7A Explosive Component Storage Facility Building - 7,200 Grass Area 7,200 Addition to Building 905 Building - 1,000 Paved Parking Lot - 5,000 Grass Area Grass Area 1,000 5,000 Total New Impervious Surfaces 109,600 2.2.2.2 Alternative 2 For Alternative 2, Laughlin AFB would receive 63 T-7A aircraft and perform T-7A operations at a level that is approximately 25 percent greater than Alternative 1. Alternative 2 is intended to cover a scenario in which, for either broad strategic or tactical operational reasons, DAF requires a surge or increase in pilot training operations above current plan. Like Alternative 1, Laughlin AFB would receive 63 T-7A aircraft from the manufacturer with all aircraft arriving no later than 2033, T-7A operations would reach full capacity in 2033, and T-38C operations would conclude by the end of 2030. For Alternative 2, beginning in 2030, T-7A aircraft would perform annual operations at Laughlin AFB and associated SUA at an intensity that is approximately 25 percent greater than Alternative 1 to meet potential surge requirements. T-7A nighttime operations would occur with up to 614 annual nighttime operations at Laughlin AFB, which is a decrease of approximately 72 percent from baseline levels. The approximate annual aircraft operations for Alternative 2 are defined in Table 2-5. All other aspects of Alternative 2, including the number of personnel and dependents and the MILCON and FSRM projects, would be identical to those described for Alternative 1 in Section 2.2.2.1."
+          }
+        ]
+      }
+    ],
+    "q054": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t007",
+            "quote": "For our desk-review packet LA-DESK-2023, the original session is 12 October 2023, 13:00-17:00 local Laughlin time. My recipient map assigns Imani to the Alternative 2 environmental-justice and fleet explanation and Noel to Alternative 1 utilities; the independent availability ledger confirms only Imani for that session and marks Noel unavailable. A separate work request adds a public-comment participation section to the Alternative 2 packet. These are our internal arrangements, not report findings about classifications, aircraft numbers or participation status; later revisits should revise this original packet without assuming that availability continues."
+          },
+          {
+            "session_id": "s010",
+            "turn_id": "t007",
+            "quote": "Keep LA-DESK-2023's filed staffed shortlist for the original 12 October 2023, 13:00-17:00 local Laughlin handoff; the revised fleet field passes only with both a confirmed reviewer assigned to that packet and the Final's precise proposed quantity and implementation status for its alternative. Preserve the other packet's exclusion and the separate participation and observation products: neither staffing nor the report alone completes this entry, and the old availability doesn't extend into May."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c020",
+            "quote": "Final EIS for T-7A Recapitalization at Laughlin AFB, Texas DESCRIPTION OF THE PROPOSED ACTION AND ALTERNATIVES May 2024 || 2-11 2.2.2.1.4.2 FSRM Projects Table 2-3 summarizes the seven FSRM projects that would occur at Laughlin AFB to support T-7A recapitalization. Figure 2-4 shows the proposed FSRM projects locations. Table 2-3. FSRM Projects Descriptions Project Name Project Description Modify Hangars Modify Buildings 50 and 210 to meet Unified Facilities Criteria (UFC) and facility safety requirements. Antenna Farm Incorporate an antenna farm into the GBTS facility design. Squadron Operations Buildings Renovations Renovate the interior of the Squadron Operations Buildings (Buildings 307, 320, and 328). Airfield Improvements Reconfigure the airfield to meet T-7A specifications rather than T-38C. These improvements include remarking the T-38C parking ramp to the width of the T-7A, installing new moorings and anchor rods for T-7A aircraft, replacing the aircraft arresting system, and removing aboveground Centralized Aircraft Support System service modules. Trim Pad Rebuild the existing trim pad. Install proper concrete and a T-7A anchor block. Relocate the compass rose at the site to another magnetically quiet site. T-7A Explosive Component Storage Facility Construct an approximately 7,200-ft2 concrete pad and provide utilities for a storage container to store T-7A ejection system explosive components. Addition to Building 905 Construct an approximately 1,000-ft2 addition onto Building 905, which is used for ammunition storage and maintenance. Add perimeter fences and gates and construct a 10-vehicle parking lot. Source: AETC 2022c\n\nFinal EIS for T-7A Recapitalization at Laughlin AFB, Texas DESCRIPTION OF THE PROPOSED ACTION AND ALTERNATIVES May 2024 || 2-12 Figure 2-4. FSRM Project Locations\n\nFinal EIS for T-7A Recapitalization at Laughlin AFB, Texas DESCRIPTION OF THE PROPOSED ACTION AND ALTERNATIVES May 2024 || 2-13 2.2.2.1.4.3 New Impervious Surfaces Table 2-4 summarizes the estimated amount of new impervious surfaces resulting from the MILCON/UMMC and FSRM projects. MILCON/UMMC and FSRM projects not listed in the table (e.g., interior renovations) would entail no ground disturbance and would add no new impervious surfaces. Table 2-4. Estimated New Impervious Surfaces from the MILCON/UMMC and FSRM Projects Project Construction Element (ft2) Current Site Condition New Impervious Surfaces (ft2) GBTS Facility Building - 34,000 Paved Parking Lot - 35,000 Grass Area Grass Area 34,000 (0.78 acre) 35,000 (0.80 acre) UMT Facility Building - 11,500 Grass Area 11,500 Hush House Pad - 25,000 Road Alteration - 25,000 to remove; 25,000 to add Grass Area, Building 15, and a Storage Tank Paved Roadway; Grass Area 12,500 (0.29 acre) 0 T-7A Shelters/ Airfield Improvements Aircraft Pavement Paved Aircraft Parking Ramp 0 Addition to Egress Shop Building Addition - 3,400 Grass Area 3,400 (0.08 acre) T-7A Explosive Component Storage Facility Building - 7,200 Grass Area 7,200 (0.17 acre) Addition to Building 905 Building - 1,000 Paved Parking Lot - 5,000 Grass Area Grass Area 1,000 (0.02 acre) 5,000 (0.11 acre) Total New Impervious Surfaces 109,600 (2.52 acres) 2.2.2.2 Alternative 2 For Alternative 2, Laughlin AFB would receive up to 63 T-7A aircraft and perform T-7A operations at a level that is approximately 25 percent greater than Alternative 1. Alternative 2 is intended to cover a scenario in which, for either broad strategic or tactical operational reasons, DAF requires a surge or increase in pilot training operations above current plan. Like Alternative 1, Laughlin AFB would receive up to 63 T-7A aircraft from the manufacturer with all aircraft arriving no later than 2033, T-7A operations would reach full capacity in 2033, and T-38C operations would conclude by the end of 2030. For Alternative 2, beginning in 2030, T-7A aircraft would perform annual operations at Laughlin AFB and associated SUA at an intensity that is approximately 25 percent greater than Alternative 1 to meet potential surge requirements. T-7A nighttime operations would occur with up to 614 annual nighttime operations at Laughlin AFB, which is a decrease of approximately 72 percent from baseline levels. Nighttime T-7A operations would not enter the SUA. The approximate annual aircraft operations for Alternative 2 are defined in Table 2-5. All other aspects of Alternative 2, including the number of personnel and dependents and the MILCON/UMMC and FSRM projects, would be identical to those described for Alternative 1 in Section 2.2.2.1."
+          }
+        ]
+      }
+    ],
+    "q058": [
+      {
+        "turns": [
+          {
+            "session_id": "s004",
+            "turn_id": "t005",
+            "quote": "For our analyst exercise SE-UNIT-C-R1, Unit C contains a known historic wood property and a proposed fire-control-line crossing through a separate potential cultural-resource patch. Its 40-inch conifer treatment candidate is adjacent to and within 66 feet of proven rust-resistant sugar pine, outside CSO PACs and territories; the candidate is not the sugar pine itself. My roster assigns archaeologist Tess to cultural review and forester Uma to tree retention. The independent calendar has them together only on Thursday 15 February 2024, 10:00-12:00 local Stanislaus time, with Tess alone Monday and Uma alone Tuesday. A separate handoff request calls for one integrated field review of both concerns, not two disconnected visits. Record this for the original 12-16 February week as my synthetic work footprint, not an agency survey or treatment authorization."
+          },
+          {
+            "session_id": "s011",
+            "turn_id": "t007",
+            "quote": "For SE-UNIT-C-R1, revise the original Thursday 15 February 2024, 10:00-12:00 local Stanislaus instruction sheet using its filed integrated cultural/tree-review product. Each updated entry needs that actual joint coverage and a matching Final clause for the retained adjacent-conifer treatment concern or potential-cultural-crossing fire-control line; disconnected visits cannot substitute. Keep known-property flags and the hypothetical discovery-response rehearsal separate, without claiming new surveys, implemented lines or June availability."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d006",
+            "passage_id": "c072",
+            "quote": "Stanislaus National Forest Social and Ecological Resilience Across the Landscape 2.0 Cumulative Effects While the assessment of the proposed DBH limits impacts on stand densities demonstrated that the proposed action would reduce stand densities, large areas of the project area will be left at densities considered \"high-risk” to density-related mortality. Although this is due to a number of factors, the proposed DBH limits are certainly one of them. Despite the acknowledgement that stand densities could be reduced further, the proposed action would be a massive step forward to making the SERAL 2.0 project area more resilient. Therefore, despite the inclusion of DBH limits in the proposed action, the proposed forest thinning when added to the other reasonably foreseeable future actions, will incrementally increase landscape resilience and reduce the landscape's susceptibility to high-severity wildfire, drought-, and insect- and disease-related mortality. This is a beneficial cumulative effect. Issue 1D. The proposal to thin trees greater than 30-inch DBH is not necessary to increase landscape resilience. The proposed action was updated between the DEIS and FEIS to no longer propose cutting trees greater than 34-inch DBH and up to 40-inches DBH adjacent to meadows, aspen stands, and rust resistant sugar pines. This modification largely eliminated the issue but the analysis has been retained to document the rationale behind the original proposal. Affected Environment As presented in Chapter 1.01 and Appendix B.01, the current forest structure in the SERAL 2.0 project area is considerably departed from the reference conditions described in Safford and Stevens (2017) (Figure 2 and Figure 19). Restoring forest composition, structure, and processes based on NRV conditions has been linked to greater resilience to wildfire, climate change, and other stressors. The concept of restoring the landscape into closer alignment with historic reference conditions is rooted in the assumption that the structural composition of forests occurring in pre-settlement times, were, and would still be, more resilient to disturbances such as insects, disease, drought, and climate change, and less susceptible to large, high severity burn areas from wildfires. Based on the NRV assessment of the SERAL 2.0 project area, restorative treatments, including the thinning and removal of trees greater than 30 inches DBH is necessary to rebalance the distribution and structural heterogeneity across the landscape. Therefore, the cutting and removal of trees greater than 30-inches DBH has the potential to affect the project areas susceptibility to disturbance. On a 2019 field trip to the Stanislaus-Tuolumne Experimental Forest, Dr. Eric Knapp mentioned that trees in the 30- to 36-inch diameter class are over-represented in the Experimental Forest compared to historic conditions, while trees greater than 36-inches in diameter are significantly under-represented. Thus, he supported the ecological justification for occasionally removing trees greater than 30-inches DBH to sufficiently reduce densities and meet other objectives such as increasing forest health, restoring heterogeneity, and other NRV-based restoration needs (Appendix A). Further justification for the need to cut and remove trees greater than 30-inches DBH is provided in USDA 2019(b). In this FAQ document it states “Due to over a century of fire suppression and changing climate, removal of trees larger than 30-inches may be ecologically necessary in some locations to promote more fire resilient and shade intolerant pines and hardwood trees that are being outcompeted for resources by large trees of other less resilient species, to increase the resilience of existing larger trees, and/or to restore heterogeneity and resilience to the landscape. Given that larger trees are both disproportionally important to California spotted owl (CSO) and also disproportionately at risk due to stress and competition, there may be instances where trees above 30-inches must be removed to perpetuate the availability of large live trees on the landscape in the future. This may be particularly true 86"
+          }
+        ]
+      }
+    ],
+    "q079": [
+      {
+        "turns": [],
+        "passages": [
+          {
+            "document_id": "d008",
+            "passage_id": "c035",
+            "quote": "Construction and installation of the phased development is targeted for completion in 2027 depending on if the construction is staggered."
+          }
+        ]
+      }
+    ],
+    "q096": [
+      {
+        "turns": [],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c138",
+            "quote": "Regardless of utilization of the ILF program or USACE led mitigation, proposed work will not be commenced in waters of the United States (WOTUS) until the mitigation plan for each compensatory mitigation component has been approved by the USACE, EPA, and USFWS and all in-lieu fee program/mitigation bank credits have been purchased and/or compensatory mitigation sites have been secured (e.g., acquired via fee title acquisition or via conservation easement) as outlined in the associated Mitigation Memorandum of Agreement signed by the Army for US Army Corps of Engineers, the USEPA and USFWS."
+          }
+        ]
+      }
+    ],
+    "q101": [
+      {
+        "turns": [],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c084",
+            "quote": "Development of the Biological Assessment (BA) in coordination with USFWS is complete, with the BA submitted to USFWS on 25 July 2024, and is included in Appendix G."
+          },
+          {
+            "document_id": "d002",
+            "passage_id": "c129",
+            "quote": "Alternative 2 Pondberry Direct impacts to Pondberry as a result of implementation from Alternative 2 are not expected, as no colonies have been documented within the proposed construction zone. Because of the potential for unknown indirect impacts due to changes in hydrology in some future years and corresponding changes in competing vegetation and other factors on Pondberry colonies between elevations 90.0 and 93.0 NGVD, USACE has made the determination that Alternative 2 is Likely to Adversely Affect the 27 Pondberry colonies (22 extant, 5 unknown status) below or within a distance of 15m of the 90-93-foot NGVD elevations. The remaining 106 extant Pondberry colonies above elevation 93.0 NGVD, USACE has made the determination that the project is Not Likely to Adversely Affect these colonies. While the proposed Yazoo Pumps Project may adversely affect the 22 extant colonies and the 5 colonies of unknown status within the 90.0 to 93.0 ft elevation zone, these 22 extant colonies represent only 18 percent of known extant colonies (containing approximately 10.4 percent of all Pondberry stems) in the YBA. Furthermore, in years with extreme and prolonged flooding during the growing season, it is possible that these 22 extant (and other at higher elevation) colonies could benefit from the pumps and this possibility may be scientifically evaluated if the pumps are implemented and future monitoring efforts are funded for continuation. As all known extant Pondberry colonies within the YSA occur on USFS lands, significant cumulative effects are not expected to Pondberry colonies. However, some colonies in Delta National Forest do occur proximal to private agricultural inholdings, thus there is potential for land alterations and/or changes in hydrology due to ditching or by other means. Other potential impacts could occur due to alterations in hydrology within rivers and streams within the YSA Area (e.g., Big Sunflower River) that result from actions and activities outside of the YSA. Formal consultation was requested on 25 July 2024. The USFWS BO concluded that the Action is not likely to jeopardize the continued existence of Pondberry (Appendix G)."
+          },
+          {
+            "document_id": "d002",
+            "passage_id": "c130",
+            "quote": "Based on historic data and recent surveys, there is low probability of the listed species (excluding Pondberry) to occur in the YSA. Accordingly, USACE has made the determination that any potential impacts that might occur would be insignificant; therefore, the project “may affect, but is not likely to adversely affect” the federally listed pallid sturgeon, northern long-eared bat, fat pocketbook mussel; and the proposed for listing alligator snapping turtle and tricolored bat. The USFWS concurred with this determination on 16 October 2024."
+          }
+        ]
+      }
+    ],
+    "q102": [
+      {
+        "turns": [],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c097",
+            "quote": "Thirty-four supplemental low flow groundwater wells placed primarily along Highway 1 extending from near Clarksdale (Coahoma County) south to Wayside (Washington County) are proposed to augment stream flows in multiple systems within the Yazoo drainage."
+          }
+        ]
+      }
+    ],
+    "q108": [
+      {
+        "turns": [
+          {
+            "session_id": "s012",
+            "turn_id": "t019",
+            "quote": "Set up YZ-OUTREACH-R1 for the modeled 20 June 2024, 15:00–17:00 local Yazoo delivery. The routing lead needs all structures, including nonresidential ones, in the 98.2-foot inventory excluding two-year buckets. The residents brief needs residential structures in that footprint. Keep three frequency fields separate: two-year all structures, two-year residences, and two-to-five-year all structures. Oversight needs the report-recommended LEDPA distinguished from a ROD or implementation decision. For YZ-ECO-R1 in the same window, record Alternative 2/POR's share of years with unchanged heron habitat; shorebird functional loss versus No Action in AAHU, not acres; Section 5's open/wet sparse-vegetation mitigation-land estimate, not reforestation or purchased credits; and winter No Action YSA duck-use-days, not unique birds or all-season totals. These requests supply no report values or realized effects."
+          },
+          {
+            "session_id": "s017",
+            "turn_id": "t013",
+            "quote": "For today's ecology delivery index, assign Ava's comparison, Noor's loss note, Mina's land worksheet and Eli's baseline to the four June ecological fields, in that order. Use the June register for each alternative, comparison and unit. These assignments change neither the fields nor their evidence."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c124",
+            "quote": "Yazoo Backwater Area Water Management Project Final Environmental Impact Statement happened in 2019 and 2020, almost certainly eliminates breeding for that year where flood duration extends into the breeding season. Therefore, to mitigate habitat losses associated with ACFL and PROW, reforestation of croplands that would be situated at or below the 2-year floodplain to maintain proper hydrology for the species along with other habitat parameters would offset losses in habitat units. Approximately 444 acres of BLH reforestation would be required to offset losses associated with the ACFL and 1,056 acres to offset losses associated with the PROW (see Appendix F-4 - Terrestrial Wildlife for more details on assumptions used in making these estimates). Additionally, to minimize potential impacts to nesting migratory birds, limiting tree clearing associated with pump station construction and associated facilities between 01 August and 28 February is proposed. Secretive Marsh Birds The analysis predicts that there will be only minor losses in marsh bird habitat under Alternative 2. Even with the liberal definitions of useable marsh bird habitat (0-18 inches of inundation intersecting herbaceous/emergent vegetation), it is predicted a net loss of only 10.7 average daily flooded acres (although the net average daily flooded acres lost at the ideal 0-8.4-inch depth was 41.8 acres) would occur. It was determined that losses in marsh bird habitat under the alternative action were almost completely balanced by gains in habitat. Although counterintuitive, infrastructure that reduces flooding could create habitat for taxa that rely on inundation. However, water that is too deep is as unsuitable to marsh birds as dry upland, and the reduction of flooding magnitude can bring the water in some areas that are or would be temporarily flooded at >18-inch depths down to a level suitable for rails and other marsh birds. Furthermore, areas exhibiting net differences in average daily flooded acres (across years) between base and alternative scenarios would not have had differing hydrology in the majority of years over the 1978-2020 Period of Record (POR), as the pumps would have operated in just 47 percent of years over the POR under proposed pumping conditions. (See Appendix F-4 - Terrestrial Wildlife for more details on assumptions used in making these estimates). Great Blue Heron The availability of shallow water foraging habitat would have been unchanged under Alternative 2 in 53 percent of years analyzed in the POR. As such, between 15 March and 31 July, modeled median daily flooded acreages ≤ 18-inch depth across the POR across the entire YBA were only 59 acres less compared with no-action conditions. However, mean daily flooded acreages differed by 1,510 acres compared with no-action conditions for ≤ 18­ inch-depth flooding, resulting in a loss of 714 AAHU. Mitigation acreage (reforestation of agricultural fields) to compensate for this impact range from 793 acres (if within 1 km of heronry site and 1 km of foraging habitat) to 2,805 acres (if within 10 km of heronry site and 3 km of foraging habitat). See Appendix F-4 - Terrestrial Wildlife for more details on assumptions used in making these estimates. Shorebirds The Shorebird Migration Model (Clark and Jordan, 2017) was used to quantify change in shorebird habitat quality between the no-action and Alternative 2 conditions. It was determined that the implementation of Alternative 2 would result in a loss of approximately 164"
+          },
+          {
+            "document_id": "d002",
+            "passage_id": "c125",
+            "quote": "Yazoo Backwater Area Water Management Project Final Environmental Impact Statement 352 AAHUs relative to the no-action alternative. To compensate for this impact, approximately 17,630 HUs over the 50-year project life would be required, based on the annual loss of HUs divided by the mitigation HU/acre (0.874). Therefore, acquisition of approximately 403 acres of open land (e.g., agricultural land) with water management capabilities that maintain open wet substrate with sparse vegetation would offset impacts to shorebirds. (See Appendix F-4 Terrestrial Wildlife for more details on assumptions used in making these estimates). Alternative 3 (Recommended Plan) Migratory and Secretive Marsh Birds As migratory songbirds rely on environmental conditions that act on vegetation which provides habitat for suitable breeding and nesting, long-term hydrologic patterns (over years, and decades) influence the spatial distribution of suitable habitat for migratory birds. There are no significant differences in anticipated hydrological impacts between Alternatives 2 and 3, as Alternative 3 would result in 26 fewer pumping days across the entire 43-year POR (0.6 days/year on average). Additionally, migratory songbirds typically do not arrive until after March 25th. Therefore, it is not anticipated that short-term (e.g., up to 9-day) differences in hydrology associated with pump variability for alternative 3 would result in measurable differences from alternative 2. Likewise, secretive marsh birds, such as rails, establish breeding territories in response to long-term conditions where marsh vegetation has been established to support successful breeding and nesting. Therefore, life history traits (i.e., breeding seasons) of these species do not indicate that hydrological differences associated with pump dates (i.e., March 16th versus March 25th) would result in a measurable difference in potential impacts between alternatives 2 and 3. Therefore, impacts associated with the implementation of Alternative 3, the recommended plan, would be similar to those noted for Alternative 2 with regards to migratory and secretive marsh birds. Great Blue Heron Based on the POR, differences in the amount of flooded acreage between Alternative 2 and Alternative 3 would not be evident in most years (i.e., 91 percent). Mitigation acreage (reforestation of agricultural fields) to compensate for this impact range from 776 acres (if within 1 km of heronry site and 1 km of foraging habitat) to 2,742 acres (if within 10 km of heronry site and 3 km of foraging habitat). Although not modeled, mitigation acreage for Alternative 3 will be equal to or less than that for Alternative 2 as the pump-on date is delayed 9 days. Therefore, mitigation acreage proposed to compensate for estimated impacts associated with Alternative 2 will be expected to compensate for impacts associated with implementation of Alternative 3. See Appendix F-4 - Terrestrial Wildlife for more details on assumptions used in making these estimates. Shorebirds 165"
+          }
+        ]
+      }
+    ],
+    "q120": [
+      {
+        "turns": [
+          {
+            "session_id": "s018",
+            "turn_id": "t001",
+            "quote": "For today's 25 November review, open the complete 21 November 2024 Harris Draft EIS and prepare HR-HANDOFF-R1 for the modeled 27–29 November week, local Harris time. The case register assigns S to shoreline dredging, R to new recreation-facility construction, T to preliminary minimum-flow turbine engineering, P to palezone-shiner relicensing ecology, and separate U to a recreation-usage survey. These are review exercises; no reviewers, field observations, completed work, remedies or species findings have been supplied."
+          },
+          {
+            "session_id": "s018",
+            "turn_id": "t003",
+            "quote": "My separate discipline roster qualifies Inez only for shoreline review, Nolan only for recreation-construction review, Dev only for turbine engineering and Sora only for relicensing ecology, with no usage-survey specialist identified. The handoff lead's complete rule is to accept a packet if and only if its case matches that qualified discipline and a separate calendar confirms the exact original case appointment; a case name, available person or room hold alone is insufficient."
+          },
+          {
+            "session_id": "s018",
+            "turn_id": "t005",
+            "quote": "The independent original calendar confirms Inez/S on Wednesday 27 November 2024, 10:00–11:00, Nolan/R on Thursday 28 November, 10:00–11:00, Dev/T on Friday 29 November, 10:00–11:00, and Sora/P that Friday, 14:00–15:00, all local Harris time. U has only an unstaffed room hold, without a confirmed qualified reviewer or substitute; these modeled appointments establish neither performed meetings nor continuing December or March availability."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d010",
+            "passage_id": "c030",
+            "quote": "proposes modifications to the Harris Dam and Powerhouse, recreation facilities, and the project boundary. The details of these changes are described below. 2.2.1 Proposed Facility Modifications Alabama Power proposes to install a new continuous minimum flow generating unit at Harris Dam, adjacent to Unit 1 on the east side of the existing Harris Powerhouse. The unit would draw water from the Unit 1 penstock and discharge approximately 300 cfs to the Tallapoosa River immediately downstream from the dam. The final continuous minimum flow, based on peak unit efficiency with the aeration system in operation, would be determined following unit installation and performance testing. Based on preliminary design, the unit would consist of a 2.5-MW turbine with a generator rated at 3.6 MW. The capacity of the unit would be turbine-limited at 2.5 MW, and the authorized installed capacity of the project would increase by 2.5 MW, for a total authorized installed capacity of 145 MW. 2.2.2 Proposed Project Boundary Changes Recent changes in the project boundary at Skyline WMA were approved on October 16, 2024.²² The total acreage within the project boundary at Skyline WMA after this approval is about 15,031 acres.²³ Alabama Power proposes additional changes to the project boundary at Harris Lake to include lands necessary for project O&M, and to exclude excess land and roads currently within the project boundary that it states are not required for project purposes. The proposed project boundary modifications around Harris Lake would add eight parcels of land totaling about 504 acres and remove eight parcels of land totaling about 286 acres, for a net addition of about 218 acres. The amount of federal land within the project boundary would remain the same. The revised acreage within the project boundary would include 9,870 acres inundated by Harris Lake, 7,589 acres surrounding Harris Lake, and 15,031 acres associated with the Skyline WMA, for a total acreage within the project boundary of 32,490 acres. The proposed modifications around Harris Lake are shown in Exhibit G of the final license application (FLA) (Alabama Power, 2021a), and are described in table 2-2. 2.2.3 Proposed Project Operation The project would continue to operate as it has under the existing license as a peaking facility as described below. A more detailed description of the operational measures is provided in table 5-2 of the revised Exhibit E (Alabama Power, 2022a). • Operate the two main generating units at the Harris Powerhouse in a daily peaking mode, within the constraints of the existing Harris Lake operating curve, and continue to operate in accordance with Green Plan operations until the proposed minimum flow unit is installed and operating. ²² See 189 FERC 62,028. ²³ On June 13, 2022, the Commission approved the addition of about 120.7 acres and removal of about 152.3 acres from the project boundary at Skyline WMA, resulting in a net reduction of about 31.6 acres. See 179 FERC 62,134. 2-6"
+          }
+        ]
+      }
+    ],
+    "q185": [
+      {
+        "turns": [
+          {
+            "session_id": "s025",
+            "turn_id": "t011",
+            "quote": "For the same YZ-INSTRUMENT-R1 version and original review window, replace the identity-only request with the Chapter 6 USACE-led Pump Operations and Monitoring/Adaptive Management instrument's reported development status. Keep the separate mitigation instrument and Chapter 6.9 additional-instruments account distinct, without requesting a globally completed agreement set or proof of implemented monitoring."
+          },
+          {
+            "session_id": "s016",
+            "turn_id": "t032",
+            "quote": "The Chapter 6 delivery account reports the associated Mitigation MOA signed by the Army for USACE, USEPA and USFWS; this scoped reporting establishes neither a globally completed set of instruments nor a 2025 credit purchase or secured site. For that planned verification, obtain case-matched, dated purchase records or fee-title acquisition or conservation-easement documentation: those actual transaction records are not supplied here, and an instrument signature cannot substitute for them."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c139",
+            "quote": "Yazoo Backwater Area Water Management Project Final Environmental Impact Statement Table 6.1 Summary of Impact Assessment and Associated Compensatory Mitigation for Alternatives 2 and 3 Notes: Do rates for aquatic resources and fisheries. Ask about terrestrial wildlife for alternative 3, the other terrestrials (look at rates), figure out other terrestrial stuff, Pondberry Assessment Reference Alternative 2 Alternative 3 Functional Impacts Mitigation Required (acres ) Functional Impacts Mitigation Required (acres) Wetlands Appendix F-3 36,570 AAFCU[1] 7,650 27,354 AAFCU 5,722 Aquatic Resources and Fisheries Appendix F-6 3,969 ADFA[2] 3,201 3,851 ADFA 3,106 Waterfowl Appendix F-5; Appendix F-4, Sub-appendix D 202,871 Annual DUD [3] 347 196,721 Annual DUD 338 Terrestrial Wildlife - Migratory Landbirds (Prothonotary Warbler, Kentucky Warbler, Wood Thrush, Acadian Flycatcher) Appendix F-4, Sub-appendix A 694 AAHU[4] 1,056 694 AAHU 1,056 Terrestrial Wildlife - Shorebirds Appendix F-4, Sub-appendix B 352 AAHU 403 352 AAHU 403 Terrestrial Wildlife - Great Blue Heron Appendix F-4, Sub-appendix C 714 AAHU 793-2,805*** 698 AAHU 776-2,742*** [1] Average Annual Functional Capacity Units [2] Average Daily Flooded Acres [3] Annual Duck-Use-Days [4] Average Annual Habitat Units [5] Not Calculated: Functional impacts and requiredmitigationacres notcalculatedseparatelyforAlternatives 2 and 3. See discussion in Section X of the FEIS and associated Appendix *** Varies depending on proximity to existing nesting colonies and f oraging habitat, see Appendix F-4, Sub- appendix C, Table C-5. 182\n\nYazoo Backwater Area Water Management Project Final Environmental Impact Statement 6.1 MITIGATION PLAN Appendix J describes the evaluation process used to identify the proposed compensatory mitigation which included consideration of purchase of credits from mitigation banks, purchase of credits from in-lieu fee programs, and implementation of compensatory mitigation projects by USACE. After consideration of all options, USACE proposes to satisfy compensatory mitigation requirements through the purchase of credits from The Ducks Unlimited ILF. A plan to provide sufficient credits has been submitted to USACE which offsets unavoidable project impacts. if Corps 12 step is used) states that sites must meet the 12-step plan and be approved by EPA and FWS before construction can begin 6.1.1 Baseline Conditions Baseline conditions of the site as well as mitigation requirements are outlined in Sections 4 and 5 of these documents. 6.2 CREDIT REQUIREMENT Assumptions and calculations regarding mitigation are discussed within the Significant Resources Assessments in Section 5.2 and their corresponding appendices. Table 6.1 summarizes impacts and required mitigation associated with Alternative 3, the preferred alternative. 6.3 MONITORING AND ADAPTIVE MANAGEMENT It is anticipated that monitoring, and implementation of adaptive management measures, at the ILF sites would be the responsibility of DU with oversight provided by the USACE Regulatory Branch and CMMT. The following discussion pertains only to USACE led mitigation efforts. In addition to the Memorandum of Agreement being developed regarding Compensatory Mitigation a Memorandum of Agreement has been developed relating to Pump Operations and Monitoring and Adaptive Management of the Water Management Project to establish procedures regarding efficient and effective coordination in the development, review, approval, and oversight of these plans. Adaptive management is a decision process that promotes flexible decision making that can adjust to uncertainties as outcomes from management actions and other events become better understood (NRC 2004). Careful monitoring of outcomes both advances scientific understanding and helps adjust policies or operations as part of an iterative learning process. The active form of adaptive management employs management actions in an experimental design aimed primarily at learning to reduce uncertainty and improve near-term benefits to resources. The true measure of adaptive management, and its value to the USACE, is in how well it helps meet environmental, social, and economic goals; increases scientific knowledge; and reduces concerns among various stakeholders. The approach to monitor and adaptively manages compensatory mitigation implemented to offset impacted resources within the YSA is detailed in the Monitoring and Adaptive Management Appendix (Appendix K). The plans 183"
+          }
+        ]
+      },
+      {
+        "turns": [
+          {
+            "session_id": "s025",
+            "turn_id": "t011",
+            "quote": "For the same YZ-INSTRUMENT-R1 version and original review window, replace the identity-only request with the Chapter 6 USACE-led Pump Operations and Monitoring/Adaptive Management instrument's reported development status. Keep the separate mitigation instrument and Chapter 6.9 additional-instruments account distinct, without requesting a globally completed agreement set or proof of implemented monitoring."
+          },
+          {
+            "session_id": "s016",
+            "turn_id": "t036",
+            "quote": "For the selected compensatory-mitigation WOTUS component, regardless of ILF or USACE-led delivery, proposed work must not commence until each component's mitigation plan has approval from USACE, EPA and USFWS, and all ILF or mitigation-bank credits have been purchased and/or compensatory sites secured, including through fee-title acquisition or conservation easement, as outlined in the associated MOA reported signed by the Army for USACE, USEPA and USFWS. Enter that complete conjunction in the original procurement handoff; it certifies none of these conditions as met and provides no EIS permission to commence work."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d002",
+            "passage_id": "c139",
+            "quote": "Yazoo Backwater Area Water Management Project Final Environmental Impact Statement Table 6.1 Summary of Impact Assessment and Associated Compensatory Mitigation for Alternatives 2 and 3 Notes: Do rates for aquatic resources and fisheries. Ask about terrestrial wildlife for alternative 3, the other terrestrials (look at rates), figure out other terrestrial stuff, Pondberry Assessment Reference Alternative 2 Alternative 3 Functional Impacts Mitigation Required (acres ) Functional Impacts Mitigation Required (acres) Wetlands Appendix F-3 36,570 AAFCU[1] 7,650 27,354 AAFCU 5,722 Aquatic Resources and Fisheries Appendix F-6 3,969 ADFA[2] 3,201 3,851 ADFA 3,106 Waterfowl Appendix F-5; Appendix F-4, Sub-appendix D 202,871 Annual DUD [3] 347 196,721 Annual DUD 338 Terrestrial Wildlife - Migratory Landbirds (Prothonotary Warbler, Kentucky Warbler, Wood Thrush, Acadian Flycatcher) Appendix F-4, Sub-appendix A 694 AAHU[4] 1,056 694 AAHU 1,056 Terrestrial Wildlife - Shorebirds Appendix F-4, Sub-appendix B 352 AAHU 403 352 AAHU 403 Terrestrial Wildlife - Great Blue Heron Appendix F-4, Sub-appendix C 714 AAHU 793-2,805*** 698 AAHU 776-2,742*** [1] Average Annual Functional Capacity Units [2] Average Daily Flooded Acres [3] Annual Duck-Use-Days [4] Average Annual Habitat Units [5] Not Calculated: Functional impacts and requiredmitigationacres notcalculatedseparatelyforAlternatives 2 and 3. See discussion in Section X of the FEIS and associated Appendix *** Varies depending on proximity to existing nesting colonies and f oraging habitat, see Appendix F-4, Sub- appendix C, Table C-5. 182\n\nYazoo Backwater Area Water Management Project Final Environmental Impact Statement 6.1 MITIGATION PLAN Appendix J describes the evaluation process used to identify the proposed compensatory mitigation which included consideration of purchase of credits from mitigation banks, purchase of credits from in-lieu fee programs, and implementation of compensatory mitigation projects by USACE. After consideration of all options, USACE proposes to satisfy compensatory mitigation requirements through the purchase of credits from The Ducks Unlimited ILF. A plan to provide sufficient credits has been submitted to USACE which offsets unavoidable project impacts. if Corps 12 step is used) states that sites must meet the 12-step plan and be approved by EPA and FWS before construction can begin 6.1.1 Baseline Conditions Baseline conditions of the site as well as mitigation requirements are outlined in Sections 4 and 5 of these documents. 6.2 CREDIT REQUIREMENT Assumptions and calculations regarding mitigation are discussed within the Significant Resources Assessments in Section 5.2 and their corresponding appendices. Table 6.1 summarizes impacts and required mitigation associated with Alternative 3, the preferred alternative. 6.3 MONITORING AND ADAPTIVE MANAGEMENT It is anticipated that monitoring, and implementation of adaptive management measures, at the ILF sites would be the responsibility of DU with oversight provided by the USACE Regulatory Branch and CMMT. The following discussion pertains only to USACE led mitigation efforts. In addition to the Memorandum of Agreement being developed regarding Compensatory Mitigation a Memorandum of Agreement has been developed relating to Pump Operations and Monitoring and Adaptive Management of the Water Management Project to establish procedures regarding efficient and effective coordination in the development, review, approval, and oversight of these plans. Adaptive management is a decision process that promotes flexible decision making that can adjust to uncertainties as outcomes from management actions and other events become better understood (NRC 2004). Careful monitoring of outcomes both advances scientific understanding and helps adjust policies or operations as part of an iterative learning process. The active form of adaptive management employs management actions in an experimental design aimed primarily at learning to reduce uncertainty and improve near-term benefits to resources. The true measure of adaptive management, and its value to the USACE, is in how well it helps meet environmental, social, and economic goals; increases scientific knowledge; and reduces concerns among various stakeholders. The approach to monitor and adaptively manages compensatory mitigation implemented to offset impacted resources within the YSA is detailed in the Monitoring and Adaptive Management Appendix (Appendix K). The plans 183"
+          }
+        ]
+      }
+    ],
+    "q186": [
+      {
+        "turns": [
+          {
+            "session_id": "s001",
+            "turn_id": "t006",
+            "quote": "Neither collection of 26 September 2023 observations, inventoried on 3 October, provides matching support for the three assigned sections: high-power maintenance lacks power and facility records, night operations lack nighttime observations, and populated-area traffic patterns lack route traces. These are gaps in the retained archive, not evidence of an operational breach."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c065",
+            "quote": "Laughlin AFB has an active AICUZ program that informs the public about its aircraft noise environment and recommends specific actions for local jurisdictions with planning and zoning authority that can enhance the health, safety, and welfare of those living near the installation. To implement the AICUZ program, the installation is required to take the following actions: • Prepare periodic AICUZ updates to quantify aircraft noise zone areas and provide compatible land use recommendations to local municipalities. • Coordinate with federal, state, and local agencies and community leaders to maintain public awareness of the AICUZ program. • Promote encroachment partnering projects to achieve long-term encroachment protection. • Use Hush House and Test Cell buildings to suppress noise from high power maintenance engine runs. • Minimize flight and maintenance operations during nighttime periods. The current AICUZ plan for Laughlin AFB was published in 2008 (Laughlin AFB 2008), and it is considered a current noise-management measure that describes the DAF's planning perspective for compatible land use (DAF 2017). As outlined in the AICUZ plan, DAF strives to be a good neighbor and actively pursues operational measures to control aircraft noise effectively. Noise abatement procedures apply to flight operations, as well as to engine run-up and maintenance operations conducted on the installation. To the greatest extent possible, flights are routed over sparsely populated areas to reduce the exposure to noise. As part of DAF regulations, commanders are required to periodically review existing traffic patterns, instrument approaches, weather constrictions, and operating practices in relation to populated areas and other local situations."
+          }
+        ]
+      }
+    ],
+    "q189": [
+      {
+        "turns": [
+          {
+            "session_id": "s026",
+            "turn_id": "t001",
+            "quote": "Prepare LA-EXPLANATION-R2 as a pooled explanation of all alternatives for our 18 April, 13:00–17:00 review. Keep it separate from LA-DESK-2023 and use the opened Final."
+          },
+          {
+            "session_id": "s026",
+            "turn_id": "t005",
+            "quote": "For the same LA-EXPLANATION-R2 version and review window, present Alternative 2 environmental justice and Alternative 3's conditional fleet envelope separately. The independently checked, sealed sheet has a pooled background paragraph and a distinct Alternative 2 environmental-justice entry, but no Alternative 3 fleet entry. The recipient requires both alternative-specific entries for this explanation. Verify and retain the existing Alternative 2 entry, then identify the missing fleet information."
+          }
+        ],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c022",
+            "quote": "Final EIS for T-7A Recapitalization at Laughlin AFB, Texas DESCRIPTION OF THE PROPOSED ACTION AND ALTERNATIVES May 2024 || 2-15 2.2.2.3 Alternative 3 Alternative 3 is intended to provide DAF with operational flexibility, and inclusion of this alternative in this EIS provides analysis to evaluate future capacity needs. For Alternative 3, Laughlin AFB would receive up to 79 T-7A aircraft. The T-7A operational tempo would be the same as Alternative 1, but due to the 25 percent increase in the number of aircraft over Alternatives 1 and 2, the total annual T-7A operations would occur at a level that is 25 percent greater than Alternative 1 and equal to the annual operations proposed for Alternative 2 in Table 2-5. Table 2-6 provides Laughlin AFB's proposed T-7A delivery and T-38C withdrawal schedule for Alternative 3. If Alternative 3 were selected for implementation, the Secretary of the Air Force would issue another strategic basing decision memorandum for record to authorize the additional T-7A aircraft. Table 2-6. T-38C and T-7A Aircraft Changes for Alternative 3 Aircraft Type 2022 Baseline 2030 2031 2032 2033 2034 and Thereafter Annual Aircraft Withdrawn from/ Delivered to Laughlin AFB T-38C (withdrawn) N/A 32 31 0 0 0 T-7A (delivered) N/A 43 34 0 2 0 Total T-38C/T-7A Aircraft at Laughlin AFB T-38C 63 31 0 0 0 0 T-7A 0 43 77 77 79 79 Total Aircraft 63 74 77 77 79 79 Source: Extrapolated from AETC 2022a and DAF 2022 Key: N/A = not applicable Laughlin AFB would receive up to 79 T-7A aircraft from the manufacturer with all aircraft arriving no later than 2033, T-7A operations would reach full capacity in 2033, and T-38C operations would conclude by the end of 2030. Identical to Alternative 2, Alternative 3 includes annual T-7A operations at Laughlin AFB and associated SUA at an intensity that is approximately 25 percent greater than Alternative 1. T-7A nighttime operations would occur with up to 614 annual nighttime operations at Laughlin AFB. Nighttime T-7A operations would not enter the SUA. The annual aircraft operations for Alternative 3 are defined in Table 2-5. Alternative 3 also incorporates a UMMC project alternative to install up to 60 T-7A shelters (rather than up to 48) to accommodate the additional T-7A aircraft (see Section 2.2.3.2). All other aspects of Alternative 3 would be identical to those described for Alternative 1 in Section 2.2.2.1. For both Alternatives 2 and 3, the T-7A would perform the same types of operations within the training SUA as described for Alternative 1. Like Alternative 1, no changes to the configuration (i.e., size, shape, or location) of that SUA would be required to support Alternatives 2 or 3. No changes to Laughlin AFB's airfield traffic patterns would occur."
+          }
+        ]
+      }
+    ],
+    "q192": [
+      {
+        "turns": [],
+        "passages": [
+          {
+            "document_id": "d014",
+            "passage_id": "c013",
+            "quote": "Final EIS for T-7A Recapitalization at Laughlin AFB, Texas DESCRIPTION OF THE PROPOSED ACTION AND ALTERNATIVES May 2024 || 2-2 2.2.2 Alternative Ways to Implement the Proposed Action DAF considered three alternative ways to implement T-7A recapitalization at Laughlin AFB (i.e., Alternatives 1, 2, and 3). These alternatives consider different numbers of T-7A aircraft stationed at Laughlin AFB and different numbers of T-7A operations at Laughlin AFB and associated SUA. Sections 2.2.2.1, 2.2.2.2, and 2.2.2.3 describe the three alternatives, and Section 2.2.2.4 evaluates the alternatives against selection standards to determine the alternatives carried forward for analysis in this EIS. 2.2.2.1 Alternative 1 For Alternative 1, Laughlin AFB would receive up to 63 T-7A aircraft and phase in T-7A operations at a level sustaining pilot training while simultaneously phasing out the T-38C. The aircraft, aircraft operations, personnel and dependents, and facility requirements of Alternative 1 are described in the following subsections. 2.2.2.1.1 Aircraft T-7A aircraft would be delivered to Laughlin AFB from the manufacturer (Boeing) beginning in 2030 and continuing through 2033. When all T-7A deliveries are complete at the end of 2033, up to 63 T-7A aircraft would be assigned to Laughlin AFB. As T-7A aircraft are delivered and placed into service, T-38C aircraft would be withdrawn from service. The first T-38Cs would be withdrawn in 2030 and the last in 2031. In total, all 63 T-38C aircraft assigned to Laughlin AFB would be withdrawn from service and considered for retirement or repurposed for use at other locations. The potential reuse of T-38C aircraft at other locations is a separate DAF action and subject to separate environmental analysis not addressed by this EIS. Table 2-1 provides Laughlin AFB's proposed T-7A delivery and T-38C withdrawal schedule for Alternative 1. Table 2-1. T-38C and T-7A Aircraft Changes for Alternatives 1 and 2 Aircraft Type 2022 Baseline 2030 2031 2032 2033 2034 and Thereafter Annual Aircraft Withdrawn from/ Delivered to Laughlin AFB T-38C (withdrawn) N/A 32 31 0 0 0 T-7A (delivered) N/A 27 34 0 2 0 Total T-38C/T-7A Aircraft at Laughlin AFB T-38C 63 31 0 0 0 0 T-7A 0 27 61 61 63 63 Total Aircraft 63 58 61 61 63 63 Source: AETC 2022a Key: N/A = not applicable"
+          }
+        ]
+      }
+    ]
+  }
+}
